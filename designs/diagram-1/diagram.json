@@ -1406,23 +1406,23 @@
           "isNotNull": true
         },
         {
-          "id": "8b640cd0-d22f-44b5-9f9f-fa29d7ce68ce",
+          "id": "1c237a80-24d9-475a-8a58-18be6c5fa96c",
           "sequence": 8,
           "key": null,
-          "property": "Last_Updated",
-          "type": "DATETIME",
-          "length": null,
+          "property": "Notes",
+          "type": "VARCHAR",
+          "length": 700,
           "precision": null,
           "isPrimary": false,
           "isNotNull": true
         },
         {
-          "id": "1c237a80-24d9-475a-8a58-18be6c5fa96c",
+          "id": "8b640cd0-d22f-44b5-9f9f-fa29d7ce68ce",
           "sequence": 9,
           "key": null,
-          "property": "Notes",
-          "type": "VARCHAR",
-          "length": 700,
+          "property": "Last_Updated",
+          "type": "DATETIME",
+          "length": null,
           "precision": null,
           "isPrimary": false,
           "isNotNull": true
