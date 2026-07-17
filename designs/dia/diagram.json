@@ -957,7 +957,8 @@
             }
           ]
         }
-      ]
+      ],
+      "layerId": "layer-catalog"
     },
     {
       "id": "1af2eef8-cb8a-4326-9900-2c7d9df70892",
