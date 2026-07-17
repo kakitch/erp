@@ -1896,12 +1896,12 @@
         {
           "id": "a8eb1357-afdf-49a3-8c72-695535132e75",
           "sequence": 1,
-          "key": null,
+          "key": "PK",
           "property": "Id",
           "type": "",
           "length": null,
           "precision": null,
-          "isPrimary": false,
+          "isPrimary": true,
           "isNotNull": true
         },
         {
@@ -1985,7 +1985,7 @@
           "id": "461072a0-d1f1-4898-91fa-12d408ee3e6c",
           "sequence": 9,
           "key": null,
-          "property": "Pay",
+          "property": "Pay_Rate",
           "type": "",
           "length": null,
           "precision": null,
