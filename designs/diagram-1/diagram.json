@@ -1422,7 +1422,7 @@
           "key": null,
           "property": "Description",
           "type": "VARCHAR",
-          "length": 500,
+          "length": 700,
           "precision": null,
           "isPrimary": false,
           "isNotNull": true
