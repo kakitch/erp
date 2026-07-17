@@ -1329,8 +1329,8 @@
           "sequence": 1,
           "key": "PK",
           "property": "Vendor_Id",
-          "type": "INT",
-          "length": null,
+          "type": "Varchar ",
+          "length": 20,
           "precision": null,
           "isPrimary": true,
           "isNotNull": true
