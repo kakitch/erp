@@ -1352,7 +1352,7 @@
           "key": null,
           "property": "Our_Account_Id",
           "type": "VARCHAR",
-          "length": null,
+          "length": 100,
           "precision": null,
           "isPrimary": false,
           "isNotNull": true
