@@ -2439,5 +2439,24 @@
       "visible": true,
       "color": "#5d4037"
     }
+  ],
+  "views": [
+    {
+      "id": "21019768-ad01-4a9c-80ed-bfcff1585b81",
+      "name": "View 1",
+      "position": {
+        "x": 648.1242229690774,
+        "y": 1661.1910587443122,
+        "w": 220,
+        "h": 130
+      },
+      "query": {
+        "from": {
+          "tableId": "8553e9e2-124e-428f-aa8c-b2301d9b0ec8"
+        },
+        "joins": [],
+        "select": []
+      }
+    }
   ]
 }
