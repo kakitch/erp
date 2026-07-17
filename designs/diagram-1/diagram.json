@@ -1576,7 +1576,7 @@
           "sequence": 2,
           "key": null,
           "property": "Delivery_Address_ID",
-          "type": "",
+          "type": "INT",
           "length": null,
           "precision": null,
           "isPrimary": false,
