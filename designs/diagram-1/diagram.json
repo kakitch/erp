@@ -773,7 +773,7 @@
           "sequence": 3,
           "key": null,
           "property": "Contact_Name",
-          "type": "CHAR",
+          "type": "VARCHAR",
           "length": null,
           "precision": null,
           "isPrimary": false,
