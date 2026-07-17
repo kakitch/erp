@@ -1370,7 +1370,7 @@
           "length": null,
           "precision": null,
           "isPrimary": false,
-          "isNotNull": true
+          "isNotNull": false
         },
         {
           "id": "5c63d585-4bee-46ee-9454-82b0762e04d6",
@@ -1381,7 +1381,7 @@
           "length": null,
           "precision": null,
           "isPrimary": false,
-          "isNotNull": true
+          "isNotNull": false
         },
         {
           "id": "8f2b7ab9-b489-4e04-8ab9-c55e9e4799b5",
