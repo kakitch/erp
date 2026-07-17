@@ -2195,6 +2195,17 @@
           "precision": null,
           "isPrimary": false,
           "isNotNull": true
+        },
+        {
+          "id": "44d7926e-c092-46b7-8eeb-82a23ce47d3e",
+          "sequence": 11,
+          "key": null,
+          "property": "Total_Cost",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
         }
       ],
       "relationships": [],
