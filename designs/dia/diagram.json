@@ -2175,8 +2175,19 @@
         {
           "id": "3d37b2e3-7439-460b-b571-068d9ced88ab",
           "sequence": 1,
+          "key": "PK",
+          "property": "ID",
+          "type": "INT",
+          "length": null,
+          "precision": null,
+          "isPrimary": true,
+          "isNotNull": true
+        },
+        {
+          "id": "d99b72ba-14f8-4edf-9d53-667892cf2f24",
+          "sequence": 2,
           "key": null,
-          "property": "",
+          "property": "Name",
           "type": "",
           "length": null,
           "precision": null,
