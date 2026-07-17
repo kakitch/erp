@@ -962,6 +962,26 @@
             }
           ],
           "parentRequired": false
+        },
+        {
+          "id": "8c177b0e-6566-40d9-a318-b61abfd2a4c7",
+          "source": {
+            "id": "ed1e3333-aa2a-4f82-ba66-5443a660185c"
+          },
+          "reference": {
+            "id": "dbe4b189-2bfc-4821-81b5-3260056d4be0"
+          },
+          "columnPairs": [
+            {
+              "reference": {
+                "id": "dbe4b189-2bfc-4821-81b5-3260056d4be0"
+              },
+              "source": {
+                "id": "ed1e3333-aa2a-4f82-ba66-5443a660185c"
+              }
+            }
+          ],
+          "parentRequired": false
         }
       ],
       "indexes": [
