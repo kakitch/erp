@@ -711,6 +711,18 @@
       "description": "Product categories for organizing the catalog.",
       "indexes": [],
       "layerId": "layer-catalog"
+    },
+    {
+      "id": "7dc5a1b6-9794-4239-90d8-4a7dedfef4c8",
+      "name": "",
+      "position": {
+        "x": 199.9459941966379,
+        "y": 434.87957459658725,
+        "w": 200,
+        "h": 80
+      },
+      "properties": [],
+      "relationships": []
     }
   ],
   "dialect": "postgres",
