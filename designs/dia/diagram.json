@@ -1787,7 +1787,19 @@
         "w": 200,
         "h": 80
       },
-      "properties": [],
+      "properties": [
+        {
+          "id": "0b9abaa4-1ec0-4dc7-a804-9cb6be96f4ba",
+          "sequence": 1,
+          "key": null,
+          "property": "ID",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        }
+      ],
       "relationships": [],
       "layerId": "124b5240-3aef-4ce7-b4b8-be97ff163148"
     },
