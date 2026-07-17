@@ -917,7 +917,7 @@
           "id": "b06e4659-4995-4cdc-a8a1-707af1efa2d5",
           "sequence": 6,
           "key": null,
-          "property": "Qty",
+          "property": "Total_Qty",
           "type": "INT",
           "length": null,
           "precision": null,
