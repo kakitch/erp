@@ -2249,7 +2249,7 @@
           "key": null,
           "property": "Line1",
           "type": "VARCHAR",
-          "length": null,
+          "length": 50,
           "precision": null,
           "isPrimary": false,
           "isNotNull": true
@@ -2260,7 +2260,7 @@
           "key": null,
           "property": "Line2",
           "type": "VARCHAR",
-          "length": null,
+          "length": 50,
           "precision": null,
           "isPrimary": false,
           "isNotNull": true
@@ -2271,7 +2271,7 @@
           "key": null,
           "property": "City",
           "type": "VARCHAR",
-          "length": null,
+          "length": 20,
           "precision": null,
           "isPrimary": false,
           "isNotNull": true
@@ -2282,7 +2282,7 @@
           "key": null,
           "property": "State",
           "type": "VARCHAR",
-          "length": null,
+          "length": 20,
           "precision": null,
           "isPrimary": false,
           "isNotNull": true
@@ -2314,6 +2314,17 @@
           "sequence": 9,
           "key": null,
           "property": "IsShipping",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "8fb00b5c-adc3-445f-8e9c-1b2b6174b727",
+          "sequence": 10,
+          "key": null,
+          "property": "Name",
           "type": "",
           "length": null,
           "precision": null,
