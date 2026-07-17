@@ -283,7 +283,7 @@
           "id": "22caf82c-28a2-4ecb-acba-70fecb1464b6",
           "sequence": 6,
           "key": null,
-          "property": "delivery_address",
+          "property": "Address_Id",
           "type": "",
           "length": null,
           "precision": null,
