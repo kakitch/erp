@@ -337,8 +337,19 @@
       },
       "properties": [
         {
-          "id": "17bbc78e-328b-41f7-8586-3f5cf08d06eb",
+          "id": "b6f776aa-1b7c-4783-a0a2-cc0a8fc32009",
           "sequence": 1,
+          "key": null,
+          "property": "",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "17bbc78e-328b-41f7-8586-3f5cf08d06eb",
+          "sequence": 2,
           "key": "PK",
           "property": "OrderId",
           "type": "INTEGER",
@@ -349,7 +360,7 @@
         },
         {
           "id": "2e959803-2cec-415c-ae38-84ab17888142",
-          "sequence": 2,
+          "sequence": 3,
           "key": "PK",
           "property": "LineNum",
           "type": "INTEGER",
@@ -360,7 +371,7 @@
         },
         {
           "id": "98fb6131-6c26-49eb-bb5c-1caadfbd7ade",
-          "sequence": 3,
+          "sequence": 4,
           "key": "FK",
           "property": "Part_Number",
           "type": "INTEGER",
@@ -371,7 +382,7 @@
         },
         {
           "id": "ff817ece-5d99-47ec-90ab-4764637885fe",
-          "sequence": 4,
+          "sequence": 5,
           "key": null,
           "property": "Quantity",
           "type": "INTEGER",
@@ -383,7 +394,7 @@
         },
         {
           "id": "2b81fdc6-c898-4229-943c-0bdac3edfdfe",
-          "sequence": 5,
+          "sequence": 6,
           "key": null,
           "property": "UnitPrice",
           "type": "NUMERIC",
@@ -394,20 +405,9 @@
         },
         {
           "id": "a737de64-6b95-44e2-9f2e-3fbd9cd56d02",
-          "sequence": 6,
-          "key": null,
-          "property": "Description",
-          "type": "",
-          "length": null,
-          "precision": null,
-          "isPrimary": false,
-          "isNotNull": true
-        },
-        {
-          "id": "b6f776aa-1b7c-4783-a0a2-cc0a8fc32009",
           "sequence": 7,
           "key": null,
-          "property": "",
+          "property": "Description",
           "type": "",
           "length": null,
           "precision": null,
