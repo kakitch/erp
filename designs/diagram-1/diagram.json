@@ -789,6 +789,17 @@
           "precision": null,
           "isPrimary": false,
           "isNotNull": true
+        },
+        {
+          "id": "47dca3c1-9c2d-48f8-b317-e942f833ca85",
+          "sequence": 5,
+          "key": null,
+          "property": "Phone_Number",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
         }
       ],
       "relationships": [],
