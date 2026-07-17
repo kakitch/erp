@@ -929,7 +929,7 @@
           "sequence": 7,
           "key": null,
           "property": "Length",
-          "type": "numeric",
+          "type": "NUMERIC",
           "length": null,
           "precision": null,
           "isPrimary": false,
