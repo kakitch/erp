@@ -1107,8 +1107,8 @@
       "id": "f97da70f-175b-4922-9524-c0a63148c5a5",
       "name": "vendor",
       "position": {
-        "x": 304.68760789071825,
-        "y": 599.6000520969354,
+        "x": -287.24273326599376,
+        "y": 543.272790918417,
         "w": 200,
         "h": 80
       },
@@ -1122,6 +1122,17 @@
           "length": null,
           "precision": null,
           "isPrimary": true,
+          "isNotNull": true
+        },
+        {
+          "id": "180ad490-e205-4ced-837a-ed9b41a6f778",
+          "sequence": 2,
+          "key": null,
+          "property": "",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
           "isNotNull": true
         }
       ],
