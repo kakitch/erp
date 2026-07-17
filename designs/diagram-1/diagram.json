@@ -794,6 +794,30 @@
         }
       ],
       "relationships": []
+    },
+    {
+      "id": "164aff28-3f76-40b8-9600-342fa181fda9",
+      "name": "Job_Plasma_Cut",
+      "position": {
+        "x": 452.7470287674298,
+        "y": 599.7942631335462,
+        "w": 200,
+        "h": 80
+      },
+      "properties": [
+        {
+          "id": "9268b687-ccfa-4921-b7ed-850e83610b73",
+          "sequence": 1,
+          "key": null,
+          "property": "",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        }
+      ],
+      "relationships": []
     }
   ],
   "dialect": "postgres",
