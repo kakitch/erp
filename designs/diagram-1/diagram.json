@@ -214,7 +214,8 @@
           "reference": {
             "id": "22caf82c-28a2-4ecb-acba-70fecb1464b6"
           },
-          "parentRequired": false
+          "parentRequired": false,
+          "targetCardinality": "zero-or-one"
         }
       ],
       "description": "Shipping and billing addresses belonging to a customer.",
