@@ -59,7 +59,8 @@
         }
       ],
       "relationships": [],
-      "description": "Application end users with shipping and billing addresses."
+      "description": "Application end users with shipping and billing addresses.",
+      "layerId": "layer-addresses"
     },
     {
       "id": "f7636718-21ac-44bd-9018-0c41082fa85e",
