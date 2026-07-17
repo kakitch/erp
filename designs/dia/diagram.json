@@ -1795,6 +1795,17 @@
           "precision": null,
           "isPrimary": false,
           "isNotNull": true
+        },
+        {
+          "id": "5b337c6f-8141-4800-8d78-fb6157028400",
+          "sequence": 5,
+          "key": null,
+          "property": "Ship To",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
         }
       ],
       "relationships": [],
