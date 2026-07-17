@@ -394,7 +394,7 @@
         {
           "id": "2e959803-2cec-415c-ae38-84ab17888142",
           "sequence": 3,
-          "key": null,
+          "key": "FK",
           "property": "LineNum",
           "type": "INTEGER",
           "length": null,
@@ -470,6 +470,26 @@
               }
             }
           ]
+        },
+        {
+          "id": "56507e30-68e3-449a-86ba-faaa28617bbb",
+          "source": {
+            "id": "2e959803-2cec-415c-ae38-84ab17888142"
+          },
+          "reference": {
+            "id": "7d030ec0-4ac8-4714-8584-6e230f0b80f8"
+          },
+          "columnPairs": [
+            {
+              "reference": {
+                "id": "7d030ec0-4ac8-4714-8584-6e230f0b80f8"
+              },
+              "source": {
+                "id": "2e959803-2cec-415c-ae38-84ab17888142"
+              }
+            }
+          ],
+          "parentRequired": false
         }
       ],
       "description": "Line items on an order; a weak entity identified by its order plus a line sequence number.",
@@ -480,6 +500,15 @@
           "keyColumns": [
             {
               "columnId": "98fb6131-6c26-49eb-bb5c-1caadfbd7ade"
+            }
+          ]
+        },
+        {
+          "id": "9520f495-17a7-4c58-8315-21f7e6089459",
+          "name": "IX_Sales_Order_Item_LineNum",
+          "keyColumns": [
+            {
+              "columnId": "2e959803-2cec-415c-ae38-84ab17888142"
             }
           ]
         }
