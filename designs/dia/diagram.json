@@ -1784,6 +1784,17 @@
           "precision": null,
           "isPrimary": false,
           "isNotNull": true
+        },
+        {
+          "id": "1293b289-50e4-4d74-8f6b-443aec39453f",
+          "sequence": 4,
+          "key": null,
+          "property": "Ship_Via",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
         }
       ],
       "relationships": [],
