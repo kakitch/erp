@@ -1041,7 +1041,7 @@
           "sequence": 5,
           "key": null,
           "property": "qty",
-          "type": "",
+          "type": "INT",
           "length": null,
           "precision": null,
           "isPrimary": false,
