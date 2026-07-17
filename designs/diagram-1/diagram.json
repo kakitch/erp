@@ -1596,47 +1596,5 @@
       "visible": true,
       "color": "#5d4037"
     }
-  ],
-  "views": [
-    {
-      "id": "view-customer-orders",
-      "name": "CustomerOrders",
-      "position": {
-        "x": 171,
-        "y": 833.0523375070786,
-        "w": 220,
-        "h": 130
-      },
-      "query": {
-        "from": {
-          "tableId": "8553e9e2-124e-428f-aa8c-b2301d9b0ec8"
-        },
-        "joins": [
-          {
-            "tableId": "06b120d8-127b-4d1b-82ff-23216c4f0596",
-            "type": "inner",
-            "on": {
-              "kind": "relationship",
-              "relationshipId": "aaf881fb-834a-4c00-9f99-f74d48a3f4c8"
-            }
-          }
-        ],
-        "select": [
-          {
-            "columnId": "0802dbd4-e8f5-474d-aebb-e7bf60760d90"
-          },
-          {
-            "columnId": "dfd1cae0-e05b-44d3-8cd6-66d8335857eb"
-          },
-          {
-            "columnId": "0b23e425-581d-4e35-ad6a-74aff295d545"
-          },
-          {
-            "columnId": "18512d93-6267-45b7-b547-2a1efede7d54"
-          }
-        ]
-      },
-      "materialized": true
-    }
   ]
 }
