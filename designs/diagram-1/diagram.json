@@ -304,7 +304,7 @@
         {
           "id": "176f7dc2-901b-4e0e-bd1c-7fad0a18a12e",
           "sequence": 8,
-          "key": null,
+          "key": "FK",
           "property": "Customer_Contact_ID",
           "type": "",
           "length": null,
@@ -344,6 +344,16 @@
               }
             }
           ]
+        },
+        {
+          "id": "57ec085d-7b44-4a9a-b31d-6b0b81dc3430",
+          "source": {
+            "id": "176f7dc2-901b-4e0e-bd1c-7fad0a18a12e"
+          },
+          "reference": {
+            "id": "0533046c-d1f8-42fc-b8e5-176ac33598d8"
+          },
+          "parentRequired": false
         }
       ],
       "description": "Customer purchases. Total is denormalized from OrderItems for fast list views.",
