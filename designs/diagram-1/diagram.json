@@ -1439,7 +1439,30 @@
         "w": 200,
         "h": 80
       },
-      "properties": [],
+      "properties": [
+        {
+          "id": "b18fbfef-09f0-40de-9f93-fd5e970c9a8d",
+          "sequence": 1,
+          "key": null,
+          "property": "ID",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "46b88a6d-5302-4825-9fd0-ac6d7ad0112a",
+          "sequence": 2,
+          "key": null,
+          "property": "Routing",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        }
+      ],
       "relationships": []
     }
   ],
