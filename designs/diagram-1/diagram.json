@@ -1311,12 +1311,12 @@
         {
           "id": "f4c64cd1-36bb-4b73-983b-6cbfa439872d",
           "sequence": 1,
-          "key": null,
+          "key": "PK",
           "property": "Id",
           "type": "INT",
           "length": null,
           "precision": null,
-          "isPrimary": false,
+          "isPrimary": true,
           "isNotNull": true
         },
         {
