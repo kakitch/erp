@@ -646,6 +646,17 @@
           "id": "7d030ec0-4ac8-4714-8584-6e230f0b80f8",
           "sequence": 5,
           "key": null,
+          "property": "LineNum",
+          "type": "INT",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "b1953874-be62-4b79-93ee-16f9e3c77171",
+          "sequence": 6,
+          "key": null,
           "property": "",
           "type": "",
           "length": null,
