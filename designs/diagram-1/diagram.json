@@ -1084,7 +1084,7 @@
       "relationships": []
     }
   ],
-  "dialect": "postgres",
+  "dialect": "tsql",
   "baseline": [
     {
       "id": "8553e9e2-124e-428f-aa8c-b2301d9b0ec8",
