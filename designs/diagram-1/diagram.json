@@ -743,6 +743,17 @@
           "sequence": 3,
           "key": null,
           "property": "Qty",
+          "type": "INT",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "fa3bbb14-b077-48a0-a2e7-c71e2f6df0ae",
+          "sequence": 4,
+          "key": null,
+          "property": "length",
           "type": "",
           "length": null,
           "precision": null,
