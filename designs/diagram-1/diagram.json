@@ -961,7 +961,7 @@
           "id": "cd90aca3-f7ca-4dcb-831e-c4f81779eb48",
           "sequence": 10,
           "key": null,
-          "property": "sqft",
+          "property": "sq_In",
           "type": "numberic",
           "length": null,
           "precision": null,
