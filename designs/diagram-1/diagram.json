@@ -876,8 +876,8 @@
           "sequence": 4,
           "key": null,
           "property": "Item_Number",
-          "type": "Var",
-          "length": null,
+          "type": "VARCHAR",
+          "length": 20,
           "precision": null,
           "isPrimary": false,
           "isNotNull": false
