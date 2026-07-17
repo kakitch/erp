@@ -183,6 +183,17 @@
           "precision": null,
           "isPrimary": false,
           "isNotNull": true
+        },
+        {
+          "id": "6545a11d-debb-45b0-bcf7-28e35d3b542f",
+          "sequence": 10,
+          "key": "FK",
+          "property": "Address_Id",
+          "type": "VARCHAR",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
         }
       ],
       "relationships": [
@@ -206,6 +217,16 @@
               }
             }
           ]
+        },
+        {
+          "id": "46cf87dc-0e1c-4756-b952-7a700ab2ff19",
+          "source": {
+            "id": "6545a11d-debb-45b0-bcf7-28e35d3b542f"
+          },
+          "reference": {
+            "id": "22caf82c-28a2-4ecb-acba-70fecb1464b6"
+          },
+          "parentRequired": false
         }
       ],
       "description": "Shipping and billing addresses belonging to a customer.",
@@ -216,6 +237,15 @@
           "keyColumns": [
             {
               "columnId": "e4c4d3d8-a723-4e10-a755-fdd45a21e37d"
+            }
+          ]
+        },
+        {
+          "id": "1cb7bbf1-aabf-40c2-967e-d831b7e65ffb",
+          "name": "IX_Customer Addresses_Address_Id",
+          "keyColumns": [
+            {
+              "columnId": "6545a11d-debb-45b0-bcf7-28e35d3b542f"
             }
           ]
         }
