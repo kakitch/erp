@@ -1773,6 +1773,17 @@
           "precision": null,
           "isPrimary": false,
           "isNotNull": true
+        },
+        {
+          "id": "1c7d6989-fd37-4a95-a722-d42bf8738e0e",
+          "sequence": 3,
+          "key": null,
+          "property": "Packlist_Date",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
         }
       ],
       "relationships": [],
