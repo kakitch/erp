@@ -389,7 +389,7 @@
           "length": null,
           "precision": null,
           "isPrimary": false,
-          "isNotNull": true,
+          "isNotNull": false,
           "defaultValue": "1"
         },
         {
@@ -401,7 +401,7 @@
           "length": 10,
           "precision": 2,
           "isPrimary": false,
-          "isNotNull": true
+          "isNotNull": false
         },
         {
           "id": "a737de64-6b95-44e2-9f2e-3fbd9cd56d02",
@@ -412,7 +412,7 @@
           "length": null,
           "precision": null,
           "isPrimary": false,
-          "isNotNull": true
+          "isNotNull": false
         }
       ],
       "relationships": [
