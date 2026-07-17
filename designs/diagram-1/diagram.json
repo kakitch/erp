@@ -791,7 +791,8 @@
           "isNotNull": true
         }
       ],
-      "relationships": []
+      "relationships": [],
+      "description": "table of customer contacts"
     }
   ],
   "dialect": "postgres",
