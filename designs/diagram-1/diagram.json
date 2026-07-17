@@ -51,7 +51,7 @@
           "sequence": 4,
           "key": null,
           "property": "Last_Updated",
-          "type": "",
+          "type": "timestamp",
           "length": null,
           "precision": null,
           "isPrimary": false,
