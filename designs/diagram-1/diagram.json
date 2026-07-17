@@ -446,6 +446,17 @@
           "precision": null,
           "isPrimary": false,
           "isNotNull": false
+        },
+        {
+          "id": "d4da1cd4-76f5-467b-8142-252e8b21be3d",
+          "sequence": 8,
+          "key": null,
+          "property": "Rev",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
         }
       ],
       "relationships": [
