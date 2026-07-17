@@ -1880,8 +1880,8 @@
       "id": "6b8b43f2-2c76-4f7e-bbad-c580a69be0e6",
       "name": "NCR",
       "position": {
-        "x": 1312.0499438131155,
-        "y": 97.55208128810358,
+        "x": 1298.7448210977416,
+        "y": 51.93451769253572,
         "w": 200,
         "h": 80
       },
@@ -2029,8 +2029,8 @@
       "id": "0bceca67-9c72-4cff-ab54-58b6a1bdb58b",
       "name": "CAR",
       "position": {
-        "x": 1557.4937016468095,
-        "y": 98.99855022167843,
+        "x": 1612.6149243247874,
+        "y": 55.28171844259256,
         "w": 200,
         "h": 80
       },
@@ -2054,8 +2054,8 @@
       "id": "a855cb42-9a3e-4804-85f2-e6497fc58fd5",
       "name": "MTR",
       "position": {
-        "x": 1908.7099968594891,
-        "y": 93.86637626255637,
+        "x": 1914.4121923089351,
+        "y": 57.75247174939849,
         "w": 200,
         "h": 80
       },
@@ -2875,13 +2875,13 @@
     {
       "id": "layer-addresses",
       "name": "Customer Data",
-      "visible": true,
+      "visible": false,
       "color": "#388e3c"
     },
     {
       "id": "85a68829-227a-4be7-a5cb-8351816a466f",
       "name": "Purchasing Data",
-      "visible": true,
+      "visible": false,
       "color": "#d32f2f"
     },
     {
@@ -2893,13 +2893,13 @@
     {
       "id": "4b4818e0-6066-4461-9a92-cad564e0f690",
       "name": "Orginization Data",
-      "visible": true,
+      "visible": false,
       "color": "#7b1fa2"
     },
     {
       "id": "7813061f-bbb7-41c3-8396-0deeb09862d4",
       "name": "Billing Data",
-      "visible": true,
+      "visible": false,
       "color": "#00838f"
     },
     {
