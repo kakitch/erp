@@ -1656,6 +1656,18 @@
       },
       "properties": [],
       "relationships": []
+    },
+    {
+      "id": "58ce8036-cc2c-4b68-88cd-b318f660007e",
+      "name": "Vendor_Address",
+      "position": {
+        "x": 866.1771743372377,
+        "y": 946.0015875944185,
+        "w": 200,
+        "h": 80
+      },
+      "properties": [],
+      "relationships": []
     }
   ],
   "dialect": "tsql",
