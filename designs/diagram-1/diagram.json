@@ -783,7 +783,7 @@
           "id": "3fbfee75-34a5-42fb-835b-4d02bd7256d6",
           "sequence": 4,
           "key": null,
-          "property": "",
+          "property": "Email_Address",
           "type": "",
           "length": null,
           "precision": null,
