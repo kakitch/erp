@@ -720,6 +720,17 @@
           "id": "cfa58197-3eb1-4628-980c-0f6fff67ab4e",
           "sequence": 1,
           "key": null,
+          "property": "ID",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "471cebb0-35e3-4572-b028-ce23a03d5f8d",
+          "sequence": 2,
+          "key": null,
           "property": "",
           "type": "",
           "length": null,
