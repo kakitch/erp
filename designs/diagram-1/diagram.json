@@ -1489,7 +1489,7 @@
           "sequence": 5,
           "key": null,
           "property": "Created_On",
-          "type": "",
+          "type": "DATETIME",
           "length": null,
           "precision": null,
           "isPrimary": false,
