@@ -431,57 +431,6 @@
       ]
     },
     {
-      "id": "6d062471-e889-4960-a145-bfa4f40ea8fb",
-      "name": "Category",
-      "position": {
-        "x": 1062.871833589008,
-        "y": 345.95401010720855,
-        "w": 200,
-        "h": 100
-      },
-      "properties": [
-        {
-          "id": "dbb8e411-f9af-4d8f-b332-258f4a364f8d",
-          "sequence": 1,
-          "key": "PK",
-          "property": "CategoryId",
-          "type": "INTEGER",
-          "length": null,
-          "precision": null,
-          "isPrimary": true,
-          "isNotNull": true,
-          "isIdentity": true
-        },
-        {
-          "id": "7a80f53a-92c0-4d8c-8693-4ff94c1ea18f",
-          "sequence": 2,
-          "key": null,
-          "property": "Name",
-          "type": "VARCHAR",
-          "length": 80,
-          "precision": null,
-          "isPrimary": false,
-          "isNotNull": true,
-          "isUnique": true
-        },
-        {
-          "id": "6f5b1327-604b-4492-847b-900ca42e1dc9",
-          "sequence": 3,
-          "key": null,
-          "property": "Description",
-          "type": "VARCHAR",
-          "length": 500,
-          "precision": null,
-          "isPrimary": false,
-          "isNotNull": false
-        }
-      ],
-      "relationships": [],
-      "description": "Product categories for organizing the catalog.",
-      "indexes": [],
-      "layerId": "layer-catalog"
-    },
-    {
       "id": "7dc5a1b6-9794-4239-90d8-4a7dedfef4c8",
       "name": "",
       "position": {
