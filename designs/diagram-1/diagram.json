@@ -1429,6 +1429,18 @@
           ]
         }
       ]
+    },
+    {
+      "id": "84d8b86a-f8c4-428f-bf2b-b5099994cbdf",
+      "name": "Job_Operation_Time",
+      "position": {
+        "x": 498.14802693406705,
+        "y": 888.4741112797333,
+        "w": 200,
+        "h": 80
+      },
+      "properties": [],
+      "relationships": []
     }
   ],
   "dialect": "tsql",
