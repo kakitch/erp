@@ -603,7 +603,7 @@
           "sequence": 1,
           "key": "PK",
           "property": "Job_ID",
-          "type": "INT",
+          "type": "VARCHAR",
           "length": null,
           "precision": null,
           "isPrimary": true,
