@@ -172,17 +172,6 @@
           "precision": null,
           "isPrimary": false,
           "isNotNull": true
-        },
-        {
-          "id": "6545a11d-debb-45b0-bcf7-28e35d3b542f",
-          "sequence": 10,
-          "key": "FK",
-          "property": "Address_Id",
-          "type": "VARCHAR",
-          "length": null,
-          "precision": null,
-          "isPrimary": false,
-          "isNotNull": true
         }
       ],
       "relationships": [
@@ -237,15 +226,6 @@
           "keyColumns": [
             {
               "columnId": "e4c4d3d8-a723-4e10-a755-fdd45a21e37d"
-            }
-          ]
-        },
-        {
-          "id": "1cb7bbf1-aabf-40c2-967e-d831b7e65ffb",
-          "name": "IX_Customer Addresses_Address_Id",
-          "keyColumns": [
-            {
-              "columnId": "6545a11d-debb-45b0-bcf7-28e35d3b542f"
             }
           ]
         }
