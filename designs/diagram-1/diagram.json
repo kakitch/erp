@@ -604,7 +604,7 @@
           "key": "PK",
           "property": "Job_ID",
           "type": "VARCHAR",
-          "length": null,
+          "length": 20,
           "precision": null,
           "isPrimary": true,
           "isNotNull": true
@@ -659,7 +659,7 @@
           "key": null,
           "property": "Parent_Job",
           "type": "VARCHAR",
-          "length": null,
+          "length": 20,
           "precision": null,
           "isPrimary": false,
           "isNotNull": true
