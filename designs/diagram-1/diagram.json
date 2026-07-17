@@ -1494,6 +1494,17 @@
           "precision": null,
           "isPrimary": false,
           "isNotNull": true
+        },
+        {
+          "id": "418a7249-80e4-4072-992c-b4a329b12021",
+          "sequence": 6,
+          "key": null,
+          "property": "",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
         }
       ],
       "relationships": []
