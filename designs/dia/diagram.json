@@ -1317,7 +1317,7 @@
           "id": "e30c82ed-7ad5-4784-a06a-4650da878f25",
           "sequence": 3,
           "key": null,
-          "property": "Email_Address",
+          "property": "ContactEmail_Address",
           "type": "VARCHAR",
           "length": 100,
           "precision": null,
