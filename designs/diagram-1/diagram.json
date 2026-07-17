@@ -1345,7 +1345,7 @@
           "id": "fed76c07-700a-4c22-a0cd-67819932860b",
           "sequence": 4,
           "key": null,
-          "property": "",
+          "property": "Duration",
           "type": "",
           "length": null,
           "precision": null,
