@@ -259,7 +259,7 @@
           "id": "abf501d1-e56c-442a-8306-0b23518e1896",
           "sequence": 3,
           "key": null,
-          "property": "OrderedAt",
+          "property": "Order_Date",
           "type": "TIMESTAMP",
           "length": null,
           "precision": null,
@@ -287,6 +287,50 @@
           "type": "NUMERIC",
           "length": 12,
           "precision": 2,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "22caf82c-28a2-4ecb-acba-70fecb1464b6",
+          "sequence": 6,
+          "key": null,
+          "property": "",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "077e8d09-89e2-4047-b6ba-90a6ca421f2f",
+          "sequence": 7,
+          "key": null,
+          "property": "",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "176f7dc2-901b-4e0e-bd1c-7fad0a18a12e",
+          "sequence": 8,
+          "key": null,
+          "property": "",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "5f019f31-7001-40b9-9639-9b3135f4875e",
+          "sequence": 9,
+          "key": null,
+          "property": "",
+          "type": "",
+          "length": null,
+          "precision": null,
           "isPrimary": false,
           "isNotNull": true
         }
