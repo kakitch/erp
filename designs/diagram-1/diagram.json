@@ -1443,12 +1443,12 @@
         {
           "id": "b18fbfef-09f0-40de-9f93-fd5e970c9a8d",
           "sequence": 1,
-          "key": null,
+          "key": "PK",
           "property": "ID",
           "type": "",
           "length": null,
           "precision": null,
-          "isPrimary": false,
+          "isPrimary": true,
           "isNotNull": true
         },
         {
@@ -1478,6 +1478,17 @@
           "sequence": 4,
           "key": null,
           "property": "Duration",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "e3f07193-8086-4777-9d91-d35f4cb218cb",
+          "sequence": 5,
+          "key": null,
+          "property": "Created_On",
           "type": "",
           "length": null,
           "precision": null,
