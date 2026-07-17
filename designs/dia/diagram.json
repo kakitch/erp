@@ -2220,7 +2220,19 @@
         "w": 200,
         "h": 80
       },
-      "properties": [],
+      "properties": [
+        {
+          "id": "debb8f5d-5102-4704-a3f9-ffd5551edd4a",
+          "sequence": 1,
+          "key": null,
+          "property": "",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        }
+      ],
       "relationships": [],
       "layerId": "85a68829-227a-4be7-a5cb-8351816a466f"
     }
