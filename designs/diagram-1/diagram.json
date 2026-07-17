@@ -751,7 +751,7 @@
           "sequence": 1,
           "key": "PK",
           "property": "ID",
-          "type": "",
+          "type": "INT",
           "length": null,
           "precision": null,
           "isPrimary": true,
