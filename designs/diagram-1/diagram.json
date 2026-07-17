@@ -601,12 +601,12 @@
         {
           "id": "ed1e3333-aa2a-4f82-ba66-5443a660185c",
           "sequence": 1,
-          "key": null,
+          "key": "PK",
           "property": "Job_ID",
           "type": "INT",
           "length": null,
           "precision": null,
-          "isPrimary": false,
+          "isPrimary": true,
           "isNotNull": true
         },
         {
