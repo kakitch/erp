@@ -2112,7 +2112,7 @@
           "id": "29e98ac8-9b3d-498a-b56d-df7619e61d5a",
           "sequence": 3,
           "key": null,
-          "property": "Initiated",
+          "property": "Initiated_By",
           "type": "",
           "length": null,
           "precision": null,
