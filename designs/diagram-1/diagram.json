@@ -1499,7 +1499,7 @@
           "id": "418a7249-80e4-4072-992c-b4a329b12021",
           "sequence": 6,
           "key": null,
-          "property": "",
+          "property": "Last_Updated",
           "type": "",
           "length": null,
           "precision": null,
