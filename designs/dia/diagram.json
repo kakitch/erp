@@ -1637,7 +1637,8 @@
           "isNotNull": true
         }
       ],
-      "relationships": []
+      "relationships": [],
+      "layerId": "layer-catalog"
     },
     {
       "id": "fb70fb8c-e80d-4718-8578-e27076304adc",
@@ -1844,6 +1845,18 @@
           "isNotNull": true
         }
       ],
+      "relationships": []
+    },
+    {
+      "id": "d46622f9-9183-4a90-ad7a-ea113f424dfc",
+      "name": "",
+      "position": {
+        "x": 835.0563549547066,
+        "y": 502.8976141912847,
+        "w": 200,
+        "h": 80
+      },
+      "properties": [],
       "relationships": []
     }
   ],
