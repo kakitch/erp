@@ -2531,33 +2531,37 @@
       "id": "layer-catalog",
       "name": "Job Data",
       "visible": true,
-      "color": "#d32f2f"
+      "color": "#1976d2"
     },
     {
       "id": "layer-addresses",
       "name": "Customer Data",
       "visible": true,
-      "color": "#5d4037"
+      "color": "#388e3c"
     },
     {
       "id": "85a68829-227a-4be7-a5cb-8351816a466f",
       "name": "Purchasing Data",
-      "visible": true
+      "visible": true,
+      "color": "#d32f2f"
     },
     {
       "id": "124b5240-3aef-4ce7-b4b8-be97ff163148",
       "name": "Shipping Data",
-      "visible": true
+      "visible": true,
+      "color": "#f57c00"
     },
     {
       "id": "4b4818e0-6066-4461-9a92-cad564e0f690",
       "name": "Orginization Data",
-      "visible": true
+      "visible": true,
+      "color": "#7b1fa2"
     },
     {
       "id": "7813061f-bbb7-41c3-8396-0deeb09862d4",
       "name": "Billing Data",
-      "visible": true
+      "visible": true,
+      "color": "#00838f"
     }
   ]
 }
