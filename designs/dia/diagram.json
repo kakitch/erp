@@ -1367,6 +1367,17 @@
           "precision": null,
           "isPrimary": false,
           "isNotNull": true
+        },
+        {
+          "id": "8a32aeb5-01a3-4f46-871a-f2d560eb79d5",
+          "sequence": 8,
+          "key": null,
+          "property": "Notes",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
         }
       ],
       "relationships": [],
