@@ -2188,6 +2188,28 @@
           "sequence": 2,
           "key": null,
           "property": "Name",
+          "type": "VARCHAR",
+          "length": 100,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "6724c0fe-b5ff-42ce-87d0-3231f1971f19",
+          "sequence": 3,
+          "key": null,
+          "property": "Email",
+          "type": "VARCHAR",
+          "length": 100,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "c81a1a8d-1fd3-453e-8093-2d5c88fc0ba4",
+          "sequence": 4,
+          "key": null,
+          "property": "Phone",
           "type": "",
           "length": null,
           "precision": null,
