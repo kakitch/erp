@@ -665,6 +665,17 @@
           },
           "parentRequired": false
         }
+      ],
+      "indexes": [
+        {
+          "id": "d3c2f194-b3dc-4305-8656-bab5af2b9450",
+          "name": "IX_Job_OrderID",
+          "keyColumns": [
+            {
+              "columnId": "e85b07a5-7d68-4b01-8a17-e79a7a6237b7"
+            }
+          ]
+        }
       ]
     }
   ],
