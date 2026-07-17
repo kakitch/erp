@@ -1420,7 +1420,7 @@
           "id": "1c237a80-24d9-475a-8a58-18be6c5fa96c",
           "sequence": 9,
           "key": null,
-          "property": "Description",
+          "property": "Notes",
           "type": "VARCHAR",
           "length": 700,
           "precision": null,
