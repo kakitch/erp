@@ -2226,7 +2226,7 @@
           "sequence": 1,
           "key": "PK",
           "property": "Vendor_Address_ID",
-          "type": "",
+          "type": "INT",
           "length": null,
           "precision": null,
           "isPrimary": true,
@@ -2244,8 +2244,19 @@
           "isNotNull": true
         },
         {
-          "id": "79b1b7be-0a84-45ea-b6c0-8bd764bb49ab",
+          "id": "8fb00b5c-adc3-445f-8e9c-1b2b6174b727",
           "sequence": 3,
+          "key": null,
+          "property": "Name",
+          "type": "VARCHAR",
+          "length": 50,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "79b1b7be-0a84-45ea-b6c0-8bd764bb49ab",
+          "sequence": 4,
           "key": null,
           "property": "Line1",
           "type": "VARCHAR",
@@ -2256,7 +2267,7 @@
         },
         {
           "id": "7d5d42c8-d963-4dd4-938e-3afd9d308059",
-          "sequence": 4,
+          "sequence": 5,
           "key": null,
           "property": "Line2",
           "type": "VARCHAR",
@@ -2267,7 +2278,7 @@
         },
         {
           "id": "be86bc4a-7c53-4531-ba8d-384e125fe36f",
-          "sequence": 5,
+          "sequence": 6,
           "key": null,
           "property": "City",
           "type": "VARCHAR",
@@ -2278,7 +2289,7 @@
         },
         {
           "id": "6c817730-9402-4a77-b6ab-5ccb13ecab24",
-          "sequence": 6,
+          "sequence": 7,
           "key": null,
           "property": "State",
           "type": "VARCHAR",
@@ -2289,7 +2300,7 @@
         },
         {
           "id": "1da9831b-a774-4382-bfb8-d378a492ee96",
-          "sequence": 7,
+          "sequence": 8,
           "key": null,
           "property": "PostalCode",
           "type": "INT",
@@ -2300,7 +2311,7 @@
         },
         {
           "id": "8a91d14c-aa4d-4fe9-aea4-cd31ad3079bb",
-          "sequence": 8,
+          "sequence": 9,
           "key": null,
           "property": "IsBilling",
           "type": "",
@@ -2311,20 +2322,9 @@
         },
         {
           "id": "17e99afa-a11e-4c00-9196-5c5b7657b588",
-          "sequence": 9,
-          "key": null,
-          "property": "IsShipping",
-          "type": "",
-          "length": null,
-          "precision": null,
-          "isPrimary": false,
-          "isNotNull": true
-        },
-        {
-          "id": "8fb00b5c-adc3-445f-8e9c-1b2b6174b727",
           "sequence": 10,
           "key": null,
-          "property": "Name",
+          "property": "IsShipping",
           "type": "",
           "length": null,
           "precision": null,
