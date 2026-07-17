@@ -1074,7 +1074,7 @@
           "sequence": 8,
           "key": null,
           "property": "Job_ID",
-          "type": "",
+          "type": "VARCHAR",
           "length": null,
           "precision": null,
           "isPrimary": false,
