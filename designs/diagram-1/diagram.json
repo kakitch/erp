@@ -825,7 +825,29 @@
           "length": null,
           "precision": null,
           "isPrimary": false,
-          "isNotNull": true
+          "isNotNull": false
+        },
+        {
+          "id": "2a99eea9-369d-48e5-a37b-ad5c5052fa43",
+          "sequence": 3,
+          "key": null,
+          "property": "Item_Number",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": false
+        },
+        {
+          "id": "6843f9af-e1aa-463a-b4c0-c540d9b3efe9",
+          "sequence": 4,
+          "key": null,
+          "property": "",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": false
         }
       ],
       "relationships": []
