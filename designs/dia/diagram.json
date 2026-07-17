@@ -2292,7 +2292,7 @@
           "sequence": 7,
           "key": null,
           "property": "PostalCode",
-          "type": "",
+          "type": "INT",
           "length": null,
           "precision": null,
           "isPrimary": false,
