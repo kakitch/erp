@@ -1779,7 +1779,7 @@
           "sequence": 3,
           "key": null,
           "property": "Packlist_Date",
-          "type": "da",
+          "type": "DATETIME",
           "length": null,
           "precision": null,
           "isPrimary": false,
