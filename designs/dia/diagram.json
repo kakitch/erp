@@ -1884,12 +1884,12 @@
         {
           "id": "c08bfc93-f625-49b8-9bef-2314ead34db4",
           "sequence": 1,
-          "key": null,
+          "key": "PK",
           "property": "Id",
           "type": "",
           "length": null,
           "precision": null,
-          "isPrimary": false,
+          "isPrimary": true,
           "isNotNull": true
         },
         {
@@ -1904,7 +1904,8 @@
           "isNotNull": true
         }
       ],
-      "relationships": []
+      "relationships": [],
+      "layerId": "24f15bb4-c76f-4f0a-9249-73a35cb72639"
     },
     {
       "id": "7749b244-47da-4b2c-843f-8e94cd444f9b",
