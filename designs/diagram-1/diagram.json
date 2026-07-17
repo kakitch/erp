@@ -1037,22 +1037,22 @@
           "isNotNull": true
         },
         {
-          "id": "d1915015-47a0-462a-8337-fd8fcb82265a",
+          "id": "545a6f58-31ad-4810-9cbb-9cd9d1ceb79e",
           "sequence": 5,
           "key": null,
-          "property": "Unit_Price",
-          "type": "NUMERIC",
+          "property": "qty",
+          "type": "INT",
           "length": null,
           "precision": null,
           "isPrimary": false,
           "isNotNull": true
         },
         {
-          "id": "545a6f58-31ad-4810-9cbb-9cd9d1ceb79e",
+          "id": "d1915015-47a0-462a-8337-fd8fcb82265a",
           "sequence": 6,
           "key": null,
-          "property": "qty",
-          "type": "INT",
+          "property": "Unit_Price",
+          "type": "NUMERIC",
           "length": null,
           "precision": null,
           "isPrimary": false,
