@@ -1478,7 +1478,7 @@
           "sequence": 4,
           "key": null,
           "property": "Duration",
-          "type": "",
+          "type": "DATETIME",
           "length": null,
           "precision": null,
           "isPrimary": false,
