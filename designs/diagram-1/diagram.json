@@ -842,9 +842,9 @@
           "id": "6843f9af-e1aa-463a-b4c0-c540d9b3efe9",
           "sequence": 4,
           "key": null,
-          "property": "",
-          "type": "",
-          "length": null,
+          "property": "Job_ID",
+          "type": "VARCHAR",
+          "length": 20,
           "precision": null,
           "isPrimary": false,
           "isNotNull": false
