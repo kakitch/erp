@@ -858,7 +858,7 @@
           "length": 20,
           "precision": null,
           "isPrimary": false,
-          "isNotNull": false
+          "isNotNull": true
         },
         {
           "id": "22aff5dd-c445-4a95-a6cd-932715af43e3",
