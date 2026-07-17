@@ -2112,7 +2112,7 @@
           "id": "29e98ac8-9b3d-498a-b56d-df7619e61d5a",
           "sequence": 3,
           "key": null,
-          "property": "",
+          "property": "Initiated",
           "type": "",
           "length": null,
           "precision": null,
@@ -2155,6 +2155,17 @@
         {
           "id": "32c251ed-1a83-4419-969a-18da860230b5",
           "sequence": 7,
+          "key": null,
+          "property": "",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "f2e1e89c-ead7-440e-b047-4b4d5c5bf295",
+          "sequence": 8,
           "key": null,
           "property": "",
           "type": "",
