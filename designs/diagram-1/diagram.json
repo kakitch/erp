@@ -657,7 +657,7 @@
           "id": "b1953874-be62-4b79-93ee-16f9e3c77171",
           "sequence": 6,
           "key": null,
-          "property": "",
+          "property": "Parent_Job",
           "type": "",
           "length": null,
           "precision": null,
