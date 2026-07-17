@@ -1024,6 +1024,50 @@
           "precision": null,
           "isPrimary": false,
           "isNotNull": true
+        },
+        {
+          "id": "d1915015-47a0-462a-8337-fd8fcb82265a",
+          "sequence": 4,
+          "key": null,
+          "property": "Unit_Price",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "545a6f58-31ad-4810-9cbb-9cd9d1ceb79e",
+          "sequence": 5,
+          "key": null,
+          "property": "qty",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "0179c19b-f2eb-4f60-b12e-e27c715b8183",
+          "sequence": 6,
+          "key": null,
+          "property": "extended price",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "eb17d494-189b-4c16-8103-ba0849e5bc66",
+          "sequence": 7,
+          "key": null,
+          "property": "",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
         }
       ],
       "relationships": []
