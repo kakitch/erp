@@ -2161,6 +2161,30 @@
       ],
       "relationships": [],
       "layerId": "24f15bb4-c76f-4f0a-9249-73a35cb72639"
+    },
+    {
+      "id": "1b81b4a3-d167-4004-bb2b-d9095e1ab57e",
+      "name": "Vendor_Contact",
+      "position": {
+        "x": 724.3752992870977,
+        "y": 456.9061532106173,
+        "w": 200,
+        "h": 80
+      },
+      "properties": [
+        {
+          "id": "3d37b2e3-7439-460b-b571-068d9ced88ab",
+          "sequence": 1,
+          "key": null,
+          "property": "",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        }
+      ],
+      "relationships": []
     }
   ],
   "dialect": "tsql",
