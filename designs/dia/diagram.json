@@ -1333,7 +1333,7 @@
           "length": 4000,
           "precision": null,
           "isPrimary": false,
-          "isNotNull": true
+          "isNotNull": false
         },
         {
           "id": "a707a7b4-0a0c-4c31-bba6-56ce0d1ccad7",
@@ -1355,7 +1355,7 @@
           "length": 100,
           "precision": null,
           "isPrimary": false,
-          "isNotNull": true
+          "isNotNull": false
         },
         {
           "id": "64574cbf-644b-401c-b52b-3c439d1fe6a8",
@@ -1386,6 +1386,17 @@
           "property": "Terms",
           "type": "VARCHAR",
           "length": 30,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "e08c1ad9-b444-4058-a3b8-f3166c25d38a",
+          "sequence": 10,
+          "key": null,
+          "property": "Status",
+          "type": "",
+          "length": null,
           "precision": null,
           "isPrimary": false,
           "isNotNull": true
