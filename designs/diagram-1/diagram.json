@@ -658,7 +658,7 @@
           "sequence": 6,
           "key": null,
           "property": "Parent_Job",
-          "type": "",
+          "type": "VARCHAR",
           "length": null,
           "precision": null,
           "isPrimary": false,
