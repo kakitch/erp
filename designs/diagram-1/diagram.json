@@ -923,6 +923,28 @@
           "precision": null,
           "isPrimary": false,
           "isNotNull": true
+        },
+        {
+          "id": "aedd627f-05d0-4b56-b979-96c00bfbab3d",
+          "sequence": 7,
+          "key": null,
+          "property": "Length",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "ab054ce6-d743-4314-9ec2-7812e0d01229",
+          "sequence": 8,
+          "key": null,
+          "property": "Width",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
         }
       ],
       "relationships": []
