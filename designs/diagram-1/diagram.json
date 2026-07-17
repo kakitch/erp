@@ -1218,7 +1218,7 @@
           "id": "fdd66ca1-0196-47ae-ae48-a61e0fb66097",
           "sequence": 7,
           "key": null,
-          "property": "",
+          "property": "Qty",
           "type": "",
           "length": null,
           "precision": null,
