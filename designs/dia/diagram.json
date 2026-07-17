@@ -2887,7 +2887,7 @@
     {
       "id": "124b5240-3aef-4ce7-b4b8-be97ff163148",
       "name": "Shipping Data",
-      "visible": true,
+      "visible": false,
       "color": "#f57c00"
     },
     {
