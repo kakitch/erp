@@ -1308,7 +1308,7 @@
           "key": null,
           "property": "Name",
           "type": "VARCHAR",
-          "length": null,
+          "length": 100,
           "precision": null,
           "isPrimary": false,
           "isNotNull": true
