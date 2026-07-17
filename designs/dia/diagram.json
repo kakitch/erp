@@ -2529,7 +2529,7 @@
   "layers": [
     {
       "id": "layer-catalog",
-      "name": "Catalog",
+      "name": "Job Data",
       "visible": true,
       "color": "#d32f2f"
     },
