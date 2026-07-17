@@ -2091,8 +2091,8 @@
           "sequence": 1,
           "key": "PK",
           "property": "Id",
-          "type": "INT",
-          "length": null,
+          "type": "VARCHAR",
+          "length": 30,
           "precision": null,
           "isPrimary": true,
           "isNotNull": true
