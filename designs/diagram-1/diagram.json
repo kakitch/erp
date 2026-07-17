@@ -762,7 +762,7 @@
           "sequence": 2,
           "key": "FK",
           "property": "CustomerId",
-          "type": "INT",
+          "type": "INTEGER",
           "length": null,
           "precision": null,
           "isPrimary": false,
