@@ -1435,7 +1435,28 @@
           "isNotNull": true
         }
       ],
-      "relationships": [],
+      "relationships": [
+        {
+          "id": "5acb1d13-dcf7-484b-8f5e-5a003c186eef",
+          "source": {
+            "id": "76cf47c5-b7a6-4574-82f1-e11839c5c1f3"
+          },
+          "reference": {
+            "id": "c3c93aa7-5ff9-4bd6-b0c0-1b71577810b0"
+          },
+          "columnPairs": [
+            {
+              "reference": {
+                "id": "c3c93aa7-5ff9-4bd6-b0c0-1b71577810b0"
+              },
+              "source": {
+                "id": "76cf47c5-b7a6-4574-82f1-e11839c5c1f3"
+              }
+            }
+          ],
+          "parentRequired": false
+        }
+      ],
       "layerId": "85a68829-227a-4be7-a5cb-8351816a466f"
     },
     {
