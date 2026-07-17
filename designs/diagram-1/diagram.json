@@ -735,6 +735,26 @@
             "id": "2265a588-8794-40c6-86d0-ea3ee1786789"
           },
           "parentRequired": false
+        },
+        {
+          "id": "0996b387-0e63-4242-a4d4-e5991c94d1ba",
+          "source": {
+            "id": "ed1e3333-aa2a-4f82-ba66-5443a660185c"
+          },
+          "reference": {
+            "id": "6843f9af-e1aa-463a-b4c0-c540d9b3efe9"
+          },
+          "columnPairs": [
+            {
+              "reference": {
+                "id": "6843f9af-e1aa-463a-b4c0-c540d9b3efe9"
+              },
+              "source": {
+                "id": "ed1e3333-aa2a-4f82-ba66-5443a660185c"
+              }
+            }
+          ],
+          "parentRequired": false
         }
       ],
       "indexes": [
