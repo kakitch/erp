@@ -468,6 +468,17 @@
           "precision": null,
           "isPrimary": false,
           "isNotNull": true
+        },
+        {
+          "id": "27babfe4-2736-409d-951d-722c27a85ded",
+          "sequence": 10,
+          "key": null,
+          "property": "Last_updated",
+          "type": "TIMESTAMP",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
         }
       ],
       "relationships": [
