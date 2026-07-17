@@ -2098,8 +2098,8 @@
           "sequence": 4,
           "key": "PK",
           "property": "Link",
-          "type": "",
-          "length": null,
+          "type": "VARCHAR",
+          "length": 4000,
           "precision": null,
           "isPrimary": true,
           "isNotNull": true
