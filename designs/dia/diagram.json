@@ -2697,11 +2697,22 @@
           "id": "3fe79304-5586-47d0-ae54-04235566904c",
           "sequence": 1,
           "key": "PK",
-          "property": "",
+          "property": "Int",
           "type": "",
           "length": null,
           "precision": null,
           "isPrimary": true,
+          "isNotNull": true
+        },
+        {
+          "id": "d4afd510-e61c-441f-80d9-d026af7f3a27",
+          "sequence": 2,
+          "key": null,
+          "property": "Name",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
           "isNotNull": true
         }
       ],
