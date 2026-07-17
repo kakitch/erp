@@ -710,8 +710,8 @@
       "id": "1af2eef8-cb8a-4326-9900-2c7d9df70892",
       "name": "Job_Saw_Cut",
       "position": {
-        "x": 204.7470287674298,
-        "y": 301.5091788214481,
+        "x": 44.19921047071371,
+        "y": 458.94961998984064,
         "w": 200,
         "h": 80
       },
@@ -733,6 +733,17 @@
           "key": null,
           "property": "Part_Number",
           "type": "VARCHAR",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "7ec1d924-d81f-44f7-89f2-4de436b5f7d7",
+          "sequence": 3,
+          "key": null,
+          "property": "Quantity",
+          "type": "",
           "length": null,
           "precision": null,
           "isPrimary": false,
