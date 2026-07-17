@@ -1224,17 +1224,6 @@
           "precision": null,
           "isPrimary": false,
           "isNotNull": true
-        },
-        {
-          "id": "91c01861-5b33-47d4-90cb-e6c586ec59c6",
-          "sequence": 8,
-          "key": null,
-          "property": "",
-          "type": "",
-          "length": null,
-          "precision": null,
-          "isPrimary": false,
-          "isNotNull": true
         }
       ],
       "relationships": []
