@@ -739,8 +739,19 @@
           "isNotNull": true
         },
         {
-          "id": "7ec1d924-d81f-44f7-89f2-4de436b5f7d7",
+          "id": "2265a588-8794-40c6-86d0-ea3ee1786789",
           "sequence": 3,
+          "key": null,
+          "property": "Job_ID",
+          "type": "INT",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "7ec1d924-d81f-44f7-89f2-4de436b5f7d7",
+          "sequence": 4,
           "key": null,
           "property": "Qty",
           "type": "INT",
@@ -751,7 +762,7 @@
         },
         {
           "id": "fa3bbb14-b077-48a0-a2e7-c71e2f6df0ae",
-          "sequence": 4,
+          "sequence": 5,
           "key": null,
           "property": "length",
           "type": "NUMERIC",
@@ -762,21 +773,10 @@
         },
         {
           "id": "9bf658d8-7374-465f-abaa-02cd6c285bcb",
-          "sequence": 5,
+          "sequence": 6,
           "key": null,
           "property": "Material",
           "type": "VARCHAR",
-          "length": null,
-          "precision": null,
-          "isPrimary": false,
-          "isNotNull": true
-        },
-        {
-          "id": "2265a588-8794-40c6-86d0-ea3ee1786789",
-          "sequence": 6,
-          "key": null,
-          "property": "Job_ID",
-          "type": "INT",
           "length": null,
           "precision": null,
           "isPrimary": false,
