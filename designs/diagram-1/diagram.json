@@ -587,6 +587,41 @@
           ]
         }
       ]
+    },
+    {
+      "id": "4768f6a1-61b5-4be5-aa33-7125c3ee9a66",
+      "name": "Job",
+      "position": {
+        "x": 626.6878738757189,
+        "y": 143.34584552055605,
+        "w": 200,
+        "h": 80
+      },
+      "properties": [
+        {
+          "id": "ed1e3333-aa2a-4f82-ba66-5443a660185c",
+          "sequence": 1,
+          "key": null,
+          "property": "Job_ID",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "1cbae2af-5e3c-4633-b175-f33b96c6aa2f",
+          "sequence": 2,
+          "key": null,
+          "property": "",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        }
+      ],
+      "relationships": []
     }
   ],
   "dialect": "postgres",
