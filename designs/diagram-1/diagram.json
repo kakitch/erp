@@ -962,7 +962,7 @@
           "sequence": 10,
           "key": null,
           "property": "sq_In",
-          "type": "numberic",
+          "type": "NUMERIC",
           "length": null,
           "precision": null,
           "isPrimary": false,
