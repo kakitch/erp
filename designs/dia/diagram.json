@@ -2038,12 +2038,12 @@
         {
           "id": "44dece70-782a-4a8b-b30a-194286478f19",
           "sequence": 1,
-          "key": null,
-          "property": "",
+          "key": "PK",
+          "property": "ID",
           "type": "",
           "length": null,
           "precision": null,
-          "isPrimary": false,
+          "isPrimary": true,
           "isNotNull": true
         }
       ],
