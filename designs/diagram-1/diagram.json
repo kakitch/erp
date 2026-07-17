@@ -341,7 +341,7 @@
           "sequence": 1,
           "key": "PK",
           "property": "SO_Item_ID",
-          "type": "Integer",
+          "type": "INT",
           "length": null,
           "precision": null,
           "isPrimary": true,
