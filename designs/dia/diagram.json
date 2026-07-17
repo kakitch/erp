@@ -1274,7 +1274,8 @@
           "isNotNull": true
         }
       ],
-      "relationships": []
+      "relationships": [],
+      "layerId": "layer-catalog"
     },
     {
       "id": "f97da70f-175b-4922-9524-c0a63148c5a5",
