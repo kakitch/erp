@@ -784,7 +784,7 @@
           "sequence": 4,
           "key": null,
           "property": "Email_Address",
-          "type": "",
+          "type": "VARCHAR",
           "length": null,
           "precision": null,
           "isPrimary": false,
