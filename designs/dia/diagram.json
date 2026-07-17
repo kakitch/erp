@@ -2201,7 +2201,7 @@
           "sequence": 11,
           "key": null,
           "property": "Total_Cost",
-          "type": "",
+          "type": "NUMERIC",
           "length": null,
           "precision": null,
           "isPrimary": false,
