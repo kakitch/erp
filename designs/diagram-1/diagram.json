@@ -634,9 +634,9 @@
         {
           "id": "e85b07a5-7d68-4b01-8a17-e79a7a6237b7",
           "sequence": 4,
-          "key": null,
+          "key": "FK",
           "property": "OrderID",
-          "type": "INT",
+          "type": "INTEGER",
           "length": null,
           "precision": null,
           "isPrimary": false,
@@ -654,7 +654,18 @@
           "isNotNull": true
         }
       ],
-      "relationships": []
+      "relationships": [
+        {
+          "id": "947ce982-8fd2-4c17-aef1-c3219442752b",
+          "source": {
+            "id": "e85b07a5-7d68-4b01-8a17-e79a7a6237b7"
+          },
+          "reference": {
+            "id": "0b23e425-581d-4e35-ad6a-74aff295d545"
+          },
+          "parentRequired": false
+        }
+      ]
     }
   ],
   "dialect": "postgres",
