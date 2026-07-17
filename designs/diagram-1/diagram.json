@@ -441,8 +441,8 @@
           "sequence": 7,
           "key": null,
           "property": "Description",
-          "type": "",
-          "length": null,
+          "type": "VARCHAR",
+          "length": 120,
           "precision": null,
           "isPrimary": false,
           "isNotNull": false
@@ -452,8 +452,8 @@
           "sequence": 8,
           "key": null,
           "property": "Rev",
-          "type": "",
-          "length": null,
+          "type": "VARCHAR",
+          "length": 12,
           "precision": null,
           "isPrimary": false,
           "isNotNull": true
