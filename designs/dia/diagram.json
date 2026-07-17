@@ -1903,6 +1903,50 @@
           "precision": null,
           "isPrimary": false,
           "isNotNull": true
+        },
+        {
+          "id": "f67e4999-cb7f-4a63-ae4a-ae0672384a77",
+          "sequence": 2,
+          "key": null,
+          "property": "First Name",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "6da24684-e519-46da-8153-af1fd5cf3d7c",
+          "sequence": 3,
+          "key": null,
+          "property": "Last Name",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "db83f9ce-821b-43f6-b90c-007fb0dfd49b",
+          "sequence": 4,
+          "key": null,
+          "property": "Middle_Initial",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "53c3b334-c94e-4966-8009-ec5d584ef446",
+          "sequence": 5,
+          "key": null,
+          "property": "",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
         }
       ],
       "relationships": []
