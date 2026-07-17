@@ -881,6 +881,17 @@
           "precision": null,
           "isPrimary": false,
           "isNotNull": false
+        },
+        {
+          "id": "971bb0f8-001c-4cf6-9287-bc007381317a",
+          "sequence": 5,
+          "key": null,
+          "property": "Material",
+          "type": "VARCHAR",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
         }
       ],
       "relationships": []
