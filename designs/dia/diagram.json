@@ -2481,8 +2481,19 @@
           "isNotNull": true
         },
         {
-          "id": "d99b72ba-14f8-4edf-9d53-667892cf2f24",
+          "id": "6383224c-c195-411a-8a64-a745ef97b2cd",
           "sequence": 2,
+          "key": null,
+          "property": "Vendor_ID",
+          "type": "VARCHAR",
+          "length": 20,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "d99b72ba-14f8-4edf-9d53-667892cf2f24",
+          "sequence": 3,
           "key": null,
           "property": "Name",
           "type": "VARCHAR",
@@ -2493,7 +2504,7 @@
         },
         {
           "id": "6724c0fe-b5ff-42ce-87d0-3231f1971f19",
-          "sequence": 3,
+          "sequence": 4,
           "key": null,
           "property": "Email",
           "type": "VARCHAR",
@@ -2504,7 +2515,7 @@
         },
         {
           "id": "c81a1a8d-1fd3-453e-8093-2d5c88fc0ba4",
-          "sequence": 4,
+          "sequence": 5,
           "key": null,
           "property": "Phone",
           "type": "VARCHAR",
