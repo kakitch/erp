@@ -718,7 +718,8 @@
             }
           ]
         }
-      ]
+      ],
+      "layerId": "layer-addresses"
     },
     {
       "id": "4768f6a1-61b5-4be5-aa33-7125c3ee9a66",
