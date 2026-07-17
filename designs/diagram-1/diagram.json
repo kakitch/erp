@@ -328,7 +328,7 @@
     },
     {
       "id": "d3b36220-0ea1-4e43-9d53-fc64cae55e68",
-      "name": "OrderItem",
+      "name": "Sales_Order_Item",
       "position": {
         "x": 884.1006732523755,
         "y": 151.15314918517566,
