@@ -2210,6 +2210,18 @@
       ],
       "relationships": [],
       "layerId": "85a68829-227a-4be7-a5cb-8351816a466f"
+    },
+    {
+      "id": "e94b7f7b-1034-480f-bf0c-673cc981b8fc",
+      "name": "Vendor",
+      "position": {
+        "x": 530.380860785616,
+        "y": 456.9061532106173,
+        "w": 200,
+        "h": 80
+      },
+      "properties": [],
+      "relationships": []
     }
   ],
   "dialect": "tsql",
