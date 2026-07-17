@@ -2091,7 +2091,7 @@
           "sequence": 1,
           "key": "PK",
           "property": "Id",
-          "type": "",
+          "type": "In",
           "length": null,
           "precision": null,
           "isPrimary": true,
