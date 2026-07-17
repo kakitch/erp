@@ -1180,6 +1180,39 @@
           "precision": null,
           "isPrimary": false,
           "isNotNull": true
+        },
+        {
+          "id": "f5ecceb9-6055-461c-b01f-63b9b0eb1350",
+          "sequence": 4,
+          "key": null,
+          "property": "Saw",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "0d7b4cfb-e258-4471-ad7c-7e73d76924fa",
+          "sequence": 5,
+          "key": null,
+          "property": "Plasma",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "94820ba6-6495-44c7-80cb-7bb65d7ed029",
+          "sequence": 6,
+          "key": null,
+          "property": "",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
         }
       ],
       "relationships": []
