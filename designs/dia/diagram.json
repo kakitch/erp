@@ -1800,12 +1800,12 @@
         {
           "id": "e141786e-8df0-4752-8bc3-963a19c3ff12",
           "sequence": 2,
-          "key": null,
+          "key": "PK",
           "property": "Vendor_ID",
           "type": "",
           "length": null,
           "precision": null,
-          "isPrimary": false,
+          "isPrimary": true,
           "isNotNull": true
         }
       ],
