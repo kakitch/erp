@@ -215,7 +215,17 @@
             "id": "22caf82c-28a2-4ecb-acba-70fecb1464b6"
           },
           "parentRequired": false,
-          "targetCardinality": "zero-or-one"
+          "targetCardinality": "zero-or-one",
+          "columnPairs": [
+            {
+              "reference": {
+                "id": "22caf82c-28a2-4ecb-acba-70fecb1464b6"
+              },
+              "source": {
+                "id": "6545a11d-debb-45b0-bcf7-28e35d3b542f"
+              }
+            }
+          ]
         }
       ],
       "description": "Shipping and billing addresses belonging to a customer.",
@@ -383,7 +393,17 @@
           "reference": {
             "id": "0533046c-d1f8-42fc-b8e5-176ac33598d8"
           },
-          "parentRequired": false
+          "parentRequired": false,
+          "columnPairs": [
+            {
+              "reference": {
+                "id": "0533046c-d1f8-42fc-b8e5-176ac33598d8"
+              },
+              "source": {
+                "id": "176f7dc2-901b-4e0e-bd1c-7fad0a18a12e"
+              }
+            }
+          ]
         }
       ],
       "description": "Customer purchases. Total is denormalized from OrderItems for fast list views.",
@@ -671,7 +691,17 @@
           "reference": {
             "id": "6587ca0f-4780-4e1e-884a-1b4504b28384"
           },
-          "parentRequired": false
+          "parentRequired": false,
+          "columnPairs": [
+            {
+              "reference": {
+                "id": "6587ca0f-4780-4e1e-884a-1b4504b28384"
+              },
+              "source": {
+                "id": "fd0b987d-3ee8-4ae5-97cd-09fdb16f3bff"
+              }
+            }
+          ]
         }
       ],
       "description": "table of customer contacts",
@@ -784,7 +814,17 @@
           "reference": {
             "id": "0b23e425-581d-4e35-ad6a-74aff295d545"
           },
-          "parentRequired": false
+          "parentRequired": false,
+          "columnPairs": [
+            {
+              "reference": {
+                "id": "0b23e425-581d-4e35-ad6a-74aff295d545"
+              },
+              "source": {
+                "id": "e85b07a5-7d68-4b01-8a17-e79a7a6237b7"
+              }
+            }
+          ]
         },
         {
           "id": "0e12e515-a83c-4c22-9765-a37513d7ad52",
@@ -794,7 +834,17 @@
           "reference": {
             "id": "2265a588-8794-40c6-86d0-ea3ee1786789"
           },
-          "parentRequired": false
+          "parentRequired": false,
+          "columnPairs": [
+            {
+              "reference": {
+                "id": "2265a588-8794-40c6-86d0-ea3ee1786789"
+              },
+              "source": {
+                "id": "ed1e3333-aa2a-4f82-ba66-5443a660185c"
+              }
+            }
+          ]
         },
         {
           "id": "0996b387-0e63-4242-a4d4-e5991c94d1ba",
@@ -844,7 +894,17 @@
           "reference": {
             "id": "e4146b82-34dd-4b03-8e0a-8e7cc792797d"
           },
-          "parentRequired": false
+          "parentRequired": false,
+          "columnPairs": [
+            {
+              "reference": {
+                "id": "e4146b82-34dd-4b03-8e0a-8e7cc792797d"
+              },
+              "source": {
+                "id": "ed1e3333-aa2a-4f82-ba66-5443a660185c"
+              }
+            }
+          ]
         },
         {
           "id": "e7ed2070-6726-4b31-927d-a1417333b2f7",
@@ -1232,8 +1292,8 @@
       "id": "681190b3-4470-486e-816a-5f44daa913cd",
       "name": "Job_linstock_Nesting",
       "position": {
-        "x": 169.86321272838524,
-        "y": 753.7588721644597,
+        "x": 48.78143042687705,
+        "y": 637.8663091044448,
         "w": 200,
         "h": 80
       },
