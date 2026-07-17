@@ -814,7 +814,18 @@
           "parentRequired": false
         }
       ],
-      "description": "table of customer contacts"
+      "description": "table of customer contacts",
+      "indexes": [
+        {
+          "id": "eacc029d-de07-4269-b801-acf831783678",
+          "name": "IX_customer_contact_CustomerId",
+          "keyColumns": [
+            {
+              "columnId": "fd0b987d-3ee8-4ae5-97cd-09fdb16f3bff"
+            }
+          ]
+        }
+      ]
     }
   ],
   "dialect": "postgres",
