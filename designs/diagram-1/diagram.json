@@ -991,7 +991,19 @@
         "w": 200,
         "h": 80
       },
-      "properties": [],
+      "properties": [
+        {
+          "id": "fc17b6ec-1f84-4e6e-ae84-f72f7e2cb198",
+          "sequence": 1,
+          "key": "PK",
+          "property": "ID",
+          "type": "INT",
+          "length": null,
+          "precision": null,
+          "isPrimary": true,
+          "isNotNull": true
+        }
+      ],
       "relationships": []
     }
   ],
