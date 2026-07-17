@@ -2680,7 +2680,8 @@
     {
       "id": "24f15bb4-c76f-4f0a-9249-73a35cb72639",
       "name": "Quality Data",
-      "visible": true
+      "visible": true,
+      "color": "#455a64"
     }
   ]
 }
