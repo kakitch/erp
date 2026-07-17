@@ -2063,12 +2063,45 @@
         {
           "id": "49b5bdf8-37cb-49c4-a536-8368f1dc8343",
           "sequence": 1,
-          "key": null,
-          "property": "",
+          "key": "PK",
+          "property": "ID",
+          "type": "INT",
+          "length": null,
+          "precision": null,
+          "isPrimary": true,
+          "isNotNull": true
+        },
+        {
+          "id": "4f7f339f-9cc2-48a2-9226-f830fa5fb4d6",
+          "sequence": 2,
+          "key": "PK",
+          "property": "HT#",
+          "type": "VARCHAR",
+          "length": 20,
+          "precision": null,
+          "isPrimary": true,
+          "isNotNull": true
+        },
+        {
+          "id": "0835e933-3d5d-409b-8f9d-cd43407ac827",
+          "sequence": 3,
+          "key": "PK",
+          "property": "PO#",
+          "type": "INT",
+          "length": null,
+          "precision": null,
+          "isPrimary": true,
+          "isNotNull": true
+        },
+        {
+          "id": "bdf4caee-0afd-4b0a-93ed-adac27a0158e",
+          "sequence": 4,
+          "key": "PK",
+          "property": "Link",
           "type": "",
           "length": null,
           "precision": null,
-          "isPrimary": false,
+          "isPrimary": true,
           "isNotNull": true
         }
       ],
