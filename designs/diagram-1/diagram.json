@@ -742,7 +742,7 @@
           "id": "7ec1d924-d81f-44f7-89f2-4de436b5f7d7",
           "sequence": 3,
           "key": null,
-          "property": "Quantity",
+          "property": "Qty",
           "type": "",
           "length": null,
           "precision": null,
