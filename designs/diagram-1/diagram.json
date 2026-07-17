@@ -178,7 +178,7 @@
           "sequence": 9,
           "key": null,
           "property": "IsShipping",
-          "type": "boo",
+          "type": "BOOLEAN",
           "length": null,
           "precision": null,
           "isPrimary": false,
