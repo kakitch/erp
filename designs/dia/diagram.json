@@ -2740,6 +2740,30 @@
       ],
       "relationships": [],
       "layerId": "4b4818e0-6066-4461-9a92-cad564e0f690"
+    },
+    {
+      "id": "7d0e97d0-7f24-4c8b-ae96-2a88ea6f9811",
+      "name": "Holiday",
+      "position": {
+        "x": 504.45433844074694,
+        "y": 161.71491237893486,
+        "w": 200,
+        "h": 80
+      },
+      "properties": [
+        {
+          "id": "f2494934-3ab5-4a09-bf8c-cd445902a076",
+          "sequence": 1,
+          "key": null,
+          "property": "",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        }
+      ],
+      "relationships": []
     }
   ],
   "dialect": "tsql",
