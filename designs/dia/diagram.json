@@ -1850,6 +1850,17 @@
           "precision": null,
           "isPrimary": false,
           "isNotNull": true
+        },
+        {
+          "id": "835a36d1-b11a-46ed-bd0f-8228df9a2362",
+          "sequence": 10,
+          "key": null,
+          "property": "Freight",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
         }
       ],
       "relationships": [],
