@@ -1342,7 +1342,7 @@
         {
           "id": "5b904b4c-7667-4909-a4f7-86da0bb5a31f",
           "sequence": 2,
-          "key": null,
+          "key": "FK",
           "property": "Operation_Id",
           "type": "VARCHAR",
           "length": 20,
@@ -1417,7 +1417,28 @@
           "isNotNull": true
         }
       ],
-      "relationships": [],
+      "relationships": [
+        {
+          "id": "3f38d9f8-a193-47e2-a385-ede75db8c6ab",
+          "source": {
+            "id": "5b904b4c-7667-4909-a4f7-86da0bb5a31f"
+          },
+          "reference": {
+            "id": "46b88a6d-5302-4825-9fd0-ac6d7ad0112a"
+          },
+          "columnPairs": [
+            {
+              "reference": {
+                "id": "46b88a6d-5302-4825-9fd0-ac6d7ad0112a"
+              },
+              "source": {
+                "id": "5b904b4c-7667-4909-a4f7-86da0bb5a31f"
+              }
+            }
+          ],
+          "parentRequired": false
+        }
+      ],
       "indexes": [
         {
           "id": "b003c57b-83d2-42a9-a3cd-2906aa9e067a",
@@ -1425,6 +1446,15 @@
           "keyColumns": [
             {
               "columnId": "8f1fe146-e07a-4213-82ab-5c09a3bbb200"
+            }
+          ]
+        },
+        {
+          "id": "559c0f13-1ce7-4c1e-989c-4ddd1a37cfc3",
+          "name": "IX_Job_Operation_Operation_Id",
+          "keyColumns": [
+            {
+              "columnId": "5b904b4c-7667-4909-a4f7-86da0bb5a31f"
             }
           ]
         }
