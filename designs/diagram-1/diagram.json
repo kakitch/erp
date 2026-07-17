@@ -1575,7 +1575,7 @@
           "id": "6fdb5c55-61af-4cc0-82f0-5e4b3ad82404",
           "sequence": 2,
           "key": null,
-          "property": "",
+          "property": "Delivery_Address",
           "type": "",
           "length": null,
           "precision": null,
