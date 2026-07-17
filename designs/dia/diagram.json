@@ -1374,7 +1374,7 @@
           "key": null,
           "property": "Notes",
           "type": "VARCHAR",
-          "length": 500,
+          "length": 1000,
           "precision": null,
           "isPrimary": false,
           "isNotNull": true
