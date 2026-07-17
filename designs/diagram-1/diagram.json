@@ -735,6 +735,18 @@
       },
       "properties": [],
       "relationships": []
+    },
+    {
+      "id": "c093e8f2-474e-4c87-8be8-e76a76c3332a",
+      "name": "customer_contact",
+      "position": {
+        "x": 193.9459941966379,
+        "y": 560.8795745965872,
+        "w": 200,
+        "h": 80
+      },
+      "properties": [],
+      "relationships": []
     }
   ],
   "dialect": "postgres",
