@@ -760,7 +760,7 @@
         {
           "id": "fd0b987d-3ee8-4ae5-97cd-09fdb16f3bff",
           "sequence": 2,
-          "key": null,
+          "key": "FK",
           "property": "CustomerId",
           "type": "INT",
           "length": null,
@@ -802,7 +802,18 @@
           "isNotNull": true
         }
       ],
-      "relationships": [],
+      "relationships": [
+        {
+          "id": "03e7cbf5-a364-49f2-b3dc-70a82fc9f4ce",
+          "source": {
+            "id": "fd0b987d-3ee8-4ae5-97cd-09fdb16f3bff"
+          },
+          "reference": {
+            "id": "6587ca0f-4780-4e1e-884a-1b4504b28384"
+          },
+          "parentRequired": false
+        }
+      ],
       "description": "table of customer contacts"
     }
   ],
