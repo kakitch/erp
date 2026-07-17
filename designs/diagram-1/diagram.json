@@ -762,6 +762,17 @@
           "precision": null,
           "isPrimary": false,
           "isNotNull": false
+        },
+        {
+          "id": "d24dd54e-8ad0-40f1-a039-0c99eab33834",
+          "sequence": 7,
+          "key": null,
+          "property": "Top_Level_Job",
+          "type": "VARCHAR",
+          "length": 20,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
         }
       ],
       "relationships": [
