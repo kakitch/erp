@@ -1803,7 +1803,7 @@
           "id": "baad0692-1fcd-41cc-aeda-df708d9e4839",
           "sequence": 2,
           "key": null,
-          "property": "",
+          "property": "Job_ID",
           "type": "",
           "length": null,
           "precision": null,
