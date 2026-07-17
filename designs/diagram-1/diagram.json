@@ -1062,7 +1062,7 @@
           "id": "eb17d494-189b-4c16-8103-ba0849e5bc66",
           "sequence": 7,
           "key": null,
-          "property": "",
+          "property": "status",
           "type": "",
           "length": null,
           "precision": null,
