@@ -1102,6 +1102,30 @@
         }
       ],
       "relationships": []
+    },
+    {
+      "id": "f97da70f-175b-4922-9524-c0a63148c5a5",
+      "name": "vendor",
+      "position": {
+        "x": 304.68760789071825,
+        "y": 599.6000520969354,
+        "w": 200,
+        "h": 80
+      },
+      "properties": [
+        {
+          "id": "76cf47c5-b7a6-4574-82f1-e11839c5c1f3",
+          "sequence": 1,
+          "key": "PK",
+          "property": "ID",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": true,
+          "isNotNull": true
+        }
+      ],
+      "relationships": []
     }
   ],
   "dialect": "tsql",
