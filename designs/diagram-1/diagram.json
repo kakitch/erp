@@ -986,8 +986,8 @@
       "id": "58c5572d-372d-476b-8497-b6e073c5c987",
       "name": "Job_Component",
       "position": {
-        "x": 459.2470287674298,
-        "y": 599.6000520969354,
+        "x": 1225.1001412823744,
+        "y": 1091.598914540004,
         "w": 200,
         "h": 80
       },
@@ -1063,6 +1063,17 @@
           "sequence": 7,
           "key": null,
           "property": "status",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "1ce1e463-d56e-4026-80b8-f4692a04e330",
+          "sequence": 8,
+          "key": null,
+          "property": "Job_ID",
           "type": "",
           "length": null,
           "precision": null,
