@@ -758,8 +758,19 @@
           "isNotNull": true
         },
         {
-          "id": "1b2dcd37-c215-497a-9429-4101430708b0",
+          "id": "fd0b987d-3ee8-4ae5-97cd-09fdb16f3bff",
           "sequence": 2,
+          "key": null,
+          "property": "Customer_ID",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "1b2dcd37-c215-497a-9429-4101430708b0",
+          "sequence": 3,
           "key": null,
           "property": "Contact_Name",
           "type": "",
@@ -769,10 +780,10 @@
           "isNotNull": true
         },
         {
-          "id": "fd0b987d-3ee8-4ae5-97cd-09fdb16f3bff",
-          "sequence": 3,
+          "id": "3fbfee75-34a5-42fb-835b-4d02bd7256d6",
+          "sequence": 4,
           "key": null,
-          "property": "Customer_ID",
+          "property": "",
           "type": "",
           "length": null,
           "precision": null,
