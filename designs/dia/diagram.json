@@ -2714,6 +2714,28 @@
           "precision": null,
           "isPrimary": false,
           "isNotNull": true
+        },
+        {
+          "id": "a138d6e7-ef27-4f89-94d3-4a9c9cc03f82",
+          "sequence": 3,
+          "key": null,
+          "property": "Address",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "1d7dba8d-2bf4-45fb-8de1-5c0beb873f68",
+          "sequence": 4,
+          "key": null,
+          "property": "",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
         }
       ],
       "relationships": [],
