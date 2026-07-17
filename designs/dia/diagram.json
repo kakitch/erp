@@ -1870,6 +1870,18 @@
       },
       "properties": [],
       "relationships": []
+    },
+    {
+      "id": "6b8b43f2-2c76-4f7e-bbad-c580a69be0e6",
+      "name": "NCR",
+      "position": {
+        "x": 835.0563549547066,
+        "y": 502.8976141912847,
+        "w": 200,
+        "h": 80
+      },
+      "properties": [],
+      "relationships": []
     }
   ],
   "dialect": "tsql",
