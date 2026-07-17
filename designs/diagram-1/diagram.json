@@ -1559,7 +1559,19 @@
         "w": 200,
         "h": 80
       },
-      "properties": [],
+      "properties": [
+        {
+          "id": "b9480008-3392-4fa2-81cb-63f402f80f1f",
+          "sequence": 1,
+          "key": null,
+          "property": "PackList_ID",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        }
+      ],
       "relationships": []
     }
   ],
