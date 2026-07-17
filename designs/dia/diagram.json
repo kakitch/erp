@@ -1330,7 +1330,7 @@
           "key": null,
           "property": "URL",
           "type": "VARCHAR",
-          "length": null,
+          "length": 4000,
           "precision": null,
           "isPrimary": false,
           "isNotNull": true
