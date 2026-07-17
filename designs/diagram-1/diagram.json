@@ -1565,10 +1565,21 @@
           "sequence": 1,
           "key": "PK",
           "property": "PackList_ID",
-          "type": "",
+          "type": "INT",
           "length": null,
           "precision": null,
           "isPrimary": true,
+          "isNotNull": true
+        },
+        {
+          "id": "6fdb5c55-61af-4cc0-82f0-5e4b3ad82404",
+          "sequence": 2,
+          "key": null,
+          "property": "",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
           "isNotNull": true
         }
       ],
