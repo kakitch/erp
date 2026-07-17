@@ -1673,8 +1673,8 @@
       "id": "81fda5bc-622f-44cd-aafe-c4483aa3a64a",
       "name": "Job_plt_Nesting",
       "position": {
-        "x": 400.12422296907744,
-        "y": 690.0015875944185,
+        "x": 54.38306063398218,
+        "y": 875.8545444227701,
         "w": 200,
         "h": 80
       },
@@ -1716,7 +1716,29 @@
           "id": "6f520e76-8c78-4610-a84b-0596a4bbd152",
           "sequence": 4,
           "key": null,
-          "property": "",
+          "property": "Length",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "448f4e8e-13f2-495c-b93b-f6328ccefa86",
+          "sequence": 5,
+          "key": null,
+          "property": "Width",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "8d5df06a-1507-4ffb-b354-329074120bde",
+          "sequence": 6,
+          "key": null,
+          "property": "qty",
           "type": "",
           "length": null,
           "precision": null,
