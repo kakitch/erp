@@ -172,6 +172,17 @@
           "isPrimary": false,
           "isNotNull": true,
           "defaultValue": "false"
+        },
+        {
+          "id": "e8286b9d-cdd4-4b00-ba02-35e456935a68",
+          "sequence": 9,
+          "key": null,
+          "property": "IsShipping",
+          "type": "boo",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
         }
       ],
       "relationships": [
