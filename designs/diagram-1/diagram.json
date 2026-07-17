@@ -305,7 +305,7 @@
           "id": "176f7dc2-901b-4e0e-bd1c-7fad0a18a12e",
           "sequence": 8,
           "key": null,
-          "property": "",
+          "property": "Customer_Contact_ID",
           "type": "",
           "length": null,
           "precision": null,
