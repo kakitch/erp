@@ -723,6 +723,18 @@
       },
       "properties": [],
       "relationships": []
+    },
+    {
+      "id": "b49a01c8-844d-4665-9ad2-08c3c38961bd",
+      "name": "Cu",
+      "position": {
+        "x": 199.9459941966379,
+        "y": 306.87957459658725,
+        "w": 200,
+        "h": 80
+      },
+      "properties": [],
+      "relationships": []
     }
   ],
   "dialect": "postgres",
