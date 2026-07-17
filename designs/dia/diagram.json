@@ -1861,6 +1861,17 @@
           "precision": null,
           "isPrimary": false,
           "isNotNull": true
+        },
+        {
+          "id": "9b6d5f56-62d3-490c-a941-4265bc096477",
+          "sequence": 11,
+          "key": null,
+          "property": "Contact",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
         }
       ],
       "relationships": [],
@@ -1870,8 +1881,8 @@
       "id": "80e5f40d-94a1-4d49-a9d5-094874006fae",
       "name": "PL_Detail",
       "position": {
-        "x": 2077.5970819404693,
-        "y": 1528.1910587443122,
+        "x": 2050.2201759861387,
+        "y": 1417.6694754471987,
         "w": 200,
         "h": 80
       },
