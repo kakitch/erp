@@ -1947,6 +1947,50 @@
           "precision": null,
           "isPrimary": false,
           "isNotNull": true
+        },
+        {
+          "id": "b0dadacc-363c-47e2-871c-d4c77eb5428a",
+          "sequence": 6,
+          "key": null,
+          "property": "City",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "436104f1-8a48-4945-9500-5534a0b3fb31",
+          "sequence": 7,
+          "key": null,
+          "property": "State ",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "7adc0867-6784-4592-b727-ba98adbc7261",
+          "sequence": 8,
+          "key": null,
+          "property": "Zip",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "461072a0-d1f1-4898-91fa-12d408ee3e6c",
+          "sequence": 9,
+          "key": null,
+          "property": "Pay",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
         }
       ],
       "relationships": []
