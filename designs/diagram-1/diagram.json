@@ -384,6 +384,15 @@
               "columnId": "ffcdb07b-46ff-481e-acf5-17ac0064b5c9"
             }
           ]
+        },
+        {
+          "id": "11079f11-e335-449a-bc9e-1e16a929dbea",
+          "name": "IX_SalesOrder_Customer_Contact_ID",
+          "keyColumns": [
+            {
+              "columnId": "176f7dc2-901b-4e0e-bd1c-7fad0a18a12e"
+            }
+          ]
         }
       ]
     },
