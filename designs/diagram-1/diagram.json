@@ -754,7 +754,7 @@
           "sequence": 4,
           "key": null,
           "property": "length",
-          "type": "",
+          "type": "NUMERIC",
           "length": null,
           "precision": null,
           "isPrimary": false,
