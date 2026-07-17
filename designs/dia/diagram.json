@@ -1806,6 +1806,17 @@
           "precision": null,
           "isPrimary": false,
           "isNotNull": true
+        },
+        {
+          "id": "2384146b-d595-47b6-be36-8c41c48288a9",
+          "sequence": 6,
+          "key": null,
+          "property": "Customer_Vendor",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
         }
       ],
       "relationships": [],
