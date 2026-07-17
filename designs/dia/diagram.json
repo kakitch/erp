@@ -1396,7 +1396,7 @@
           "key": null,
           "property": "Status",
           "type": "VARCHAR",
-          "length": null,
+          "length": 20,
           "precision": null,
           "isPrimary": false,
           "isNotNull": true
