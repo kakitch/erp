@@ -1705,7 +1705,7 @@
           "id": "1624b6e6-73e8-41b1-a498-d5fee7f52288",
           "sequence": 3,
           "key": null,
-          "property": "",
+          "property": "length",
           "type": "",
           "length": null,
           "precision": null,
