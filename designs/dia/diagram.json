@@ -2766,7 +2766,7 @@
           "id": "6f5405ef-23e0-4c17-8a97-dad60aa48bcf",
           "sequence": 2,
           "key": null,
-          "property": "",
+          "property": "Holiday_Name",
           "type": "",
           "length": null,
           "precision": null,
