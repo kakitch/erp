@@ -1415,6 +1415,17 @@
           "precision": null,
           "isPrimary": false,
           "isNotNull": true
+        },
+        {
+          "id": "1c237a80-24d9-475a-8a58-18be6c5fa96c",
+          "sequence": 9,
+          "key": null,
+          "property": "Var",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
         }
       ],
       "relationships": [
