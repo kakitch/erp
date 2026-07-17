@@ -761,7 +761,7 @@
           "id": "fd0b987d-3ee8-4ae5-97cd-09fdb16f3bff",
           "sequence": 2,
           "key": null,
-          "property": "CustomerID",
+          "property": "CustomerId",
           "type": "INT",
           "length": null,
           "precision": null,
