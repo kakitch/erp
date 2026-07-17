@@ -2226,6 +2226,17 @@
           "precision": null,
           "isPrimary": false,
           "isNotNull": true
+        },
+        {
+          "id": "a9fcebe3-a058-4363-acab-0dd04960561f",
+          "sequence": 12,
+          "key": null,
+          "property": "Vendor",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
         }
       ],
       "relationships": [],
