@@ -350,12 +350,12 @@
         {
           "id": "17bbc78e-328b-41f7-8586-3f5cf08d06eb",
           "sequence": 2,
-          "key": "PK",
+          "key": null,
           "property": "OrderId",
           "type": "INTEGER",
           "length": null,
           "precision": null,
-          "isPrimary": true,
+          "isPrimary": false,
           "isNotNull": true
         },
         {
