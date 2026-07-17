@@ -2024,6 +2024,30 @@
       ],
       "relationships": [],
       "layerId": "4b4818e0-6066-4461-9a92-cad564e0f690"
+    },
+    {
+      "id": "0bceca67-9c72-4cff-ab54-58b6a1bdb58b",
+      "name": "",
+      "position": {
+        "x": 671.3335843297109,
+        "y": 456.9061532106173,
+        "w": 200,
+        "h": 80
+      },
+      "properties": [
+        {
+          "id": "44dece70-782a-4a8b-b30a-194286478f19",
+          "sequence": 1,
+          "key": null,
+          "property": "",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        }
+      ],
+      "relationships": []
     }
   ],
   "dialect": "tsql",
