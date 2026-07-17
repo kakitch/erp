@@ -280,17 +280,6 @@
           "defaultValue": "'pending'"
         },
         {
-          "id": "18512d93-6267-45b7-b547-2a1efede7d54",
-          "sequence": 5,
-          "key": null,
-          "property": "Total",
-          "type": "NUMERIC",
-          "length": 12,
-          "precision": 2,
-          "isPrimary": false,
-          "isNotNull": true
-        },
-        {
           "id": "22caf82c-28a2-4ecb-acba-70fecb1464b6",
           "sequence": 6,
           "key": null,
