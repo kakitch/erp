@@ -56,6 +56,17 @@
           "precision": null,
           "isPrimary": false,
           "isNotNull": true
+        },
+        {
+          "id": "b35256ba-fbb2-4792-bce7-3e6a20a0ca0a",
+          "sequence": 5,
+          "key": null,
+          "property": "Customer_Since",
+          "type": "DATETIME",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
         }
       ],
       "relationships": [],
