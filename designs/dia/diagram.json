@@ -2768,7 +2768,7 @@
           "key": null,
           "property": "Holiday_Name",
           "type": "VARCHAR",
-          "length": null,
+          "length": 20,
           "precision": null,
           "isPrimary": false,
           "isNotNull": true
