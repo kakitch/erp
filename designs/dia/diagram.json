@@ -1356,6 +1356,17 @@
           "precision": null,
           "isPrimary": false,
           "isNotNull": true
+        },
+        {
+          "id": "64574cbf-644b-401c-b52b-3c439d1fe6a8",
+          "sequence": 7,
+          "key": null,
+          "property": "GL_Account",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
         }
       ],
       "relationships": [],
