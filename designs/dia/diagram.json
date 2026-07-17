@@ -1800,12 +1800,23 @@
         {
           "id": "e141786e-8df0-4752-8bc3-963a19c3ff12",
           "sequence": 2,
-          "key": "PK",
+          "key": null,
           "property": "Vendor_ID",
           "type": "",
           "length": null,
           "precision": null,
-          "isPrimary": true,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "b151320b-9d71-4616-979b-bcd3bc0d86e7",
+          "sequence": 3,
+          "key": null,
+          "property": "Terms",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
           "isNotNull": true
         }
       ],
