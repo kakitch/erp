@@ -1147,7 +1147,30 @@
         "w": 200,
         "h": 80
       },
-      "properties": [],
+      "properties": [
+        {
+          "id": "161991d1-5cd8-43f0-bb56-cfd092306458",
+          "sequence": 1,
+          "key": "PK",
+          "property": "ID",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": true,
+          "isNotNull": true
+        },
+        {
+          "id": "e4146b82-34dd-4b03-8e0a-8e7cc792797d",
+          "sequence": 2,
+          "key": null,
+          "property": "Job_ID",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        }
+      ],
       "relationships": []
     }
   ],
