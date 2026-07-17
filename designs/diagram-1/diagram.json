@@ -254,7 +254,7 @@
           "id": "0b23e425-581d-4e35-ad6a-74aff295d545",
           "sequence": 1,
           "key": "PK",
-          "property": "OrderId",
+          "property": "Order_ID",
           "type": "INTEGER",
           "length": null,
           "precision": null,
