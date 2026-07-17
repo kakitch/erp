@@ -2535,7 +2535,7 @@
     {
       "id": "layer-addresses",
       "name": "Addresses",
-      "visible": false,
+      "visible": true,
       "color": "#5d4037"
     }
   ]
