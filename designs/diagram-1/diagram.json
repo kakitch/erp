@@ -808,8 +808,19 @@
         {
           "id": "9268b687-ccfa-4921-b7ed-850e83610b73",
           "sequence": 1,
+          "key": "PK",
+          "property": "ID",
+          "type": "INT",
+          "length": null,
+          "precision": null,
+          "isPrimary": true,
+          "isNotNull": true
+        },
+        {
+          "id": "22aff5dd-c445-4a95-a6cd-932715af43e3",
+          "sequence": 2,
           "key": null,
-          "property": "",
+          "property": "Part_Number",
           "type": "",
           "length": null,
           "precision": null,
