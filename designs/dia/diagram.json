@@ -1892,7 +1892,19 @@
         "w": 200,
         "h": 80
       },
-      "properties": [],
+      "properties": [
+        {
+          "id": "a8eb1357-afdf-49a3-8c72-695535132e75",
+          "sequence": 1,
+          "key": null,
+          "property": "Id",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        }
+      ],
       "relationships": []
     }
   ],
