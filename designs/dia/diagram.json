@@ -2242,6 +2242,83 @@
           "precision": null,
           "isPrimary": false,
           "isNotNull": true
+        },
+        {
+          "id": "79b1b7be-0a84-45ea-b6c0-8bd764bb49ab",
+          "sequence": 3,
+          "key": null,
+          "property": "Line1",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "7d5d42c8-d963-4dd4-938e-3afd9d308059",
+          "sequence": 4,
+          "key": null,
+          "property": "Line2",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "be86bc4a-7c53-4531-ba8d-384e125fe36f",
+          "sequence": 5,
+          "key": null,
+          "property": "City",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "6c817730-9402-4a77-b6ab-5ccb13ecab24",
+          "sequence": 6,
+          "key": null,
+          "property": "State",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "1da9831b-a774-4382-bfb8-d378a492ee96",
+          "sequence": 7,
+          "key": null,
+          "property": "PostalCode",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "8a91d14c-aa4d-4fe9-aea4-cd31ad3079bb",
+          "sequence": 8,
+          "key": null,
+          "property": "IsBilling",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "17e99afa-a11e-4c00-9196-5c5b7657b588",
+          "sequence": 9,
+          "key": null,
+          "property": "IsShipping",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
         }
       ],
       "relationships": [],
