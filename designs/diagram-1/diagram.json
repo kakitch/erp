@@ -759,6 +759,17 @@
           "precision": null,
           "isPrimary": false,
           "isNotNull": true
+        },
+        {
+          "id": "9bf658d8-7374-465f-abaa-02cd6c285bcb",
+          "sequence": 5,
+          "key": null,
+          "property": "Material",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
         }
       ],
       "relationships": []
