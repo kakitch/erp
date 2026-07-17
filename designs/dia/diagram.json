@@ -2107,6 +2107,61 @@
           "precision": null,
           "isPrimary": false,
           "isNotNull": true
+        },
+        {
+          "id": "29e98ac8-9b3d-498a-b56d-df7619e61d5a",
+          "sequence": 3,
+          "key": null,
+          "property": "",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "dcc3fa16-0c62-48bf-8f0f-5da7559c61e1",
+          "sequence": 4,
+          "key": null,
+          "property": "",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "a87188fa-301c-43a8-87bf-f34667f5ebea",
+          "sequence": 5,
+          "key": null,
+          "property": "",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "96162eee-e6f9-412b-a52f-0e0467bf9c05",
+          "sequence": 6,
+          "key": null,
+          "property": "",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "32c251ed-1a83-4419-969a-18da860230b5",
+          "sequence": 7,
+          "key": null,
+          "property": "",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
         }
       ],
       "relationships": [],
