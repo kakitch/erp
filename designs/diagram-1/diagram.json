@@ -361,12 +361,12 @@
         {
           "id": "2e959803-2cec-415c-ae38-84ab17888142",
           "sequence": 3,
-          "key": "PK",
+          "key": null,
           "property": "LineNum",
           "type": "INTEGER",
           "length": null,
           "precision": null,
-          "isPrimary": true,
+          "isPrimary": false,
           "isNotNull": true
         },
         {
