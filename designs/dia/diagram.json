@@ -1668,6 +1668,52 @@
       },
       "properties": [],
       "relationships": []
+    },
+    {
+      "id": "81fda5bc-622f-44cd-aafe-c4483aa3a64a",
+      "name": "Job_plt_Nesting",
+      "position": {
+        "x": 400.12422296907744,
+        "y": 690.0015875944185,
+        "w": 200,
+        "h": 80
+      },
+      "properties": [
+        {
+          "id": "60025164-08d9-4bfb-954e-20afb0cc4317",
+          "sequence": 1,
+          "key": "PK",
+          "property": "ID",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": true,
+          "isNotNull": true
+        },
+        {
+          "id": "b7a74762-f2a6-4e7a-9a7b-412ce2731136",
+          "sequence": 2,
+          "key": null,
+          "property": "Job_ID",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "1624b6e6-73e8-41b1-a498-d5fee7f52288",
+          "sequence": 3,
+          "key": null,
+          "property": "",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        }
+      ],
+      "relationships": []
     }
   ],
   "dialect": "tsql",
