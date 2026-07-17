@@ -1004,8 +1004,19 @@
           "isNotNull": true
         },
         {
-          "id": "c6cc82da-bd9e-48c5-9840-da712268048c",
+          "id": "1ce1e463-d56e-4026-80b8-f4692a04e330",
           "sequence": 2,
+          "key": null,
+          "property": "Job_ID",
+          "type": "VARCHAR",
+          "length": 20,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "c6cc82da-bd9e-48c5-9840-da712268048c",
+          "sequence": 3,
           "key": null,
           "property": "Description",
           "type": "VARCHAR",
@@ -1016,7 +1027,7 @@
         },
         {
           "id": "b7cd305f-5fbb-4fed-842b-0c93357e78f5",
-          "sequence": 3,
+          "sequence": 4,
           "key": null,
           "property": "Vendor",
           "type": "VARCHAR",
@@ -1027,7 +1038,7 @@
         },
         {
           "id": "d1915015-47a0-462a-8337-fd8fcb82265a",
-          "sequence": 4,
+          "sequence": 5,
           "key": null,
           "property": "Unit_Price",
           "type": "NUMERIC",
@@ -1038,7 +1049,7 @@
         },
         {
           "id": "545a6f58-31ad-4810-9cbb-9cd9d1ceb79e",
-          "sequence": 5,
+          "sequence": 6,
           "key": null,
           "property": "qty",
           "type": "INT",
@@ -1049,7 +1060,7 @@
         },
         {
           "id": "0179c19b-f2eb-4f60-b12e-e27c715b8183",
-          "sequence": 6,
+          "sequence": 7,
           "key": null,
           "property": "extended price",
           "type": "NUMERIC",
@@ -1060,22 +1071,11 @@
         },
         {
           "id": "eb17d494-189b-4c16-8103-ba0849e5bc66",
-          "sequence": 7,
+          "sequence": 8,
           "key": null,
           "property": "status",
           "type": "VARCHAR",
           "length": 12,
-          "precision": null,
-          "isPrimary": false,
-          "isNotNull": true
-        },
-        {
-          "id": "1ce1e463-d56e-4026-80b8-f4692a04e330",
-          "sequence": 8,
-          "key": null,
-          "property": "Job_ID",
-          "type": "VARCHAR",
-          "length": 20,
           "precision": null,
           "isPrimary": false,
           "isNotNull": true
