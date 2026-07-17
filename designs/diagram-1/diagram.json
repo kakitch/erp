@@ -1008,8 +1008,8 @@
           "sequence": 2,
           "key": null,
           "property": "Description",
-          "type": "",
-          "length": null,
+          "type": "VARCHAR",
+          "length": 40,
           "precision": null,
           "isPrimary": false,
           "isNotNull": true
