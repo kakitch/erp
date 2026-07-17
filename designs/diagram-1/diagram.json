@@ -1307,7 +1307,30 @@
         "w": 200,
         "h": 80
       },
-      "properties": [],
+      "properties": [
+        {
+          "id": "f4c64cd1-36bb-4b73-983b-6cbfa439872d",
+          "sequence": 1,
+          "key": null,
+          "property": "Id",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "5b904b4c-7667-4909-a4f7-86da0bb5a31f",
+          "sequence": 2,
+          "key": null,
+          "property": "Operation_Id",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        }
+      ],
       "relationships": []
     }
   ],
