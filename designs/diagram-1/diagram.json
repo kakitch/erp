@@ -772,7 +772,7 @@
           "id": "fd0b987d-3ee8-4ae5-97cd-09fdb16f3bff",
           "sequence": 3,
           "key": null,
-          "property": "",
+          "property": "Customer_ID",
           "type": "",
           "length": null,
           "precision": null,
