@@ -1329,6 +1329,17 @@
           "precision": null,
           "isPrimary": false,
           "isNotNull": true
+        },
+        {
+          "id": "8f1fe146-e07a-4213-82ab-5c09a3bbb200",
+          "sequence": 3,
+          "key": null,
+          "property": "Job_ID",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
         }
       ],
       "relationships": []
