@@ -339,12 +339,12 @@
         {
           "id": "b6f776aa-1b7c-4783-a0a2-cc0a8fc32009",
           "sequence": 1,
-          "key": null,
+          "key": "PK",
           "property": "Sales_Order_Item",
-          "type": "",
+          "type": "Integer",
           "length": null,
           "precision": null,
-          "isPrimary": false,
+          "isPrimary": true,
           "isNotNull": true
         },
         {
