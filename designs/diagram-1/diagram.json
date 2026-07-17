@@ -362,7 +362,7 @@
           "id": "98fb6131-6c26-49eb-bb5c-1caadfbd7ade",
           "sequence": 3,
           "key": "FK",
-          "property": "ProductId",
+          "property": "Part_Number",
           "type": "INTEGER",
           "length": null,
           "precision": null,
@@ -389,6 +389,17 @@
           "type": "NUMERIC",
           "length": 10,
           "precision": 2,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "a737de64-6b95-44e2-9f2e-3fbd9cd56d02",
+          "sequence": 6,
+          "key": null,
+          "property": "Description",
+          "type": "",
+          "length": null,
+          "precision": null,
           "isPrimary": false,
           "isNotNull": true
         }
