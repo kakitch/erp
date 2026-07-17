@@ -664,7 +664,7 @@
           "sequence": 5,
           "key": null,
           "property": "LineNum",
-          "type": "INT",
+          "type": "INTEGER",
           "length": null,
           "precision": null,
           "isPrimary": false,
