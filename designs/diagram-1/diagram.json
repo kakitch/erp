@@ -750,7 +750,7 @@
           "id": "0533046c-d1f8-42fc-b8e5-176ac33598d8",
           "sequence": 1,
           "key": null,
-          "property": "",
+          "property": "Contact_Name",
           "type": "",
           "length": null,
           "precision": null,
