@@ -981,6 +981,18 @@
         }
       ],
       "relationships": []
+    },
+    {
+      "id": "58c5572d-372d-476b-8497-b6e073c5c987",
+      "name": "Job_Component",
+      "position": {
+        "x": 459.2470287674298,
+        "y": 599.6000520969354,
+        "w": 200,
+        "h": 80
+      },
+      "properties": [],
+      "relationships": []
     }
   ],
   "dialect": "postgres",
