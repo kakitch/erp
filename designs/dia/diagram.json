@@ -1366,7 +1366,7 @@
           "length": 50,
           "precision": null,
           "isPrimary": false,
-          "isNotNull": true
+          "isNotNull": false
         },
         {
           "id": "8a32aeb5-01a3-4f46-871a-f2d560eb79d5",
@@ -1377,7 +1377,7 @@
           "length": 1000,
           "precision": null,
           "isPrimary": false,
-          "isNotNull": true
+          "isNotNull": false
         },
         {
           "id": "0ba355df-44c1-4f3b-9b85-ee50a91a542c",
