@@ -1378,6 +1378,17 @@
           "precision": null,
           "isPrimary": false,
           "isNotNull": true
+        },
+        {
+          "id": "0ba355df-44c1-4f3b-9b85-ee50a91a542c",
+          "sequence": 9,
+          "key": null,
+          "property": "Terms",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
         }
       ],
       "relationships": [],
