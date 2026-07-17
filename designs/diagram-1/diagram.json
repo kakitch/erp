@@ -1417,28 +1417,7 @@
           "isNotNull": true
         }
       ],
-      "relationships": [
-        {
-          "id": "30520843-8848-46d5-8b85-7c06a1749870",
-          "source": {
-            "id": "8f1fe146-e07a-4213-82ab-5c09a3bbb200"
-          },
-          "reference": {
-            "id": "6843f9af-e1aa-463a-b4c0-c540d9b3efe9"
-          },
-          "columnPairs": [
-            {
-              "reference": {
-                "id": "6843f9af-e1aa-463a-b4c0-c540d9b3efe9"
-              },
-              "source": {
-                "id": "8f1fe146-e07a-4213-82ab-5c09a3bbb200"
-              }
-            }
-          ],
-          "parentRequired": false
-        }
-      ],
+      "relationships": [],
       "indexes": [
         {
           "id": "b003c57b-83d2-42a9-a3cd-2906aa9e067a",
