@@ -1644,6 +1644,18 @@
         }
       ],
       "relationships": []
+    },
+    {
+      "id": "80e5f40d-94a1-4d49-a9d5-094874006fae",
+      "name": "PL_Detail",
+      "position": {
+        "x": 780.635788499041,
+        "y": 508.3582468074627,
+        "w": 200,
+        "h": 80
+      },
+      "properties": [],
+      "relationships": []
     }
   ],
   "dialect": "tsql",
