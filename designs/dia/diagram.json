@@ -1328,7 +1328,7 @@
           "id": "76cf47c5-b7a6-4574-82f1-e11839c5c1f3",
           "sequence": 1,
           "key": "PK",
-          "property": "ID",
+          "property": "Vendor_Id",
           "type": "INT",
           "length": null,
           "precision": null,
