@@ -47,11 +47,11 @@
           "defaultValue": "now()"
         },
         {
-          "id": "c93a2d7e-4468-45fe-8948-eb37d424c7ff",
+          "id": "635a8433-f76a-4f87-8fb9-aa22f2965360",
           "sequence": 4,
           "key": null,
           "property": "Last_Updated",
-          "type": "T",
+          "type": "TIMESTAMP",
           "length": null,
           "precision": null,
           "isPrimary": false,
