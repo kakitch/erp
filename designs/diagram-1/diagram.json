@@ -511,7 +511,7 @@
           "id": "0533046c-d1f8-42fc-b8e5-176ac33598d8",
           "sequence": 1,
           "key": "PK",
-          "property": "ID",
+          "property": "Customer_Contact_Id",
           "type": "INT",
           "length": null,
           "precision": null,
