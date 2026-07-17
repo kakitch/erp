@@ -2206,17 +2206,6 @@
           "precision": null,
           "isPrimary": false,
           "isNotNull": true
-        },
-        {
-          "id": "be050553-c14e-4715-90f3-d074e42db8ce",
-          "sequence": 12,
-          "key": null,
-          "property": "",
-          "type": "",
-          "length": null,
-          "precision": null,
-          "isPrimary": false,
-          "isNotNull": true
         }
       ],
       "relationships": [],
