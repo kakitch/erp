@@ -1207,7 +1207,7 @@
           "id": "94820ba6-6495-44c7-80cb-7bb65d7ed029",
           "sequence": 6,
           "key": null,
-          "property": "Stock Length",
+          "property": "Stock_Length",
           "type": "",
           "length": null,
           "precision": null,
