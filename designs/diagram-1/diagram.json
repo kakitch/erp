@@ -765,7 +765,7 @@
           "sequence": 5,
           "key": null,
           "property": "Material",
-          "type": "",
+          "type": "VARCHAR",
           "length": null,
           "precision": null,
           "isPrimary": false,
