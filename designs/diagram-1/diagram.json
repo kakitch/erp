@@ -515,18 +515,6 @@
       ]
     },
     {
-      "id": "7dc5a1b6-9794-4239-90d8-4a7dedfef4c8",
-      "name": "",
-      "position": {
-        "x": 199.9459941966379,
-        "y": 434.87957459658725,
-        "w": 200,
-        "h": 80
-      },
-      "properties": [],
-      "relationships": []
-    },
-    {
       "id": "c093e8f2-474e-4c87-8be8-e76a76c3332a",
       "name": "customer_contact",
       "position": {
@@ -717,6 +705,18 @@
           ]
         }
       ]
+    },
+    {
+      "id": "1af2eef8-cb8a-4326-9900-2c7d9df70892",
+      "name": "",
+      "position": {
+        "x": 204.7470287674298,
+        "y": 301.5091788214481,
+        "w": 200,
+        "h": 80
+      },
+      "properties": [],
+      "relationships": []
     }
   ],
   "dialect": "postgres",
