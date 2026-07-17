@@ -1694,7 +1694,30 @@
         "w": 200,
         "h": 80
       },
-      "properties": [],
+      "properties": [
+        {
+          "id": "69cc2dbe-08d7-435a-a290-d699939a2b25",
+          "sequence": 1,
+          "key": "PK",
+          "property": "ID",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": true,
+          "isNotNull": true
+        },
+        {
+          "id": "da5422ac-86be-47a6-af52-c782cbf3f0bd",
+          "sequence": 2,
+          "key": null,
+          "property": "Vendor_Id",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        }
+      ],
       "relationships": []
     },
     {
