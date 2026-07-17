@@ -1323,6 +1323,17 @@
           "precision": null,
           "isPrimary": false,
           "isNotNull": true
+        },
+        {
+          "id": "1974c07f-a605-4728-a977-33b83af73f0b",
+          "sequence": 4,
+          "key": null,
+          "property": "",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
         }
       ],
       "relationships": [],
@@ -1700,42 +1711,6 @@
       "properties": [],
       "relationships": [],
       "layerId": "124b5240-3aef-4ce7-b4b8-be97ff163148"
-    },
-    {
-      "id": "58ce8036-cc2c-4b68-88cd-b318f660007e",
-      "name": "Vendor_Address",
-      "position": {
-        "x": -412.3464015465285,
-        "y": 163.10450910610587,
-        "w": 200,
-        "h": 80
-      },
-      "properties": [
-        {
-          "id": "69cc2dbe-08d7-435a-a290-d699939a2b25",
-          "sequence": 1,
-          "key": "PK",
-          "property": "ID",
-          "type": "",
-          "length": null,
-          "precision": null,
-          "isPrimary": true,
-          "isNotNull": true
-        },
-        {
-          "id": "da5422ac-86be-47a6-af52-c782cbf3f0bd",
-          "sequence": 2,
-          "key": null,
-          "property": "Vendor_Id",
-          "type": "",
-          "length": null,
-          "precision": null,
-          "isPrimary": false,
-          "isNotNull": true
-        }
-      ],
-      "relationships": [],
-      "layerId": "85a68829-227a-4be7-a5cb-8351816a466f"
     },
     {
       "id": "81fda5bc-622f-44cd-aafe-c4483aa3a64a",
