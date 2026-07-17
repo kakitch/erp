@@ -1817,6 +1817,28 @@
           "precision": null,
           "isPrimary": false,
           "isNotNull": true
+        },
+        {
+          "id": "137573b7-06c5-4a25-bd3d-71f3e879d92b",
+          "sequence": 7,
+          "key": null,
+          "property": "Invoiced",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "fc666426-19fc-4f3f-9592-2b7c5c4e73a8",
+          "sequence": 8,
+          "key": null,
+          "property": "",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
         }
       ],
       "relationships": [],
