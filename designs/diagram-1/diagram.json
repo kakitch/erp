@@ -457,6 +457,17 @@
           "precision": null,
           "isPrimary": false,
           "isNotNull": true
+        },
+        {
+          "id": "46be3b5f-07b1-4f1b-b112-4b20a264b0d8",
+          "sequence": 9,
+          "key": null,
+          "property": "Created_On",
+          "type": "TIMESTAMP",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
         }
       ],
       "relationships": [
