@@ -630,6 +630,17 @@
           "precision": null,
           "isPrimary": false,
           "isNotNull": true
+        },
+        {
+          "id": "e85b07a5-7d68-4b01-8a17-e79a7a6237b7",
+          "sequence": 4,
+          "key": null,
+          "property": "OrderID",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
         }
       ],
       "relationships": []
