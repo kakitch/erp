@@ -962,7 +962,7 @@
           "sequence": 10,
           "key": null,
           "property": "sqft",
-          "type": "",
+          "type": "numberic",
           "length": null,
           "precision": null,
           "isPrimary": false,
