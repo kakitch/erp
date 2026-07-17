@@ -1775,6 +1775,41 @@
         }
       ],
       "relationships": []
+    },
+    {
+      "id": "6c6cc8e9-149a-427b-9b75-efc994002309",
+      "name": "PO_Header",
+      "position": {
+        "x": 648.1242229690774,
+        "y": 502.8976141912847,
+        "w": 200,
+        "h": 80
+      },
+      "properties": [
+        {
+          "id": "23821d76-85b2-4b05-8c6a-ec1b2e2dd638",
+          "sequence": 1,
+          "key": "PK",
+          "property": "ID",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": true,
+          "isNotNull": true
+        },
+        {
+          "id": "e141786e-8df0-4752-8bc3-963a19c3ff12",
+          "sequence": 2,
+          "key": null,
+          "property": "",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        }
+      ],
+      "relationships": []
     }
   ],
   "dialect": "tsql",
