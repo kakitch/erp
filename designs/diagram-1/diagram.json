@@ -967,6 +967,17 @@
           "precision": null,
           "isPrimary": false,
           "isNotNull": true
+        },
+        {
+          "id": "55da5b1e-4524-4b8c-9583-985f5096f65f",
+          "sequence": 11,
+          "key": null,
+          "property": "Heat_Number",
+          "type": "VARCHAR",
+          "length": 40,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
         }
       ],
       "relationships": []
