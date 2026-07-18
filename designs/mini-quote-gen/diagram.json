@@ -700,12 +700,12 @@
         {
           "id": "c6bb5314-268c-449d-b3ce-b7a02e9b3f21",
           "sequence": 1,
-          "key": null,
+          "key": "PK",
           "property": "Mat_Hist_Id",
           "type": "INT",
           "length": null,
           "precision": null,
-          "isPrimary": false,
+          "isPrimary": true,
           "isNotNull": true
         },
         {
