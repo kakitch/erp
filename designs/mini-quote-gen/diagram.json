@@ -317,7 +317,7 @@
         {
           "id": "7b33e4ad-00b6-42e6-adb2-4eaa5ee3a18a",
           "sequence": 3,
-          "key": null,
+          "key": "FK",
           "property": "Assembly_ID",
           "type": "INT",
           "length": null,
@@ -326,7 +326,39 @@
           "isNotNull": true
         }
       ],
-      "relationships": []
+      "relationships": [
+        {
+          "id": "1523a18c-80c7-46b2-99ec-bf4936065f86",
+          "source": {
+            "id": "7b33e4ad-00b6-42e6-adb2-4eaa5ee3a18a"
+          },
+          "reference": {
+            "id": "5657ad3c-530b-439b-9fed-e39f8634a22f"
+          },
+          "columnPairs": [
+            {
+              "reference": {
+                "id": "5657ad3c-530b-439b-9fed-e39f8634a22f"
+              },
+              "source": {
+                "id": "7b33e4ad-00b6-42e6-adb2-4eaa5ee3a18a"
+              }
+            }
+          ],
+          "parentRequired": false
+        }
+      ],
+      "indexes": [
+        {
+          "id": "edf4f83e-3a0b-424d-9097-41a45f7d316b",
+          "name": "IX_Assembly_Stock_Material_Assembly_ID",
+          "keyColumns": [
+            {
+              "columnId": "7b33e4ad-00b6-42e6-adb2-4eaa5ee3a18a"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "aa5d8c46-3ff3-446d-9d3a-4305106794d4",
