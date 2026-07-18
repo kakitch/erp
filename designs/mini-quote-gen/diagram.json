@@ -823,7 +823,7 @@
           "id": "aab81bb4-388e-4f3a-80fe-8a453aedbe81",
           "sequence": 2,
           "key": null,
-          "property": "",
+          "property": "Description",
           "type": "",
           "length": null,
           "precision": null,
