@@ -811,8 +811,30 @@
         {
           "id": "7876f436-a370-4c50-bf7f-0e88f8f79c3c",
           "sequence": 1,
-          "key": null,
+          "key": "PK",
           "property": "Service_ID",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": true,
+          "isNotNull": true
+        },
+        {
+          "id": "aab81bb4-388e-4f3a-80fe-8a453aedbe81",
+          "sequence": 2,
+          "key": null,
+          "property": "",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "2916dcf7-91c5-41f2-bdb7-1e4c104d49c2",
+          "sequence": 3,
+          "key": null,
+          "property": "",
           "type": "",
           "length": null,
           "precision": null,
