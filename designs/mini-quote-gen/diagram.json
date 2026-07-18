@@ -84,7 +84,7 @@
           "sequence": 1,
           "key": "PK",
           "property": "Assembly_ID",
-          "type": "",
+          "type": "INT",
           "length": null,
           "precision": null,
           "isPrimary": true,
