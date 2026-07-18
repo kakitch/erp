@@ -712,7 +712,7 @@
           "id": "5ce57afa-3feb-477a-a603-ce09b82d8b92",
           "sequence": 2,
           "key": null,
-          "property": "Material",
+          "property": "Material_Id",
           "type": "",
           "length": null,
           "precision": null,
