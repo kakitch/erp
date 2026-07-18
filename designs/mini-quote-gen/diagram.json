@@ -457,26 +457,6 @@
             }
           ],
           "parentRequired": false
-        },
-        {
-          "id": "28f01d9b-4d55-4dfb-a1c5-d49d956480f8",
-          "source": {
-            "id": "cf04a9be-4545-41c0-a209-e9d28db37256"
-          },
-          "reference": {
-            "id": "5657ad3c-530b-439b-9fed-e39f8634a22f"
-          },
-          "columnPairs": [
-            {
-              "reference": {
-                "id": "5657ad3c-530b-439b-9fed-e39f8634a22f"
-              },
-              "source": {
-                "id": "cf04a9be-4545-41c0-a209-e9d28db37256"
-              }
-            }
-          ],
-          "parentRequired": false
         }
       ],
       "indexes": [
