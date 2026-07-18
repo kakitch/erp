@@ -2135,12 +2135,12 @@
         {
           "id": "cafbd3b2-60cb-451b-a08c-d0089886e715",
           "sequence": 1,
-          "key": null,
+          "key": "PK",
           "property": "Department_ID",
           "type": "INT",
           "length": null,
           "precision": null,
-          "isPrimary": false,
+          "isPrimary": true,
           "isNotNull": true
         },
         {
