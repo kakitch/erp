@@ -596,7 +596,7 @@
           "key": null,
           "property": "Cost_Unit",
           "type": "VARCHAR",
-          "length": null,
+          "length": 10,
           "precision": null,
           "isPrimary": false,
           "isNotNull": true
