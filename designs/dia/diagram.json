@@ -2126,12 +2126,24 @@
       "id": "d46622f9-9183-4a90-ad7a-ea113f424dfc",
       "name": "department",
       "position": {
-        "x": 2107.615496405563,
-        "y": -593.5784972128731,
+        "x": 2159.28216307223,
+        "y": -605.2451638795397,
         "w": 200,
         "h": 80
       },
-      "properties": [],
+      "properties": [
+        {
+          "id": "cafbd3b2-60cb-451b-a08c-d0089886e715",
+          "sequence": 1,
+          "key": null,
+          "property": "",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        }
+      ],
       "relationships": [],
       "layerId": "4b4818e0-6066-4461-9a92-cad564e0f690"
     },
