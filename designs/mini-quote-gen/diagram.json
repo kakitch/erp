@@ -625,6 +625,18 @@
         }
       ],
       "relationships": []
+    },
+    {
+      "id": "1a20f07c-606d-4613-918f-19cc6bb780b0",
+      "name": "Material_Hist",
+      "position": {
+        "x": 1892.7464486309998,
+        "y": -1474.881836598644,
+        "w": 200,
+        "h": 80
+      },
+      "properties": [],
+      "relationships": []
     }
   ],
   "dialect": "tsql"
