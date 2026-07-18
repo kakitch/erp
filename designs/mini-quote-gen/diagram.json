@@ -127,6 +127,30 @@
         }
       ],
       "relationships": []
+    },
+    {
+      "id": "bf42fc63-72fa-4e98-a1a8-b2ca0e6667b9",
+      "name": "Assembly_Purchased_Components",
+      "position": {
+        "x": 1126.1887396130319,
+        "y": -1169.273977249486,
+        "w": 200,
+        "h": 80
+      },
+      "properties": [
+        {
+          "id": "f851702e-e585-45d4-92ae-05ecc0d12124",
+          "sequence": 1,
+          "key": null,
+          "property": "PC_ID",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        }
+      ],
+      "relationships": []
     }
   ],
   "dialect": "tsql"
