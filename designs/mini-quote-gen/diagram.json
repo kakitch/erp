@@ -508,7 +508,7 @@
           "sequence": 4,
           "key": null,
           "property": "Updated_On",
-          "type": "",
+          "type": "DATETIME",
           "length": null,
           "precision": null,
           "isPrimary": false,
