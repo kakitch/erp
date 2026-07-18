@@ -5,5 +5,12 @@
     "name": "Dia",
     "createdAt": 1784247879931,
     "updatedAt": 1784335934126
+  },
+  {
+    "id": "b580a010-f74a-47b8-9177-7ffdbffce88d",
+    "slug": "diagram-1",
+    "name": "Diagram 1",
+    "createdAt": 1784336830221,
+    "updatedAt": 1784336830221
   }
 ]
