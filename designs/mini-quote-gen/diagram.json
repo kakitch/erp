@@ -797,6 +797,18 @@
           ]
         }
       ]
+    },
+    {
+      "id": "cebc2279-bdef-40ef-ae3e-016157204c77",
+      "name": "",
+      "position": {
+        "x": 1641.8676926138598,
+        "y": -1449.4777868942838,
+        "w": 200,
+        "h": 80
+      },
+      "properties": [],
+      "relationships": []
     }
   ],
   "dialect": "tsql"
