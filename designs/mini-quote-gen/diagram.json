@@ -424,6 +424,17 @@
           "precision": null,
           "isPrimary": false,
           "isNotNull": true
+        },
+        {
+          "id": "cf04a9be-4545-41c0-a209-e9d28db37256",
+          "sequence": 6,
+          "key": null,
+          "property": "Last_Updated",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
         }
       ],
       "relationships": [
