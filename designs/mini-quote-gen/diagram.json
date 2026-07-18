@@ -685,17 +685,6 @@
           "isNotNull": true
         },
         {
-          "id": "6a1046ab-2a50-4144-a835-b93e557de37b",
-          "sequence": 3,
-          "key": null,
-          "property": "qty",
-          "type": "NUMERIC",
-          "length": null,
-          "precision": null,
-          "isPrimary": false,
-          "isNotNull": true
-        },
-        {
           "id": "59131a39-b5d8-450b-9976-2077556ceaef",
           "sequence": 4,
           "key": null,
