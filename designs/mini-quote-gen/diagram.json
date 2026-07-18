@@ -486,6 +486,17 @@
           "sequence": 2,
           "key": null,
           "property": "Old_Price",
+          "type": "NUMERIC",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "56001aed-6fcf-4b85-bade-f897dc1ae9e2",
+          "sequence": 3,
+          "key": null,
+          "property": "",
           "type": "",
           "length": null,
           "precision": null,
