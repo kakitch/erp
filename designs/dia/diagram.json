@@ -2171,9 +2171,20 @@
         {
           "id": "7c082b4e-41e3-4d12-a432-78dd6943446c",
           "sequence": 1,
-          "key": null,
+          "key": "PK",
           "property": "WS_ID",
           "type": "INT",
+          "length": null,
+          "precision": null,
+          "isPrimary": true,
+          "isNotNull": true
+        },
+        {
+          "id": "91ef3fc7-0fd0-461b-a07e-fc82211d7309",
+          "sequence": 2,
+          "key": null,
+          "property": "",
+          "type": "",
           "length": null,
           "precision": null,
           "isPrimary": false,
