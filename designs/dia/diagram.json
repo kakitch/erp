@@ -2189,6 +2189,17 @@
           "precision": null,
           "isPrimary": false,
           "isNotNull": true
+        },
+        {
+          "id": "ccc40a27-f473-42f4-9f4f-68927b7e76c6",
+          "sequence": 3,
+          "key": null,
+          "property": "Department_ID",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
         }
       ],
       "relationships": [],
