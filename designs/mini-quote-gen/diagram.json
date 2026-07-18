@@ -82,8 +82,19 @@
         {
           "id": "47a67713-7e4d-4831-8ea3-85b70aaf0fae",
           "sequence": 1,
-          "key": null,
+          "key": "PK",
           "property": "Assembly_ID",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": true,
+          "isNotNull": true
+        },
+        {
+          "id": "03e70bf2-365b-4e0e-87f2-c05c28a71ce8",
+          "sequence": 2,
+          "key": null,
+          "property": "",
           "type": "",
           "length": null,
           "precision": null,
