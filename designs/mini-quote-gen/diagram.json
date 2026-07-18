@@ -711,7 +711,7 @@
         {
           "id": "5ce57afa-3feb-477a-a603-ce09b82d8b92",
           "sequence": 2,
-          "key": null,
+          "key": "FK",
           "property": "Material_Id",
           "type": "INT",
           "length": null,
@@ -753,7 +753,39 @@
           "isNotNull": true
         }
       ],
-      "relationships": []
+      "relationships": [
+        {
+          "id": "0fc2cf6d-ab35-4fde-b011-b53b9fbcecfb",
+          "source": {
+            "id": "5ce57afa-3feb-477a-a603-ce09b82d8b92"
+          },
+          "reference": {
+            "id": "ead03141-f191-4341-af9c-78c7c576b3ad"
+          },
+          "columnPairs": [
+            {
+              "reference": {
+                "id": "ead03141-f191-4341-af9c-78c7c576b3ad"
+              },
+              "source": {
+                "id": "5ce57afa-3feb-477a-a603-ce09b82d8b92"
+              }
+            }
+          ],
+          "parentRequired": false
+        }
+      ],
+      "indexes": [
+        {
+          "id": "67c5089e-0edf-48a8-96cf-6357f8645c82",
+          "name": "IX_Material_Hist_Material_Id",
+          "keyColumns": [
+            {
+              "columnId": "5ce57afa-3feb-477a-a603-ce09b82d8b92"
+            }
+          ]
+        }
+      ]
     }
   ],
   "dialect": "tsql"
