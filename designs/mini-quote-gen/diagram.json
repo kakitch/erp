@@ -232,6 +232,50 @@
           "precision": null,
           "isPrimary": false,
           "isNotNull": true
+        },
+        {
+          "id": "e2c16398-6bef-4a0a-a31a-7120e0042cff",
+          "sequence": 3,
+          "key": null,
+          "property": "Ship_Via",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "90165f35-6077-421e-84eb-b9035c2f3395",
+          "sequence": 4,
+          "key": null,
+          "property": "Terms",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "fdb89de5-8c3d-46be-a765-02e3e12e1b2d",
+          "sequence": 5,
+          "key": null,
+          "property": "Lead_Time",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "fa6b2dcb-c527-492a-9841-6bc4053cadf7",
+          "sequence": 6,
+          "key": null,
+          "property": "Notes",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
         }
       ],
       "relationships": []
