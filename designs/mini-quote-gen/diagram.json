@@ -5,8 +5,8 @@
       "id": "395908ed-14ab-48be-8fe8-dee956e249ee",
       "name": "Assembly",
       "position": {
-        "x": 1603.4387396130319,
-        "y": -921.273977249486,
+        "x": 1413.4387396130319,
+        "y": -1130.273977249486,
         "w": 200,
         "h": 80
       },
@@ -34,7 +34,19 @@
         "w": 200,
         "h": 80
       },
-      "properties": [],
+      "properties": [
+        {
+          "id": "47a67713-7e4d-4831-8ea3-85b70aaf0fae",
+          "sequence": 1,
+          "key": null,
+          "property": "Assembly_ID",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        }
+      ],
       "relationships": []
     }
   ],
