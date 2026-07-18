@@ -58,7 +58,7 @@
         {
           "id": "068fcc9c-d061-41a7-afd0-f837e1b536f3",
           "sequence": 5,
-          "key": null,
+          "key": "FK",
           "property": "Quote_Number",
           "type": "INT",
           "length": null,
@@ -78,7 +78,39 @@
           "isNotNull": true
         }
       ],
-      "relationships": []
+      "relationships": [
+        {
+          "id": "191000e8-6d16-4c7f-90a0-46b679ffe8cc",
+          "source": {
+            "id": "068fcc9c-d061-41a7-afd0-f837e1b536f3"
+          },
+          "reference": {
+            "id": "f536dfc1-5083-47b9-a5fa-a96e5995dfb6"
+          },
+          "columnPairs": [
+            {
+              "reference": {
+                "id": "f536dfc1-5083-47b9-a5fa-a96e5995dfb6"
+              },
+              "source": {
+                "id": "068fcc9c-d061-41a7-afd0-f837e1b536f3"
+              }
+            }
+          ],
+          "parentRequired": false
+        }
+      ],
+      "indexes": [
+        {
+          "id": "ba440ab0-e6d6-4ac4-bfa8-42e980254fa8",
+          "name": "IX_Assembly_Quote_Number",
+          "keyColumns": [
+            {
+              "columnId": "068fcc9c-d061-41a7-afd0-f837e1b536f3"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "585d11e5-96f1-49f5-905c-aebe2c9fdd17",
