@@ -307,7 +307,7 @@
           "id": "025905e2-0cc8-4729-a8ab-d77fd3d508e7",
           "sequence": 2,
           "key": null,
-          "property": "",
+          "property": "Stock_Component_ID",
           "type": "",
           "length": null,
           "precision": null,
