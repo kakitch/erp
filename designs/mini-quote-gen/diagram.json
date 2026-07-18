@@ -281,6 +281,18 @@
           ]
         }
       ]
+    },
+    {
+      "id": "68f6d648-47ba-4a9a-9322-a48221ab715b",
+      "name": "Assembly_Stock_Components",
+      "position": {
+        "x": 1193.780025279492,
+        "y": -1051.4891109347573,
+        "w": 200,
+        "h": 80
+      },
+      "properties": [],
+      "relationships": []
     }
   ],
   "dialect": "tsql"
