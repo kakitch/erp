@@ -463,7 +463,7 @@
           "length": null,
           "precision": null,
           "isPrimary": false,
-          "isNotNull": true
+          "isNotNull": false
         }
       ],
       "relationships": [],
