@@ -249,12 +249,12 @@
         {
           "id": "f851702e-e585-45d4-92ae-05ecc0d12124",
           "sequence": 1,
-          "key": null,
+          "key": "PK",
           "property": "PC_ID",
           "type": "",
           "length": null,
           "precision": null,
-          "isPrimary": false,
+          "isPrimary": true,
           "isNotNull": true
         },
         {
