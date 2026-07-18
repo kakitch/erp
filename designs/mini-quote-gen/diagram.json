@@ -573,8 +573,8 @@
       "id": "b022041d-c731-4c17-9ef9-cec9106fe195",
       "name": "Material",
       "position": {
-        "x": 1892.7464486309998,
-        "y": -1431.2667386451812,
+        "x": 1859.352878832179,
+        "y": -1650.0521959478017,
         "w": 200,
         "h": 80
       },
@@ -582,12 +582,12 @@
         {
           "id": "ead03141-f191-4341-af9c-78c7c576b3ad",
           "sequence": 1,
-          "key": null,
-          "property": "ID",
-          "type": "",
+          "key": "PK",
+          "property": "Material_Id",
+          "type": "INT",
           "length": null,
           "precision": null,
-          "isPrimary": false,
+          "isPrimary": true,
           "isNotNull": true
         }
       ],
