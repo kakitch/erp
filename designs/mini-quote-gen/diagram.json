@@ -594,7 +594,7 @@
           "id": "dbd4b6a5-63aa-452e-970b-f092e8b5af2b",
           "sequence": 2,
           "key": null,
-          "property": "",
+          "property": "Cost_Unit",
           "type": "",
           "length": null,
           "precision": null,
