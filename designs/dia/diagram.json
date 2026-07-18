@@ -2901,12 +2901,12 @@
         {
           "id": "01ddb03d-8efd-4501-a9fe-84c2a6e62d74",
           "sequence": 1,
-          "key": null,
+          "key": "PK",
           "property": "Job_Role_ID",
           "type": "INT",
           "length": null,
           "precision": null,
-          "isPrimary": false,
+          "isPrimary": true,
           "isNotNull": true
         },
         {
