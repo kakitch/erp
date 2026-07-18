@@ -2977,7 +2977,7 @@
         {
           "id": "351da47f-90d1-4798-b4cf-99bb4513f8a6",
           "sequence": 4,
-          "key": null,
+          "key": "FK",
           "property": "Department_ID",
           "type": "INT",
           "length": null,
@@ -2986,8 +2986,40 @@
           "isNotNull": true
         }
       ],
-      "relationships": [],
-      "layerId": "4b4818e0-6066-4461-9a92-cad564e0f690"
+      "relationships": [
+        {
+          "id": "533c6275-e948-436a-bb38-b7594d05948f",
+          "source": {
+            "id": "351da47f-90d1-4798-b4cf-99bb4513f8a6"
+          },
+          "reference": {
+            "id": "cafbd3b2-60cb-451b-a08c-d0089886e715"
+          },
+          "columnPairs": [
+            {
+              "reference": {
+                "id": "cafbd3b2-60cb-451b-a08c-d0089886e715"
+              },
+              "source": {
+                "id": "351da47f-90d1-4798-b4cf-99bb4513f8a6"
+              }
+            }
+          ],
+          "parentRequired": false
+        }
+      ],
+      "layerId": "4b4818e0-6066-4461-9a92-cad564e0f690",
+      "indexes": [
+        {
+          "id": "47a1e558-4948-4606-a362-040934223bab",
+          "name": "IX_Job_Role_Department_ID",
+          "keyColumns": [
+            {
+              "columnId": "351da47f-90d1-4798-b4cf-99bb4513f8a6"
+            }
+          ]
+        }
+      ]
     }
   ],
   "dialect": "tsql",
