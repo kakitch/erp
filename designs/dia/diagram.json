@@ -2887,6 +2887,18 @@
       ],
       "relationships": [],
       "layerId": "4b4818e0-6066-4461-9a92-cad564e0f690"
+    },
+    {
+      "id": "4704d6fb-f50e-4910-b156-a423ea169645",
+      "name": "",
+      "position": {
+        "x": 651.9751036749157,
+        "y": -122.53485451724043,
+        "w": 200,
+        "h": 80
+      },
+      "properties": [],
+      "relationships": []
     }
   ],
   "dialect": "tsql",
