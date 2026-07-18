@@ -864,6 +864,18 @@
         }
       ],
       "relationships": []
+    },
+    {
+      "id": "96449718-6892-498f-a145-2eef5874bcd7",
+      "name": "",
+      "position": {
+        "x": 1889.8676926138598,
+        "y": -1163.8954218737392,
+        "w": 200,
+        "h": 80
+      },
+      "properties": [],
+      "relationships": []
     }
   ],
   "dialect": "tsql"
