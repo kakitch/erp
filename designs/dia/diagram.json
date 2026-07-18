@@ -2491,6 +2491,17 @@
           "precision": null,
           "isPrimary": false,
           "isNotNull": true
+        },
+        {
+          "id": "74270c39-ef46-4dc9-8250-ee4d8bf1f6ff",
+          "sequence": 10,
+          "key": null,
+          "property": "Job_Role_ID",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
         }
       ],
       "relationships": [],
