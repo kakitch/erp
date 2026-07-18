@@ -887,8 +887,19 @@
           "isNotNull": true
         },
         {
-          "id": "d394c20a-bdfb-4c58-b7d9-69daebd13704",
+          "id": "b1555416-69ef-4859-8093-8f7c8c59e1cc",
           "sequence": 2,
+          "key": null,
+          "property": "Service_Id",
+          "type": "INT",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "d394c20a-bdfb-4c58-b7d9-69daebd13704",
+          "sequence": 3,
           "key": null,
           "property": "Description",
           "type": "VARCHAR",
@@ -899,7 +910,7 @@
         },
         {
           "id": "ee9fe093-0eee-408b-92d6-ba639ce8195e",
-          "sequence": 3,
+          "sequence": 4,
           "key": null,
           "property": "Old_Cost",
           "type": "NUMERIC",
@@ -910,7 +921,7 @@
         },
         {
           "id": "7522a08e-de1b-4164-84b9-6df4e2611b7c",
-          "sequence": 4,
+          "sequence": 5,
           "key": null,
           "property": "New_Cost",
           "type": "NUMERIC",
@@ -921,21 +932,10 @@
         },
         {
           "id": "668851f4-190f-480b-bba0-65c888882ab9",
-          "sequence": 5,
+          "sequence": 6,
           "key": null,
           "property": "Updated_on",
           "type": "DATE",
-          "length": null,
-          "precision": null,
-          "isPrimary": false,
-          "isNotNull": true
-        },
-        {
-          "id": "b1555416-69ef-4859-8093-8f7c8c59e1cc",
-          "sequence": 6,
-          "key": null,
-          "property": "Service_Id",
-          "type": "INT",
           "length": null,
           "precision": null,
           "isPrimary": false,
