@@ -1,5 +1,18 @@
 {
   "version": 1,
-  "shapes": [],
+  "shapes": [
+    {
+      "id": "395908ed-14ab-48be-8fe8-dee956e249ee",
+      "name": "",
+      "position": {
+        "x": 1603.4387396130319,
+        "y": -921.273977249486,
+        "w": 200,
+        "h": 80
+      },
+      "properties": [],
+      "relationships": []
+    }
+  ],
   "dialect": "tsql"
 }
