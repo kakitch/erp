@@ -365,7 +365,7 @@
           "sequence": 4,
           "key": null,
           "property": "Vendor",
-          "type": "",
+          "type": "VARCHAR",
           "length": null,
           "precision": null,
           "isPrimary": false,
