@@ -545,7 +545,7 @@
         {
           "id": "19025119-0c31-45e7-be6a-8cf64e3bb99c",
           "sequence": 5,
-          "key": null,
+          "key": "FK",
           "property": "Component_ID",
           "type": "INT",
           "length": null,
@@ -554,7 +554,39 @@
           "isNotNull": true
         }
       ],
-      "relationships": []
+      "relationships": [
+        {
+          "id": "b67fa912-55d5-4000-aa34-5de72eeb6207",
+          "source": {
+            "id": "19025119-0c31-45e7-be6a-8cf64e3bb99c"
+          },
+          "reference": {
+            "id": "43ef3a12-0583-4ce2-91c5-3b7afb1c7ed6"
+          },
+          "columnPairs": [
+            {
+              "reference": {
+                "id": "43ef3a12-0583-4ce2-91c5-3b7afb1c7ed6"
+              },
+              "source": {
+                "id": "19025119-0c31-45e7-be6a-8cf64e3bb99c"
+              }
+            }
+          ],
+          "parentRequired": false
+        }
+      ],
+      "indexes": [
+        {
+          "id": "1e160b91-0503-4d83-98a0-98cebe5e7f50",
+          "name": "IX_Component_Hist_Component_ID",
+          "keyColumns": [
+            {
+              "columnId": "19025119-0c31-45e7-be6a-8cf64e3bb99c"
+            }
+          ]
+        }
+      ]
     }
   ],
   "dialect": "tsql"
