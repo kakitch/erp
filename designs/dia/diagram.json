@@ -2183,9 +2183,9 @@
           "id": "91ef3fc7-0fd0-461b-a07e-fc82211d7309",
           "sequence": 2,
           "key": null,
-          "property": "",
-          "type": "",
-          "length": null,
+          "property": "WS_Name",
+          "type": "VARCHAR",
+          "length": 30,
           "precision": null,
           "isPrimary": false,
           "isNotNull": true
