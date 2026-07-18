@@ -583,7 +583,7 @@
           "id": "ead03141-f191-4341-af9c-78c7c576b3ad",
           "sequence": 1,
           "key": null,
-          "property": "",
+          "property": "ID",
           "type": "",
           "length": null,
           "precision": null,
