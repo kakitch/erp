@@ -83,7 +83,7 @@
           "id": "47a67713-7e4d-4831-8ea3-85b70aaf0fae",
           "sequence": 1,
           "key": "PK",
-          "property": "Assembly_ID",
+          "property": "AS_ID",
           "type": "INT",
           "length": null,
           "precision": null,
