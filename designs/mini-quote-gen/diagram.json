@@ -100,6 +100,17 @@
           "precision": null,
           "isPrimary": false,
           "isNotNull": true
+        },
+        {
+          "id": "5e3f975b-f06f-4067-a153-7eae67448def",
+          "sequence": 3,
+          "key": null,
+          "property": "Description",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
         }
       ],
       "relationships": []
