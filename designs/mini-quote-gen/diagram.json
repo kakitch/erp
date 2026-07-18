@@ -54,6 +54,17 @@
           "precision": null,
           "isPrimary": false,
           "isNotNull": true
+        },
+        {
+          "id": "068fcc9c-d061-41a7-afd0-f837e1b536f3",
+          "sequence": 5,
+          "key": null,
+          "property": "Quote_ID",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
         }
       ],
       "relationships": []
