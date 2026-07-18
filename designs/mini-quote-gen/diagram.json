@@ -370,6 +370,17 @@
           "precision": null,
           "isPrimary": false,
           "isNotNull": true
+        },
+        {
+          "id": "7d292d83-83e3-48f4-9569-8bf70e6ea11c",
+          "sequence": 5,
+          "key": null,
+          "property": "",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
         }
       ],
       "relationships": [
