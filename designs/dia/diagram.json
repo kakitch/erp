@@ -2890,14 +2890,26 @@
     },
     {
       "id": "4704d6fb-f50e-4910-b156-a423ea169645",
-      "name": "",
+      "name": "Job_Role",
       "position": {
         "x": 651.9751036749157,
         "y": -122.53485451724043,
         "w": 200,
         "h": 80
       },
-      "properties": [],
+      "properties": [
+        {
+          "id": "01ddb03d-8efd-4501-a9fe-84c2a6e62d74",
+          "sequence": 1,
+          "key": null,
+          "property": "",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        }
+      ],
       "relationships": []
     }
   ],
