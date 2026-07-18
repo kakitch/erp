@@ -348,6 +348,17 @@
           "precision": null,
           "isPrimary": false,
           "isNotNull": true
+        },
+        {
+          "id": "c8156408-d9b3-4c51-9fe2-43d16ee4b443",
+          "sequence": 3,
+          "key": null,
+          "property": "Price",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
         }
       ],
       "relationships": []
