@@ -335,7 +335,7 @@
         {
           "id": "025905e2-0cc8-4729-a8ab-d77fd3d508e7",
           "sequence": 2,
-          "key": null,
+          "key": "FK",
           "property": "Material_ID",
           "type": "INT",
           "length": null,
@@ -375,6 +375,26 @@
             }
           ],
           "parentRequired": false
+        },
+        {
+          "id": "91014d5d-8b1d-455d-bf0e-6db97635487f",
+          "source": {
+            "id": "025905e2-0cc8-4729-a8ab-d77fd3d508e7"
+          },
+          "reference": {
+            "id": "ead03141-f191-4341-af9c-78c7c576b3ad"
+          },
+          "columnPairs": [
+            {
+              "reference": {
+                "id": "ead03141-f191-4341-af9c-78c7c576b3ad"
+              },
+              "source": {
+                "id": "025905e2-0cc8-4729-a8ab-d77fd3d508e7"
+              }
+            }
+          ],
+          "parentRequired": false
         }
       ],
       "indexes": [
@@ -384,6 +404,15 @@
           "keyColumns": [
             {
               "columnId": "7b33e4ad-00b6-42e6-adb2-4eaa5ee3a18a"
+            }
+          ]
+        },
+        {
+          "id": "58c58379-91fe-4919-9c6a-3f341ab5a402",
+          "name": "IX_Assembly_Stock_Material_Material_ID",
+          "keyColumns": [
+            {
+              "columnId": "025905e2-0cc8-4729-a8ab-d77fd3d508e7"
             }
           ]
         }
