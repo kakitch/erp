@@ -97,8 +97,8 @@
       "id": "9932685d-000c-44d0-b8aa-a822d6696f31",
       "name": "",
       "position": {
-        "x": 1468.9387396130319,
-        "y": -1329.273977249486,
+        "x": 1223.9387396130319,
+        "y": -1322.273977249486,
         "w": 200,
         "h": 80
       },
@@ -106,12 +106,12 @@
         {
           "id": "f536dfc1-5083-47b9-a5fa-a96e5995dfb6",
           "sequence": 1,
-          "key": null,
-          "property": "Quote_ID",
+          "key": "PK",
+          "property": "Quote_Number",
           "type": "",
           "length": null,
           "precision": null,
-          "isPrimary": false,
+          "isPrimary": true,
           "isNotNull": true
         },
         {
