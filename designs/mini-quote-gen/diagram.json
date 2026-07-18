@@ -437,28 +437,7 @@
           "isNotNull": true
         }
       ],
-      "relationships": [
-        {
-          "id": "6780ed66-c73c-4221-8f5d-538cd3a9fe10",
-          "source": {
-            "id": "43ef3a12-0583-4ce2-91c5-3b7afb1c7ed6"
-          },
-          "reference": {
-            "id": "dfbc5e34-d8f3-42d6-936d-2375519d4d02"
-          },
-          "columnPairs": [
-            {
-              "reference": {
-                "id": "dfbc5e34-d8f3-42d6-936d-2375519d4d02"
-              },
-              "source": {
-                "id": "43ef3a12-0583-4ce2-91c5-3b7afb1c7ed6"
-              }
-            }
-          ],
-          "parentRequired": false
-        }
-      ],
+      "relationships": [],
       "indexes": [
         {
           "id": "6867c948-7976-4369-a7bf-8bc63a5469eb",
