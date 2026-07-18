@@ -2195,7 +2195,7 @@
           "sequence": 3,
           "key": null,
           "property": "Department_ID",
-          "type": "",
+          "type": "INT",
           "length": null,
           "precision": null,
           "isPrimary": false,
