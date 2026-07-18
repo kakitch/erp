@@ -349,7 +349,7 @@
           "sequence": 8,
           "key": "FK",
           "property": "Customer_Contact_ID",
-          "type": "",
+          "type": "INT",
           "length": null,
           "precision": null,
           "isPrimary": false,
