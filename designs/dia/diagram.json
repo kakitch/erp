@@ -2926,7 +2926,7 @@
           "key": null,
           "property": "Job_Role_Description",
           "type": "VARCHAR",
-          "length": null,
+          "length": 500,
           "precision": null,
           "isPrimary": false,
           "isNotNull": true
