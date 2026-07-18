@@ -2162,12 +2162,24 @@
       "id": "ddaaaf05-c4a7-4e28-bf12-cb9d47beb5b8",
       "name": "Workstation",
       "position": {
-        "x": 1719.1183272418025,
-        "y": -596.7617147876778,
+        "x": 2470.784993908469,
+        "y": -640.9283814543444,
         "w": 200,
         "h": 80
       },
-      "properties": [],
+      "properties": [
+        {
+          "id": "7c082b4e-41e3-4d12-a432-78dd6943446c",
+          "sequence": 1,
+          "key": null,
+          "property": "WS_ID",
+          "type": "INT",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        }
+      ],
       "relationships": [],
       "layerId": "4b4818e0-6066-4461-9a92-cad564e0f690"
     },
