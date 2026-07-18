@@ -102,7 +102,19 @@
         "w": 200,
         "h": 80
       },
-      "properties": [],
+      "properties": [
+        {
+          "id": "f536dfc1-5083-47b9-a5fa-a96e5995dfb6",
+          "sequence": 1,
+          "key": null,
+          "property": "Quote_ID",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        }
+      ],
       "relationships": []
     }
   ],
