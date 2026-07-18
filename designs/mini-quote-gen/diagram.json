@@ -376,8 +376,8 @@
           "sequence": 5,
           "key": null,
           "property": "Notes",
-          "type": "",
-          "length": null,
+          "type": "VARCHAR",
+          "length": 500,
           "precision": null,
           "isPrimary": false,
           "isNotNull": true
