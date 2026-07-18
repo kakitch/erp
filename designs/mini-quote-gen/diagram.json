@@ -605,7 +605,7 @@
           "id": "6a1046ab-2a50-4144-a835-b93e557de37b",
           "sequence": 3,
           "key": null,
-          "property": "",
+          "property": "qty",
           "type": "",
           "length": null,
           "precision": null,
