@@ -354,7 +354,7 @@
           "sequence": 3,
           "key": null,
           "property": "Price",
-          "type": "numeri",
+          "type": "NUMERIC",
           "length": null,
           "precision": null,
           "isPrimary": false,
