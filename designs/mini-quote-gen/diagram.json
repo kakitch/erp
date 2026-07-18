@@ -94,7 +94,7 @@
           "id": "03e70bf2-365b-4e0e-87f2-c05c28a71ce8",
           "sequence": 2,
           "key": null,
-          "property": "",
+          "property": "Service_ID",
           "type": "",
           "length": null,
           "precision": null,
