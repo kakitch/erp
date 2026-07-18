@@ -239,7 +239,7 @@
         {
           "id": "dfbc5e34-d8f3-42d6-936d-2375519d4d02",
           "sequence": 3,
-          "key": null,
+          "key": "FK",
           "property": "Component_ID",
           "type": "",
           "length": null,
@@ -268,6 +268,26 @@
             }
           ],
           "parentRequired": false
+        },
+        {
+          "id": "3229a30a-c87d-4c8b-bd86-ce3ac24c48fa",
+          "source": {
+            "id": "dfbc5e34-d8f3-42d6-936d-2375519d4d02"
+          },
+          "reference": {
+            "id": "43ef3a12-0583-4ce2-91c5-3b7afb1c7ed6"
+          },
+          "columnPairs": [
+            {
+              "reference": {
+                "id": "43ef3a12-0583-4ce2-91c5-3b7afb1c7ed6"
+              },
+              "source": {
+                "id": "dfbc5e34-d8f3-42d6-936d-2375519d4d02"
+              }
+            }
+          ],
+          "parentRequired": false
         }
       ],
       "indexes": [
@@ -277,6 +297,15 @@
           "keyColumns": [
             {
               "columnId": "de33bea4-732b-44df-ab7f-d9a4a2009ea1"
+            }
+          ]
+        },
+        {
+          "id": "d9fe7bb7-897f-4437-8743-672ac464215b",
+          "name": "IX_Assembly_Purchased_Components_Component_ID",
+          "keyColumns": [
+            {
+              "columnId": "dfbc5e34-d8f3-42d6-936d-2375519d4d02"
             }
           ]
         }
