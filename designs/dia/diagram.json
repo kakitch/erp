@@ -2495,7 +2495,7 @@
         {
           "id": "74270c39-ef46-4dc9-8250-ee4d8bf1f6ff",
           "sequence": 10,
-          "key": null,
+          "key": "FK",
           "property": "Job_Role_ID",
           "type": "",
           "length": null,
@@ -2504,8 +2504,40 @@
           "isNotNull": true
         }
       ],
-      "relationships": [],
-      "layerId": "4b4818e0-6066-4461-9a92-cad564e0f690"
+      "relationships": [
+        {
+          "id": "214edf47-123c-473e-af9f-7a415f9708ff",
+          "source": {
+            "id": "74270c39-ef46-4dc9-8250-ee4d8bf1f6ff"
+          },
+          "reference": {
+            "id": "01ddb03d-8efd-4501-a9fe-84c2a6e62d74"
+          },
+          "columnPairs": [
+            {
+              "reference": {
+                "id": "01ddb03d-8efd-4501-a9fe-84c2a6e62d74"
+              },
+              "source": {
+                "id": "74270c39-ef46-4dc9-8250-ee4d8bf1f6ff"
+              }
+            }
+          ],
+          "parentRequired": false
+        }
+      ],
+      "layerId": "4b4818e0-6066-4461-9a92-cad564e0f690",
+      "indexes": [
+        {
+          "id": "6f585454-5286-4655-b08f-4f62053338eb",
+          "name": "IX_Employee_Job_Role_ID",
+          "keyColumns": [
+            {
+              "columnId": "74270c39-ef46-4dc9-8250-ee4d8bf1f6ff"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "0bceca67-9c72-4cff-ab54-58b6a1bdb58b",
