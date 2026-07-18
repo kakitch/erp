@@ -332,7 +332,7 @@
           "sequence": 1,
           "key": "FK",
           "property": "component_ID",
-          "type": "in",
+          "type": "INT",
           "length": null,
           "precision": null,
           "isPrimary": false,
