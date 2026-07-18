@@ -3602,7 +3602,8 @@
     {
       "id": "a50614b5-ff8d-4af9-a62d-5538157e8df8",
       "name": "MRP",
-      "visible": true
+      "visible": true,
+      "color": "#455a64"
     }
   ]
 }
