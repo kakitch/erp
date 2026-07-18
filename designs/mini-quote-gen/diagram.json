@@ -483,17 +483,6 @@
           "isNotNull": true
         },
         {
-          "id": "c8156408-d9b3-4c51-9fe2-43d16ee4b443",
-          "sequence": 3,
-          "key": null,
-          "property": "Price",
-          "type": "NUMERIC",
-          "length": null,
-          "precision": null,
-          "isPrimary": false,
-          "isNotNull": true
-        },
-        {
           "id": "7d292d83-83e3-48f4-9569-8bf70e6ea11c",
           "sequence": 5,
           "key": null,
