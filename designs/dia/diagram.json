@@ -2127,7 +2127,7 @@
       "name": "department",
       "position": {
         "x": 2159.28216307223,
-        "y": -605.2451638795397,
+        "y": -679.4118305462064,
         "w": 200,
         "h": 80
       },
@@ -2155,7 +2155,28 @@
           "isNotNull": true
         }
       ],
-      "relationships": [],
+      "relationships": [
+        {
+          "id": "4d05557f-4bad-402f-9091-9577159a92fd",
+          "source": {
+            "id": "cafbd3b2-60cb-451b-a08c-d0089886e715"
+          },
+          "reference": {
+            "id": "ccc40a27-f473-42f4-9f4f-68927b7e76c6"
+          },
+          "columnPairs": [
+            {
+              "reference": {
+                "id": "ccc40a27-f473-42f4-9f4f-68927b7e76c6"
+              },
+              "source": {
+                "id": "cafbd3b2-60cb-451b-a08c-d0089886e715"
+              }
+            }
+          ],
+          "parentRequired": false
+        }
+      ],
       "layerId": "4b4818e0-6066-4461-9a92-cad564e0f690"
     },
     {
