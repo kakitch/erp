@@ -2148,7 +2148,7 @@
           "sequence": 2,
           "key": null,
           "property": "Department_Name",
-          "type": "",
+          "type": "VARCHAR",
           "length": null,
           "precision": null,
           "isPrimary": false,
