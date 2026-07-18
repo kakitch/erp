@@ -735,7 +735,7 @@
           "sequence": 4,
           "key": null,
           "property": "New_Price",
-          "type": "",
+          "type": "NUMERIC",
           "length": null,
           "precision": null,
           "isPrimary": false,
