@@ -115,7 +115,7 @@
         {
           "id": "94e037c3-27f2-4f40-8ea1-9049cdbb1d79",
           "sequence": 4,
-          "key": null,
+          "key": "FK",
           "property": "AssemblyID",
           "type": "INT",
           "length": null,
@@ -124,7 +124,39 @@
           "isNotNull": true
         }
       ],
-      "relationships": []
+      "relationships": [
+        {
+          "id": "fdcf7133-9d78-4dbe-9dfc-36f8ecc91e21",
+          "source": {
+            "id": "94e037c3-27f2-4f40-8ea1-9049cdbb1d79"
+          },
+          "reference": {
+            "id": "5657ad3c-530b-439b-9fed-e39f8634a22f"
+          },
+          "columnPairs": [
+            {
+              "reference": {
+                "id": "5657ad3c-530b-439b-9fed-e39f8634a22f"
+              },
+              "source": {
+                "id": "94e037c3-27f2-4f40-8ea1-9049cdbb1d79"
+              }
+            }
+          ],
+          "parentRequired": false
+        }
+      ],
+      "indexes": [
+        {
+          "id": "9a8a5312-ec04-4474-bc4e-25cc08d54972",
+          "name": "IX_Assembly_service_AssemblyID",
+          "keyColumns": [
+            {
+              "columnId": "94e037c3-27f2-4f40-8ea1-9049cdbb1d79"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "9932685d-000c-44d0-b8aa-a822d6696f31",
