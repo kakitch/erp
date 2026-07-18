@@ -116,6 +116,973 @@
       "id": "585d11e5-96f1-49f5-905c-aebe2c9fdd17",
       "name": "Assembly_service",
       "position": {
+        "x": 1450.9266332367513,
+        "y": -988.7291186034578,
+        "w": 200,
+        "h": 80
+      },
+      "properties": [
+        {
+          "id": "47a67713-7e4d-4831-8ea3-85b70aaf0fae",
+          "sequence": 1,
+          "key": "PK",
+          "property": "AS_ID",
+          "type": "INT",
+          "length": null,
+          "precision": null,
+          "isPrimary": true,
+          "isNotNull": true
+        },
+        {
+          "id": "03e70bf2-365b-4e0e-87f2-c05c28a71ce8",
+          "sequence": 2,
+          "key": "FK",
+          "property": "Service_ID",
+          "type": "INT",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "5e3f975b-f06f-4067-a153-7eae67448def",
+          "sequence": 3,
+          "key": null,
+          "property": "Notes",
+          "type": "VARCHAR",
+          "length": 500,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "94e037c3-27f2-4f40-8ea1-9049cdbb1d79",
+          "sequence": 4,
+          "key": "FK",
+          "property": "AssemblyID",
+          "type": "INT",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        }
+      ],
+      "relationships": [
+        {
+          "id": "fdcf7133-9d78-4dbe-9dfc-36f8ecc91e21",
+          "source": {
+            "id": "94e037c3-27f2-4f40-8ea1-9049cdbb1d79"
+          },
+          "reference": {
+            "id": "5657ad3c-530b-439b-9fed-e39f8634a22f"
+          },
+          "columnPairs": [
+            {
+              "reference": {
+                "id": "5657ad3c-530b-439b-9fed-e39f8634a22f"
+              },
+              "source": {
+                "id": "94e037c3-27f2-4f40-8ea1-9049cdbb1d79"
+              }
+            }
+          ],
+          "parentRequired": false
+        },
+        {
+          "id": "6055d534-09bf-43ff-946c-3728a9289852",
+          "source": {
+            "id": "03e70bf2-365b-4e0e-87f2-c05c28a71ce8"
+          },
+          "reference": {
+            "id": "7876f436-a370-4c50-bf7f-0e88f8f79c3c"
+          },
+          "columnPairs": [
+            {
+              "reference": {
+                "id": "7876f436-a370-4c50-bf7f-0e88f8f79c3c"
+              },
+              "source": {
+                "id": "03e70bf2-365b-4e0e-87f2-c05c28a71ce8"
+              }
+            }
+          ],
+          "parentRequired": false
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "9932685d-000c-44d0-b8aa-a822d6696f31",
+      "name": "Quote",
+      "position": {
+        "x": 821.082674560817,
+        "y": -1347.5088120119933,
+        "w": 200,
+        "h": 80
+      },
+      "properties": [
+        {
+          "id": "f536dfc1-5083-47b9-a5fa-a96e5995dfb6",
+          "sequence": 1,
+          "key": "PK",
+          "property": "Quote_Number",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": true,
+          "isNotNull": true
+        },
+        {
+          "id": "35da730c-19d7-4609-83f1-c83c3853d8ee",
+          "sequence": 2,
+          "key": null,
+          "property": "Customer",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "e2c16398-6bef-4a0a-a31a-7120e0042cff",
+          "sequence": 3,
+          "key": null,
+          "property": "Ship_Via",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "90165f35-6077-421e-84eb-b9035c2f3395",
+          "sequence": 4,
+          "key": null,
+          "property": "Terms",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "fdb89de5-8c3d-46be-a765-02e3e12e1b2d",
+          "sequence": 5,
+          "key": null,
+          "property": "Lead_Time",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "fa6b2dcb-c527-492a-9841-6bc4053cadf7",
+          "sequence": 6,
+          "key": null,
+          "property": "Notes",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        }
+      ],
+      "relationships": []
+    },
+    {
+      "id": "bf42fc63-72fa-4e98-a1a8-b2ca0e6667b9",
+      "name": "Assembly_Purchased_Component",
+      "position": {
+        "x": 1468.9627725033636,
+        "y": -1302.6346258023618,
+        "w": 200,
+        "h": 80
+      },
+      "properties": [
+        {
+          "id": "f851702e-e585-45d4-92ae-05ecc0d12124",
+          "sequence": 1,
+          "key": "PK",
+          "property": "PC_ID",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": true,
+          "isNotNull": true
+        },
+        {
+          "id": "de33bea4-732b-44df-ab7f-d9a4a2009ea1",
+          "sequence": 2,
+          "key": "FK",
+          "property": "Assembly_ID",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "dfbc5e34-d8f3-42d6-936d-2375519d4d02",
+          "sequence": 3,
+          "key": "FK",
+          "property": "Component_ID",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        }
+      ],
+      "relationships": [
+        {
+          "id": "817ee689-7edf-4194-989d-b36c04469ad1",
+          "source": {
+            "id": "de33bea4-732b-44df-ab7f-d9a4a2009ea1"
+          },
+          "reference": {
+            "id": "5657ad3c-530b-439b-9fed-e39f8634a22f"
+          },
+          "columnPairs": [
+            {
+              "reference": {
+                "id": "5657ad3c-530b-439b-9fed-e39f8634a22f"
+              },
+              "source": {
+                "id": "de33bea4-732b-44df-ab7f-d9a4a2009ea1"
+              }
+            }
+          ],
+          "parentRequired": false
+        },
+        {
+          "id": "3229a30a-c87d-4c8b-bd86-ce3ac24c48fa",
+          "source": {
+            "id": "dfbc5e34-d8f3-42d6-936d-2375519d4d02"
+          },
+          "reference": {
+            "id": "43ef3a12-0583-4ce2-91c5-3b7afb1c7ed6"
+          },
+          "columnPairs": [
+            {
+              "reference": {
+                "id": "43ef3a12-0583-4ce2-91c5-3b7afb1c7ed6"
+              },
+              "source": {
+                "id": "dfbc5e34-d8f3-42d6-936d-2375519d4d02"
+              }
+            }
+          ],
+          "parentRequired": false
+        }
+      ],
+      "indexes": [
+        {
+          "id": "9518cec1-b2bf-46c7-b471-616bc09dd6b6",
+          "name": "IX_Assembly_Purchased_Components_Assembly_ID",
+          "keyColumns": [
+            {
+              "columnId": "de33bea4-732b-44df-ab7f-d9a4a2009ea1"
+            }
+          ]
+        },
+        {
+          "id": "d9fe7bb7-897f-4437-8743-672ac464215b",
+          "name": "IX_Assembly_Purchased_Components_Component_ID",
+          "keyColumns": [
+            {
+              "columnId": "dfbc5e34-d8f3-42d6-936d-2375519d4d02"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "68f6d648-47ba-4a9a-9322-a48221ab715b",
+      "name": "Assembly_Stock_Material",
+      "position": {
+        "x": 1366.9630030891562,
+        "y": -1598.806450255123,
+        "w": 200,
+        "h": 80
+      },
+      "properties": [
+        {
+          "id": "30370470-adb6-4ba8-b897-6a2196ed975a",
+          "sequence": 1,
+          "key": "PK",
+          "property": "ASM_ID",
+          "type": "INT",
+          "length": null,
+          "precision": null,
+          "isPrimary": true,
+          "isNotNull": true
+        },
+        {
+          "id": "025905e2-0cc8-4729-a8ab-d77fd3d508e7",
+          "sequence": 2,
+          "key": "FK",
+          "property": "Material_ID",
+          "type": "INT",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "7b33e4ad-00b6-42e6-adb2-4eaa5ee3a18a",
+          "sequence": 3,
+          "key": "FK",
+          "property": "Assembly_ID",
+          "type": "INT",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        }
+      ],
+      "relationships": [
+        {
+          "id": "1523a18c-80c7-46b2-99ec-bf4936065f86",
+          "source": {
+            "id": "7b33e4ad-00b6-42e6-adb2-4eaa5ee3a18a"
+          },
+          "reference": {
+            "id": "5657ad3c-530b-439b-9fed-e39f8634a22f"
+          },
+          "columnPairs": [
+            {
+              "reference": {
+                "id": "5657ad3c-530b-439b-9fed-e39f8634a22f"
+              },
+              "source": {
+                "id": "7b33e4ad-00b6-42e6-adb2-4eaa5ee3a18a"
+              }
+            }
+          ],
+          "parentRequired": false
+        },
+        {
+          "id": "91014d5d-8b1d-455d-bf0e-6db97635487f",
+          "source": {
+            "id": "025905e2-0cc8-4729-a8ab-d77fd3d508e7"
+          },
+          "reference": {
+            "id": "ead03141-f191-4341-af9c-78c7c576b3ad"
+          },
+          "columnPairs": [
+            {
+              "reference": {
+                "id": "ead03141-f191-4341-af9c-78c7c576b3ad"
+              },
+              "source": {
+                "id": "025905e2-0cc8-4729-a8ab-d77fd3d508e7"
+              }
+            }
+          ],
+          "parentRequired": false
+        }
+      ],
+      "indexes": [
+        {
+          "id": "edf4f83e-3a0b-424d-9097-41a45f7d316b",
+          "name": "IX_Assembly_Stock_Material_Assembly_ID",
+          "keyColumns": [
+            {
+              "columnId": "7b33e4ad-00b6-42e6-adb2-4eaa5ee3a18a"
+            }
+          ]
+        },
+        {
+          "id": "58c58379-91fe-4919-9c6a-3f341ab5a402",
+          "name": "IX_Assembly_Stock_Material_Material_ID",
+          "keyColumns": [
+            {
+              "columnId": "025905e2-0cc8-4729-a8ab-d77fd3d508e7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aa5d8c46-3ff3-446d-9d3a-4305106794d4",
+      "name": "component",
+      "position": {
+        "x": 1906.5286084722277,
+        "y": -1329.008338720077,
+        "w": 200,
+        "h": 80
+      },
+      "properties": [
+        {
+          "id": "43ef3a12-0583-4ce2-91c5-3b7afb1c7ed6",
+          "sequence": 1,
+          "key": "PK",
+          "property": "component_ID",
+          "type": "INT",
+          "length": null,
+          "precision": null,
+          "isPrimary": true,
+          "isNotNull": true
+        },
+        {
+          "id": "8a00591f-6b80-47df-9600-de7d8cd42ca4",
+          "sequence": 2,
+          "key": null,
+          "property": "Description",
+          "type": "VARCHAR",
+          "length": 100,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "7d292d83-83e3-48f4-9569-8bf70e6ea11c",
+          "sequence": 5,
+          "key": null,
+          "property": "Notes",
+          "type": "VARCHAR",
+          "length": 500,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "cf04a9be-4545-41c0-a209-e9d28db37256",
+          "sequence": 6,
+          "key": "FK",
+          "property": "Last_Updated",
+          "type": "DATE",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": false
+        }
+      ],
+      "relationships": [],
+      "indexes": []
+    },
+    {
+      "id": "e8702fe1-bcc9-489c-8d2e-4efa08c27da9",
+      "name": "Component_Hist",
+      "position": {
+        "x": 2508.6527106669027,
+        "y": -1308.9839978114164,
+        "w": 200,
+        "h": 80
+      },
+      "properties": [
+        {
+          "id": "75d186a4-c880-4b74-9c3c-351ad93576a1",
+          "sequence": 1,
+          "key": "PK",
+          "property": "Comp_Hist_ID",
+          "type": "INT",
+          "length": null,
+          "precision": null,
+          "isPrimary": true,
+          "isNotNull": true
+        },
+        {
+          "id": "ac720b79-0596-45c5-a903-2ff4451b36db",
+          "sequence": 2,
+          "key": null,
+          "property": "Old_Price",
+          "type": "NUMERIC",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "56001aed-6fcf-4b85-bade-f897dc1ae9e2",
+          "sequence": 3,
+          "key": null,
+          "property": "New_Price ",
+          "type": "NUMERIC",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "5d69c0f1-7f0c-47d7-89d8-2f81ecaf4465",
+          "sequence": 4,
+          "key": null,
+          "property": "Updated_On",
+          "type": "DATE",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "19025119-0c31-45e7-be6a-8cf64e3bb99c",
+          "sequence": 5,
+          "key": "FK",
+          "property": "Component_ID",
+          "type": "INT",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        }
+      ],
+      "relationships": [
+        {
+          "id": "b67fa912-55d5-4000-aa34-5de72eeb6207",
+          "source": {
+            "id": "19025119-0c31-45e7-be6a-8cf64e3bb99c"
+          },
+          "reference": {
+            "id": "43ef3a12-0583-4ce2-91c5-3b7afb1c7ed6"
+          },
+          "columnPairs": [
+            {
+              "reference": {
+                "id": "43ef3a12-0583-4ce2-91c5-3b7afb1c7ed6"
+              },
+              "source": {
+                "id": "19025119-0c31-45e7-be6a-8cf64e3bb99c"
+              }
+            }
+          ],
+          "parentRequired": false
+        }
+      ],
+      "indexes": [
+        {
+          "id": "1e160b91-0503-4d83-98a0-98cebe5e7f50",
+          "name": "IX_Component_Hist_Component_ID",
+          "keyColumns": [
+            {
+              "columnId": "19025119-0c31-45e7-be6a-8cf64e3bb99c"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b022041d-c731-4c17-9ef9-cec9106fe195",
+      "name": "Material",
+      "position": {
+        "x": 1792.5657392345367,
+        "y": -1590.174070791295,
+        "w": 200,
+        "h": 80
+      },
+      "properties": [
+        {
+          "id": "ead03141-f191-4341-af9c-78c7c576b3ad",
+          "sequence": 1,
+          "key": "PK",
+          "property": "Material_Id",
+          "type": "INT",
+          "length": null,
+          "precision": null,
+          "isPrimary": true,
+          "isNotNull": true
+        },
+        {
+          "id": "dbd4b6a5-63aa-452e-970b-f092e8b5af2b",
+          "sequence": 2,
+          "key": null,
+          "property": "Cost_Unit",
+          "type": "VARCHAR",
+          "length": 10,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "59131a39-b5d8-450b-9976-2077556ceaef",
+          "sequence": 4,
+          "key": null,
+          "property": "Last_Updated",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        }
+      ],
+      "relationships": []
+    },
+    {
+      "id": "1a20f07c-606d-4613-918f-19cc6bb780b0",
+      "name": "Material_Hist",
+      "position": {
+        "x": 2142.622470918729,
+        "y": -1599.2440965390813,
+        "w": 200,
+        "h": 80
+      },
+      "properties": [
+        {
+          "id": "c6bb5314-268c-449d-b3ce-b7a02e9b3f21",
+          "sequence": 1,
+          "key": "PK",
+          "property": "Mat_Hist_Id",
+          "type": "INT",
+          "length": null,
+          "precision": null,
+          "isPrimary": true,
+          "isNotNull": true
+        },
+        {
+          "id": "5ce57afa-3feb-477a-a603-ce09b82d8b92",
+          "sequence": 2,
+          "key": "FK",
+          "property": "Material_Id",
+          "type": "INT",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "a87cdbdd-4359-4d45-87d4-edbc859c75e8",
+          "sequence": 3,
+          "key": null,
+          "property": "Old_Price",
+          "type": "NUMERIC",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "5446f6f3-ace9-46e2-97cd-a39640626ac3",
+          "sequence": 4,
+          "key": null,
+          "property": "New_Price",
+          "type": "NUMERIC",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "cefec074-627d-4521-b647-c31ee6982cca",
+          "sequence": 5,
+          "key": null,
+          "property": "Vendor",
+          "type": "VARCHAR",
+          "length": 30,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        }
+      ],
+      "relationships": [
+        {
+          "id": "0fc2cf6d-ab35-4fde-b011-b53b9fbcecfb",
+          "source": {
+            "id": "5ce57afa-3feb-477a-a603-ce09b82d8b92"
+          },
+          "reference": {
+            "id": "ead03141-f191-4341-af9c-78c7c576b3ad"
+          },
+          "columnPairs": [
+            {
+              "reference": {
+                "id": "ead03141-f191-4341-af9c-78c7c576b3ad"
+              },
+              "source": {
+                "id": "5ce57afa-3feb-477a-a603-ce09b82d8b92"
+              }
+            }
+          ],
+          "parentRequired": false
+        }
+      ],
+      "indexes": [
+        {
+          "id": "67c5089e-0edf-48a8-96cf-6357f8645c82",
+          "name": "IX_Material_Hist_Material_Id",
+          "keyColumns": [
+            {
+              "columnId": "5ce57afa-3feb-477a-a603-ce09b82d8b92"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cebc2279-bdef-40ef-ae3e-016157204c77",
+      "name": "Service",
+      "position": {
+        "x": 1910.126859517612,
+        "y": -1009.5467472083973,
+        "w": 200,
+        "h": 80
+      },
+      "properties": [
+        {
+          "id": "7876f436-a370-4c50-bf7f-0e88f8f79c3c",
+          "sequence": 1,
+          "key": "PK",
+          "property": "Service_ID",
+          "type": "INT",
+          "length": null,
+          "precision": null,
+          "isPrimary": true,
+          "isNotNull": true
+        },
+        {
+          "id": "aab81bb4-388e-4f3a-80fe-8a453aedbe81",
+          "sequence": 2,
+          "key": null,
+          "property": "Description",
+          "type": "VARCHAR",
+          "length": 100,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "2916dcf7-91c5-41f2-bdb7-1e4c104d49c2",
+          "sequence": 3,
+          "key": null,
+          "property": "Notes",
+          "type": "VARCHAR",
+          "length": 500,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "5a4bef6b-6d28-4e26-8922-8524b1239f38",
+          "sequence": 4,
+          "key": null,
+          "property": "Last_Updated",
+          "type": "DATE",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        }
+      ],
+      "relationships": [
+        {
+          "id": "a5133f6b-ffcf-4f82-bced-fde83399874e",
+          "source": {
+            "id": "7876f436-a370-4c50-bf7f-0e88f8f79c3c"
+          },
+          "reference": {
+            "id": "b1555416-69ef-4859-8093-8f7c8c59e1cc"
+          },
+          "columnPairs": [
+            {
+              "reference": {
+                "id": "b1555416-69ef-4859-8093-8f7c8c59e1cc"
+              },
+              "source": {
+                "id": "7876f436-a370-4c50-bf7f-0e88f8f79c3c"
+              }
+            }
+          ],
+          "parentRequired": false
+        }
+      ]
+    },
+    {
+      "id": "96449718-6892-498f-a145-2eef5874bcd7",
+      "name": "Service_Hist",
+      "position": {
+        "x": 2407.892205924015,
+        "y": -1007.7444920242666,
+        "w": 200,
+        "h": 80
+      },
+      "properties": [
+        {
+          "id": "96399888-20ad-4ca6-a54e-82ad2a73a0aa",
+          "sequence": 1,
+          "key": "PK",
+          "property": "Serv_Hist_Id",
+          "type": "INT",
+          "length": null,
+          "precision": null,
+          "isPrimary": true,
+          "isNotNull": true
+        },
+        {
+          "id": "b1555416-69ef-4859-8093-8f7c8c59e1cc",
+          "sequence": 2,
+          "key": null,
+          "property": "Service_Id",
+          "type": "INT",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "d394c20a-bdfb-4c58-b7d9-69daebd13704",
+          "sequence": 3,
+          "key": null,
+          "property": "Description",
+          "type": "VARCHAR",
+          "length": 100,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "ee9fe093-0eee-408b-92d6-ba639ce8195e",
+          "sequence": 4,
+          "key": null,
+          "property": "Old_Cost",
+          "type": "NUMERIC",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "7522a08e-de1b-4164-84b9-6df4e2611b7c",
+          "sequence": 5,
+          "key": null,
+          "property": "New_Cost",
+          "type": "NUMERIC",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "668851f4-190f-480b-bba0-65c888882ab9",
+          "sequence": 6,
+          "key": null,
+          "property": "Updated_on",
+          "type": "DATE",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        }
+      ],
+      "relationships": []
+    }
+  ],
+  "dialect": "tsql",
+  "baseline": [
+    {
+      "id": "395908ed-14ab-48be-8fe8-dee956e249ee",
+      "name": "Assembly",
+      "position": {
+        "x": 1157.6021549900674,
+        "y": -1306.1056849380038,
+        "w": 200,
+        "h": 80
+      },
+      "properties": [
+        {
+          "id": "5657ad3c-530b-439b-9fed-e39f8634a22f",
+          "sequence": 1,
+          "key": "PK",
+          "property": "Assembly_ID",
+          "type": "INT",
+          "length": null,
+          "precision": null,
+          "isPrimary": true,
+          "isNotNull": true
+        },
+        {
+          "id": "63f1c9d3-f0e3-4215-b9ff-0b50b9b33c8c",
+          "sequence": 2,
+          "key": null,
+          "property": "Part_Number",
+          "type": "VARCHAR",
+          "length": 50,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "742f6d54-d462-4feb-bef4-5df84bb5775b",
+          "sequence": 3,
+          "key": null,
+          "property": "Drawing_Number",
+          "type": "VARCHAR",
+          "length": 50,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "9705e63c-a0e0-4d94-b2a3-fc2a638733f3",
+          "sequence": 4,
+          "key": null,
+          "property": "Revision",
+          "type": "VARCHAR",
+          "length": 10,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "068fcc9c-d061-41a7-afd0-f837e1b536f3",
+          "sequence": 5,
+          "key": "FK",
+          "property": "Quote_Number",
+          "type": "INT",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "e7fda8e5-a398-4393-a842-5d2e0c35ec49",
+          "sequence": 6,
+          "key": null,
+          "property": "Description",
+          "type": "VARCHAR",
+          "length": 100,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        }
+      ],
+      "relationships": [
+        {
+          "id": "191000e8-6d16-4c7f-90a0-46b679ffe8cc",
+          "source": {
+            "id": "068fcc9c-d061-41a7-afd0-f837e1b536f3"
+          },
+          "reference": {
+            "id": "f536dfc1-5083-47b9-a5fa-a96e5995dfb6"
+          },
+          "columnPairs": [
+            {
+              "reference": {
+                "id": "f536dfc1-5083-47b9-a5fa-a96e5995dfb6"
+              },
+              "source": {
+                "id": "068fcc9c-d061-41a7-afd0-f837e1b536f3"
+              }
+            }
+          ],
+          "parentRequired": false
+        }
+      ],
+      "indexes": [
+        {
+          "id": "ba440ab0-e6d6-4ac4-bfa8-42e980254fa8",
+          "name": "IX_Assembly_Quote_Number",
+          "keyColumns": [
+            {
+              "columnId": "068fcc9c-d061-41a7-afd0-f837e1b536f3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "585d11e5-96f1-49f5-905c-aebe2c9fdd17",
+      "name": "Assembly_service",
+      "position": {
         "x": 1484.4387396130319,
         "y": -1071.711477249486,
         "w": 200,
@@ -965,6 +1932,5 @@
       ],
       "relationships": []
     }
-  ],
-  "dialect": "tsql"
+  ]
 }
