@@ -878,6 +878,17 @@
         {
           "id": "96399888-20ad-4ca6-a54e-82ad2a73a0aa",
           "sequence": 1,
+          "key": "PK",
+          "property": "Serv_Hist_Id",
+          "type": "INT",
+          "length": null,
+          "precision": null,
+          "isPrimary": true,
+          "isNotNull": true
+        },
+        {
+          "id": "d394c20a-bdfb-4c58-b7d9-69daebd13704",
+          "sequence": 2,
           "key": null,
           "property": "",
           "type": "",
