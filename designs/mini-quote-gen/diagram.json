@@ -111,6 +111,17 @@
           "precision": null,
           "isPrimary": false,
           "isNotNull": true
+        },
+        {
+          "id": "94e037c3-27f2-4f40-8ea1-9049cdbb1d79",
+          "sequence": 4,
+          "key": null,
+          "property": "AssemblyID",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
         }
       ],
       "relationships": []
