@@ -428,9 +428,9 @@
         {
           "id": "cf04a9be-4545-41c0-a209-e9d28db37256",
           "sequence": 6,
-          "key": null,
+          "key": "FK",
           "property": "Last_Updated",
-          "type": "",
+          "type": "DATE",
           "length": null,
           "precision": null,
           "isPrimary": false,
@@ -457,6 +457,26 @@
             }
           ],
           "parentRequired": false
+        },
+        {
+          "id": "28f01d9b-4d55-4dfb-a1c5-d49d956480f8",
+          "source": {
+            "id": "cf04a9be-4545-41c0-a209-e9d28db37256"
+          },
+          "reference": {
+            "id": "5657ad3c-530b-439b-9fed-e39f8634a22f"
+          },
+          "columnPairs": [
+            {
+              "reference": {
+                "id": "5657ad3c-530b-439b-9fed-e39f8634a22f"
+              },
+              "source": {
+                "id": "cf04a9be-4545-41c0-a209-e9d28db37256"
+              }
+            }
+          ],
+          "parentRequired": false
         }
       ],
       "indexes": [
@@ -466,6 +486,15 @@
           "keyColumns": [
             {
               "columnId": "43ef3a12-0583-4ce2-91c5-3b7afb1c7ed6"
+            }
+          ]
+        },
+        {
+          "id": "c83d6494-4a43-4a43-8110-09b58c925829",
+          "name": "IX_component_Last_Updated",
+          "keyColumns": [
+            {
+              "columnId": "cf04a9be-4545-41c0-a209-e9d28db37256"
             }
           ]
         }
@@ -519,7 +548,7 @@
           "sequence": 4,
           "key": null,
           "property": "Updated_On",
-          "type": "dat",
+          "type": "DATE",
           "length": null,
           "precision": null,
           "isPrimary": false,
