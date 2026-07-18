@@ -2149,7 +2149,7 @@
           "key": null,
           "property": "Department_Name",
           "type": "VARCHAR",
-          "length": null,
+          "length": 30,
           "precision": null,
           "isPrimary": false,
           "isNotNull": true
