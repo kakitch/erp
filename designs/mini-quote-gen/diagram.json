@@ -16,7 +16,7 @@
           "sequence": 1,
           "key": "PK",
           "property": "Assembly_ID",
-          "type": "",
+          "type": "INT",
           "length": null,
           "precision": null,
           "isPrimary": true,
@@ -27,8 +27,8 @@
           "sequence": 2,
           "key": null,
           "property": "Part_Number",
-          "type": "",
-          "length": null,
+          "type": "VARCHAR",
+          "length": 50,
           "precision": null,
           "isPrimary": false,
           "isNotNull": true
@@ -39,7 +39,7 @@
           "key": null,
           "property": "Drawing_Number",
           "type": "VARCHAR",
-          "length": null,
+          "length": 50,
           "precision": null,
           "isPrimary": false,
           "isNotNull": true
@@ -50,7 +50,7 @@
           "key": null,
           "property": "Revision",
           "type": "VARCHAR",
-          "length": null,
+          "length": 10,
           "precision": null,
           "isPrimary": false,
           "isNotNull": true
@@ -62,6 +62,17 @@
           "property": "Quote_Number",
           "type": "INT",
           "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "e7fda8e5-a398-4393-a842-5d2e0c35ec49",
+          "sequence": 6,
+          "key": null,
+          "property": "Description",
+          "type": "VARCHAR",
+          "length": 50,
           "precision": null,
           "isPrimary": false,
           "isNotNull": true
