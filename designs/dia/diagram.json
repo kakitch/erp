@@ -2155,28 +2155,7 @@
           "isNotNull": true
         }
       ],
-      "relationships": [
-        {
-          "id": "4d05557f-4bad-402f-9091-9577159a92fd",
-          "source": {
-            "id": "cafbd3b2-60cb-451b-a08c-d0089886e715"
-          },
-          "reference": {
-            "id": "ccc40a27-f473-42f4-9f4f-68927b7e76c6"
-          },
-          "columnPairs": [
-            {
-              "reference": {
-                "id": "ccc40a27-f473-42f4-9f4f-68927b7e76c6"
-              },
-              "source": {
-                "id": "cafbd3b2-60cb-451b-a08c-d0089886e715"
-              }
-            }
-          ],
-          "parentRequired": false
-        }
-      ],
+      "relationships": [],
       "layerId": "4b4818e0-6066-4461-9a92-cad564e0f690"
     },
     {
@@ -2214,7 +2193,7 @@
         {
           "id": "ccc40a27-f473-42f4-9f4f-68927b7e76c6",
           "sequence": 3,
-          "key": null,
+          "key": "FK",
           "property": "Department_ID",
           "type": "INT",
           "length": null,
@@ -2223,8 +2202,40 @@
           "isNotNull": true
         }
       ],
-      "relationships": [],
-      "layerId": "4b4818e0-6066-4461-9a92-cad564e0f690"
+      "relationships": [
+        {
+          "id": "600f22c0-c0aa-4861-9a09-a181312fbe68",
+          "source": {
+            "id": "ccc40a27-f473-42f4-9f4f-68927b7e76c6"
+          },
+          "reference": {
+            "id": "cafbd3b2-60cb-451b-a08c-d0089886e715"
+          },
+          "columnPairs": [
+            {
+              "reference": {
+                "id": "cafbd3b2-60cb-451b-a08c-d0089886e715"
+              },
+              "source": {
+                "id": "ccc40a27-f473-42f4-9f4f-68927b7e76c6"
+              }
+            }
+          ],
+          "parentRequired": false
+        }
+      ],
+      "layerId": "4b4818e0-6066-4461-9a92-cad564e0f690",
+      "indexes": [
+        {
+          "id": "2bcf5d66-d2dd-4e1f-8a5a-b7692429620d",
+          "name": "IX_Workstation_Department_ID",
+          "keyColumns": [
+            {
+              "columnId": "ccc40a27-f473-42f4-9f4f-68927b7e76c6"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "6b8b43f2-2c76-4f7e-bbad-c580a69be0e6",
