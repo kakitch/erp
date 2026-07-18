@@ -2754,12 +2754,12 @@
         {
           "id": "f2494934-3ab5-4a09-bf8c-cd445902a076",
           "sequence": 1,
-          "key": null,
+          "key": "PK",
           "property": "Holiday_Id",
           "type": "ID",
           "length": null,
           "precision": null,
-          "isPrimary": false,
+          "isPrimary": true,
           "isNotNull": true
         },
         {
