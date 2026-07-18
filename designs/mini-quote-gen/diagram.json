@@ -187,6 +187,26 @@
             }
           ],
           "parentRequired": false
+        },
+        {
+          "id": "6055d534-09bf-43ff-946c-3728a9289852",
+          "source": {
+            "id": "47a67713-7e4d-4831-8ea3-85b70aaf0fae"
+          },
+          "reference": {
+            "id": "7876f436-a370-4c50-bf7f-0e88f8f79c3c"
+          },
+          "columnPairs": [
+            {
+              "reference": {
+                "id": "7876f436-a370-4c50-bf7f-0e88f8f79c3c"
+              },
+              "source": {
+                "id": "47a67713-7e4d-4831-8ea3-85b70aaf0fae"
+              }
+            }
+          ],
+          "parentRequired": false
         }
       ],
       "indexes": [
