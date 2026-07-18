@@ -14,15 +14,27 @@
         {
           "id": "5657ad3c-530b-439b-9fed-e39f8634a22f",
           "sequence": 1,
-          "key": null,
+          "key": "PK",
           "property": "assembly_ID",
           "type": "",
           "length": null,
           "precision": null,
-          "isPrimary": false,
+          "isPrimary": true,
           "isNotNull": true
         }
       ],
+      "relationships": []
+    },
+    {
+      "id": "585d11e5-96f1-49f5-905c-aebe2c9fdd17",
+      "name": "",
+      "position": {
+        "x": 1574.4387396130319,
+        "y": -1063.773977249486,
+        "w": 200,
+        "h": 80
+      },
+      "properties": [],
       "relationships": []
     }
   ],
