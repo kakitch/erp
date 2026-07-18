@@ -565,12 +565,12 @@
         {
           "id": "75d186a4-c880-4b74-9c3c-351ad93576a1",
           "sequence": 1,
-          "key": null,
+          "key": "PK",
           "property": "Comp_Hist_ID",
           "type": "INT",
           "length": null,
           "precision": null,
-          "isPrimary": false,
+          "isPrimary": true,
           "isNotNull": true
         },
         {
