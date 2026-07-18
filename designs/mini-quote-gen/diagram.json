@@ -863,7 +863,28 @@
           "isNotNull": true
         }
       ],
-      "relationships": []
+      "relationships": [
+        {
+          "id": "a5133f6b-ffcf-4f82-bced-fde83399874e",
+          "source": {
+            "id": "7876f436-a370-4c50-bf7f-0e88f8f79c3c"
+          },
+          "reference": {
+            "id": "b1555416-69ef-4859-8093-8f7c8c59e1cc"
+          },
+          "columnPairs": [
+            {
+              "reference": {
+                "id": "b1555416-69ef-4859-8093-8f7c8c59e1cc"
+              },
+              "source": {
+                "id": "7876f436-a370-4c50-bf7f-0e88f8f79c3c"
+              }
+            }
+          ],
+          "parentRequired": false
+        }
+      ]
     },
     {
       "id": "96449718-6892-498f-a145-2eef5874bcd7",
