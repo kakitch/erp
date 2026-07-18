@@ -113,6 +113,17 @@
           "precision": null,
           "isPrimary": false,
           "isNotNull": true
+        },
+        {
+          "id": "35da730c-19d7-4609-83f1-c83c3853d8ee",
+          "sequence": 2,
+          "key": null,
+          "property": "Customer",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
         }
       ],
       "relationships": []
