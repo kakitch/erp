@@ -467,26 +467,7 @@
         }
       ],
       "relationships": [],
-      "indexes": [
-        {
-          "id": "6867c948-7976-4369-a7bf-8bc63a5469eb",
-          "name": "IX_component_component_ID",
-          "keyColumns": [
-            {
-              "columnId": "43ef3a12-0583-4ce2-91c5-3b7afb1c7ed6"
-            }
-          ]
-        },
-        {
-          "id": "c83d6494-4a43-4a43-8110-09b58c925829",
-          "name": "IX_component_Last_Updated",
-          "keyColumns": [
-            {
-              "columnId": "cf04a9be-4545-41c0-a209-e9d28db37256"
-            }
-          ]
-        }
-      ]
+      "indexes": []
     },
     {
       "id": "e8702fe1-bcc9-489c-8d2e-4efa08c27da9",
