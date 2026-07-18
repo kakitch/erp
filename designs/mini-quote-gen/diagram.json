@@ -38,7 +38,7 @@
           "sequence": 3,
           "key": null,
           "property": "Drawing_Number",
-          "type": "",
+          "type": "VARCHAR",
           "length": null,
           "precision": null,
           "isPrimary": false,
