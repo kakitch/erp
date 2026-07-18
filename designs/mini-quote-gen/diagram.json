@@ -373,12 +373,12 @@
         {
           "id": "43ef3a12-0583-4ce2-91c5-3b7afb1c7ed6",
           "sequence": 1,
-          "key": "FK",
+          "key": "PK",
           "property": "component_ID",
           "type": "INT",
           "length": null,
           "precision": null,
-          "isPrimary": false,
+          "isPrimary": true,
           "isNotNull": true
         },
         {
