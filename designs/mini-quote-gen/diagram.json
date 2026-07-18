@@ -354,6 +354,17 @@
           "sequence": 3,
           "key": null,
           "property": "Price",
+          "type": "numeri",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "bb6c4d50-fc2c-445b-b072-9ad506fcdb4b",
+          "sequence": 4,
+          "key": null,
+          "property": "Vendor",
           "type": "",
           "length": null,
           "precision": null,
