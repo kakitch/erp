@@ -519,7 +519,7 @@
           "sequence": 4,
           "key": null,
           "property": "Updated_On",
-          "type": "DATETIME",
+          "type": "dat",
           "length": null,
           "precision": null,
           "isPrimary": false,
