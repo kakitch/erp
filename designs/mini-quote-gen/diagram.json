@@ -316,6 +316,18 @@
         }
       ],
       "relationships": []
+    },
+    {
+      "id": "aa5d8c46-3ff3-446d-9d3a-4305106794d4",
+      "name": "component",
+      "position": {
+        "x": 1193.780025279492,
+        "y": -1435.4891109347573,
+        "w": 200,
+        "h": 80
+      },
+      "properties": [],
+      "relationships": []
     }
   ],
   "dialect": "tsql"
