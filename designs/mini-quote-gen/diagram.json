@@ -326,7 +326,30 @@
         "w": 200,
         "h": 80
       },
-      "properties": [],
+      "properties": [
+        {
+          "id": "43ef3a12-0583-4ce2-91c5-3b7afb1c7ed6",
+          "sequence": 1,
+          "key": null,
+          "property": "component_ID",
+          "type": "in",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "8a00591f-6b80-47df-9600-de7d8cd42ca4",
+          "sequence": 2,
+          "key": null,
+          "property": "Description",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        }
+      ],
       "relationships": []
     }
   ],
