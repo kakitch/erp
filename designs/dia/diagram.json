@@ -1991,6 +1991,17 @@
           "precision": null,
           "isPrimary": false,
           "isNotNull": true
+        },
+        {
+          "id": "85d0f6a5-961a-43a2-b8ae-ce47b0985824",
+          "sequence": 4,
+          "key": null,
+          "property": "Packlist_ID",
+          "type": "INT",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
         }
       ],
       "relationships": [],
