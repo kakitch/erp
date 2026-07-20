@@ -982,26 +982,6 @@
             }
           ],
           "parentRequired": false
-        },
-        {
-          "id": "fc4c34f1-727a-4790-aa68-bad4b41c9620",
-          "source": {
-            "id": "ed1e3333-aa2a-4f82-ba66-5443a660185c"
-          },
-          "reference": {
-            "id": "baad0692-1fcd-41cc-aeda-df708d9e4839"
-          },
-          "columnPairs": [
-            {
-              "reference": {
-                "id": "baad0692-1fcd-41cc-aeda-df708d9e4839"
-              },
-              "source": {
-                "id": "ed1e3333-aa2a-4f82-ba66-5443a660185c"
-              }
-            }
-          ],
-          "parentRequired": false
         }
       ],
       "indexes": [
