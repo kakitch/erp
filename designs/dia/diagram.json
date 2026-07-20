@@ -1946,7 +1946,28 @@
           "isNotNull": true
         }
       ],
-      "relationships": [],
+      "relationships": [
+        {
+          "id": "25947e37-a1fe-4569-a5b6-cdbc05dea24c",
+          "source": {
+            "id": "b9480008-3392-4fa2-81cb-63f402f80f1f"
+          },
+          "reference": {
+            "id": "85d0f6a5-961a-43a2-b8ae-ce47b0985824"
+          },
+          "columnPairs": [
+            {
+              "reference": {
+                "id": "85d0f6a5-961a-43a2-b8ae-ce47b0985824"
+              },
+              "source": {
+                "id": "b9480008-3392-4fa2-81cb-63f402f80f1f"
+              }
+            }
+          ],
+          "parentRequired": false
+        }
+      ],
       "layerId": "124b5240-3aef-4ce7-b4b8-be97ff163148"
     },
     {
