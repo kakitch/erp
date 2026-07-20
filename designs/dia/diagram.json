@@ -1973,7 +1973,7 @@
         {
           "id": "85d0f6a5-961a-43a2-b8ae-ce47b0985824",
           "sequence": 2,
-          "key": null,
+          "key": "FK",
           "property": "Packlist_ID",
           "type": "INT",
           "length": null,
@@ -2008,7 +2008,7 @@
         {
           "id": "c5e48ab5-6cb4-4fc0-ae2a-315c68a49f9b",
           "source": {
-            "id": "0b9abaa4-1ec0-4dc7-a804-9cb6be96f4ba"
+            "id": "85d0f6a5-961a-43a2-b8ae-ce47b0985824"
           },
           "reference": {
             "id": "b9480008-3392-4fa2-81cb-63f402f80f1f"
@@ -2019,7 +2019,7 @@
                 "id": "b9480008-3392-4fa2-81cb-63f402f80f1f"
               },
               "source": {
-                "id": "0b9abaa4-1ec0-4dc7-a804-9cb6be96f4ba"
+                "id": "85d0f6a5-961a-43a2-b8ae-ce47b0985824"
               }
             }
           ],
