@@ -1946,28 +1946,7 @@
           "isNotNull": true
         }
       ],
-      "relationships": [
-        {
-          "id": "25947e37-a1fe-4569-a5b6-cdbc05dea24c",
-          "source": {
-            "id": "b9480008-3392-4fa2-81cb-63f402f80f1f"
-          },
-          "reference": {
-            "id": "85d0f6a5-961a-43a2-b8ae-ce47b0985824"
-          },
-          "columnPairs": [
-            {
-              "reference": {
-                "id": "85d0f6a5-961a-43a2-b8ae-ce47b0985824"
-              },
-              "source": {
-                "id": "b9480008-3392-4fa2-81cb-63f402f80f1f"
-              }
-            }
-          ],
-          "parentRequired": false
-        }
-      ],
+      "relationships": [],
       "layerId": "124b5240-3aef-4ce7-b4b8-be97ff163148"
     },
     {
@@ -2025,7 +2004,28 @@
           "isNotNull": true
         }
       ],
-      "relationships": [],
+      "relationships": [
+        {
+          "id": "c5e48ab5-6cb4-4fc0-ae2a-315c68a49f9b",
+          "source": {
+            "id": "0b9abaa4-1ec0-4dc7-a804-9cb6be96f4ba"
+          },
+          "reference": {
+            "id": "b9480008-3392-4fa2-81cb-63f402f80f1f"
+          },
+          "columnPairs": [
+            {
+              "reference": {
+                "id": "b9480008-3392-4fa2-81cb-63f402f80f1f"
+              },
+              "source": {
+                "id": "0b9abaa4-1ec0-4dc7-a804-9cb6be96f4ba"
+              }
+            }
+          ],
+          "parentRequired": false
+        }
+      ],
       "layerId": "124b5240-3aef-4ce7-b4b8-be97ff163148"
     },
     {
