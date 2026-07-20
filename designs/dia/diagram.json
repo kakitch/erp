@@ -1971,8 +1971,19 @@
           "isNotNull": true
         },
         {
-          "id": "baad0692-1fcd-41cc-aeda-df708d9e4839",
+          "id": "85d0f6a5-961a-43a2-b8ae-ce47b0985824",
           "sequence": 2,
+          "key": null,
+          "property": "Packlist_ID",
+          "type": "INT",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "baad0692-1fcd-41cc-aeda-df708d9e4839",
+          "sequence": 3,
           "key": null,
           "property": "Job_ID",
           "type": "VARCHAR",
@@ -1983,20 +1994,9 @@
         },
         {
           "id": "d6d620ac-9608-4a28-8254-59a5c35e5252",
-          "sequence": 3,
-          "key": null,
-          "property": "Ship_Qty",
-          "type": "INT",
-          "length": null,
-          "precision": null,
-          "isPrimary": false,
-          "isNotNull": true
-        },
-        {
-          "id": "85d0f6a5-961a-43a2-b8ae-ce47b0985824",
           "sequence": 4,
           "key": null,
-          "property": "Packlist_ID",
+          "property": "Ship_Qty",
           "type": "INT",
           "length": null,
           "precision": null,
