@@ -3006,6 +3006,26 @@
             }
           ],
           "parentRequired": false
+        },
+        {
+          "id": "a0047244-562f-4854-9d95-832de38890a0",
+          "source": {
+            "id": "351da47f-90d1-4798-b4cf-99bb4513f8a6"
+          },
+          "reference": {
+            "id": "ccc40a27-f473-42f4-9f4f-68927b7e76c6"
+          },
+          "columnPairs": [
+            {
+              "reference": {
+                "id": "ccc40a27-f473-42f4-9f4f-68927b7e76c6"
+              },
+              "source": {
+                "id": "351da47f-90d1-4798-b4cf-99bb4513f8a6"
+              }
+            }
+          ],
+          "parentRequired": false
         }
       ],
       "layerId": "4b4818e0-6066-4461-9a92-cad564e0f690",
