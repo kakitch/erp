@@ -1984,7 +1984,7 @@
         {
           "id": "baad0692-1fcd-41cc-aeda-df708d9e4839",
           "sequence": 3,
-          "key": null,
+          "key": "FK",
           "property": "Job_ID",
           "type": "VARCHAR",
           "length": 20,
@@ -2024,9 +2024,40 @@
             }
           ],
           "parentRequired": false
+        },
+        {
+          "id": "deeff675-ad49-4ea6-982b-6a67d1568c6b",
+          "source": {
+            "id": "baad0692-1fcd-41cc-aeda-df708d9e4839"
+          },
+          "reference": {
+            "id": "ed1e3333-aa2a-4f82-ba66-5443a660185c"
+          },
+          "columnPairs": [
+            {
+              "reference": {
+                "id": "ed1e3333-aa2a-4f82-ba66-5443a660185c"
+              },
+              "source": {
+                "id": "baad0692-1fcd-41cc-aeda-df708d9e4839"
+              }
+            }
+          ],
+          "parentRequired": false
         }
       ],
-      "layerId": "124b5240-3aef-4ce7-b4b8-be97ff163148"
+      "layerId": "124b5240-3aef-4ce7-b4b8-be97ff163148",
+      "indexes": [
+        {
+          "id": "5271346c-bfa9-4141-8b79-b2b06aa2cac6",
+          "name": "IX_PL_Detail_Job_ID",
+          "keyColumns": [
+            {
+              "columnId": "baad0692-1fcd-41cc-aeda-df708d9e4839"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "81fda5bc-622f-44cd-aafe-c4483aa3a64a",
